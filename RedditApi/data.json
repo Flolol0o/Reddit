@@ -1,1 +1,20 @@
-{"Users":[{"Username":"flolol0o","Password":null,"Id":1},{"Username":"test","Password":"test1","Id":2}],"Posts":[]}
+{
+  "Users": [
+    {
+      "Username": "flolol0o",
+      "Password": null,
+      "Id": 1
+    },
+    {
+      "Username": "test",
+      "Password": "test1",
+      "Id": 2
+    },
+    {
+      "Username": "test2",
+      "Password": "qwerty",
+      "Id": 3
+    }
+  ],
+  "Posts": []
+}
