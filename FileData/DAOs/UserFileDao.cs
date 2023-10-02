@@ -1,4 +1,5 @@
-﻿using Application.DaoInterfaces;
+﻿using System.Threading.Channels;
+using Application.DaoInterfaces;
 using Domain;
 using Domain.DTOs;
 
@@ -47,6 +48,16 @@ public class UserFileDao : IUserDao
         User? existing = context.Users.FirstOrDefault(u =>
             u.Username.Equals(userName, StringComparison.OrdinalIgnoreCase)
         );
+        return Task.FromResult(existing);
+    }
+
+    public Task<User?> GetByIdAsync(int id)
+    {
+        Console.WriteLine("User file dao Get by id async");
+        User? existing = context.Users.FirstOrDefault(u =>
+            u.Id == id
+        );
+        Console.WriteLine($"User file dao after getting user: {existing.Username}");
         return Task.FromResult(existing);
     }
 }

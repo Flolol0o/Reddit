@@ -14,7 +14,23 @@
       "Username": "test2",
       "Password": "qwerty",
       "Id": 3
+    },
+    {
+      "Username": "test4",
+      "Password": "1234",
+      "Id": 4
     }
   ],
-  "Posts": []
+  "Posts": [
+    {
+      "User": {
+        "Username": "test4",
+        "Password": "1234",
+        "Id": 4
+      },
+      "Title": "retset",
+      "Body": "testset",
+      "Id": 1
+    }
+  ]
 }
