@@ -18,24 +18,27 @@ public class PostLogic : IPostLogic
 
     public async Task<Post> CreateAsync(PostCreationDto dto)
     {
-        Console.WriteLine("Logic before getting user");
         User? user = await userDao.GetByIdAsync(dto.User);
-        Console.WriteLine("Logic after getting user");
 
         if (user == null)
         {
-            Console.WriteLine("Logic user doest exist");
             throw new Exception($"User with username: {dto.User}, was not found.");
         }
 
-        Console.WriteLine($"Loging after user: {user.Username}");
-
         ValidateTodo(dto);
         Post post = new Post(user,dto.Title,dto.Body);
-        Console.WriteLine($"Post created : {post.Title}");
         Post created = await postDao.CreateAsync(post);
-        Console.WriteLine($"Post created from post dao: {created.Title}");
         return created;
+    }
+
+    public async Task<IEnumerable<Post>> GetAsync()
+    {
+        return await postDao.GetAsync();
+    }
+
+    public async Task<Post> GetAsyncById(int id)
+    {
+        return await postDao.GetById(id);
     }
 
     private void ValidateTodo(PostCreationDto dto)

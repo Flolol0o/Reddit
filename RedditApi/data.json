@@ -19,6 +19,21 @@
       "Username": "test4",
       "Password": "1234",
       "Id": 4
+    },
+    {
+      "Username": "test33",
+      "Password": "password",
+      "Id": 5
+    },
+    {
+      "Username": "halo",
+      "Password": "zjebyyy",
+      "Id": 6
+    },
+    {
+      "Username": "kuatsKoz\u0142\u0105",
+      "Password": "ewfwefwqef",
+      "Id": 7
     }
   ],
   "Posts": [

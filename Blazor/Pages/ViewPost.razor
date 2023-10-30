@@ -1,0 +1,60 @@
+﻿@page "/ViewPost/{id:int}"
+@using HttpClients.ClientsInterface
+@using Domain
+@inject IPostServices postService
+@inject NavigationManager navMgr
+
+<div class="card">
+    @if (post == null)
+    {
+        <label>Loading post...</label>
+    }
+    else
+    {
+        <h3>@post.Title</h3>
+        <div class="form-group field">
+            <label>@post.Body</label>
+        </div>
+        <div class="form-group field">
+            <label>Posted by @post.User</label>
+        </div>
+        <div class="button-row">
+            <button @onclick="Proceed" class="acceptbtn">Home</button>
+        </div>
+    }
+</div>
+
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+    
+    private Post post;
+
+    private string msg = "";
+
+    private void Proceed()
+    {
+        navMgr.NavigateTo("/ViewPosts");
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetById();
+    }
+
+    private async Task GetById()
+    {
+        msg = "";
+        try
+        {
+            post = await postService.GetByIdAsync(id);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        } 
+    }
+
+}

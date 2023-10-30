@@ -28,4 +28,16 @@ public class PostFileDao : IPostDao
         
         return Task.FromResult(post);
     }
+
+    public Task<IEnumerable<Post>> GetAsync()
+    {
+        IEnumerable<Post> posts = context.Posts.AsEnumerable();
+        return Task.FromResult(posts);
+    }
+
+    public Task<Post?> GetById(int id)
+    {
+        Post? existing = context.Posts.FirstOrDefault(t => t.Id == id);
+        return Task.FromResult(existing);
+    }
 }
