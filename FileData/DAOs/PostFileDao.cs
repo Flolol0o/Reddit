@@ -1,5 +1,5 @@
 ﻿using Application.DaoInterfaces;
-using Domain;
+using Shared.Models;
 
 namespace FileData.DAOs;
 

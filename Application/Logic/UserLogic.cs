@@ -1,7 +1,7 @@
 ﻿using Application.DaoInterfaces;
 using Application.LogicInterfaces;
-using Domain;
-using Domain.DTOs;
+using Shared.DTOs.User;
+using Shared.Models;
 
 namespace Application.Logic;
 

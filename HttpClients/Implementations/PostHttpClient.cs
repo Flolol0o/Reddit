@@ -1,8 +1,8 @@
 ﻿using System.Net.Http.Json;
 using System.Text.Json;
-using Domain;
-using Domain.DTOs.Post;
 using HttpClients.ClientsInterface;
+using Shared.DTOs.Post;
+using Shared.Models;
 
 namespace HttpClients.Implementations;
 

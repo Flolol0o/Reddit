@@ -1,0 +1,73 @@
+﻿@page "/Register"
+@using Blazor.Services.Http
+@using global::Shared.Models
+@inject IAuthService authService
+@inject NavigationManager navMgr
+<AuthorizeView>
+    <NotAuthorized>
+        <div class="card">
+            <h3>Please register</h3>
+            <div class="field">
+                <label>User name:</label>
+                <input type="text" @bind="userName"/>
+            </div>
+            <div class="field">
+                <label style="text-align: center">Password:</label>
+                <input type="password" @bind="password"/>
+            </div>
+            @if (!string.IsNullOrEmpty(errorLabel))
+            {
+                <div class="field">
+                    <label style="color: red">
+                        @errorLabel
+                    </label>
+                </div>
+            }
+            <div class="field">
+                <button class="loginbtn" @onclick="LoginAsync">Register</button>
+            </div>
+        </div>
+    </NotAuthorized>
+    <Authorized>
+        <div class="card">
+            <h3>Hello, @context.User.Identity.Name</h3>
+        </div>
+    </Authorized>
+</AuthorizeView>
+@code {
+    private string userName="";
+    private string password ="";
+    private string errorLabel;
+
+    private async Task LoginAsync()
+    {
+        errorLabel = "";
+        try
+        {
+            User x = new User
+            {
+                Id = DateTime.Now.Minute + DateTime.Now.Hour,
+                Password = password,
+                Username = userName
+            };
+
+            if (userName=="")
+            {
+                throw new Exception("Username field cannot be empty");
+            }
+            if (password=="")
+            {
+                throw new Exception("Password field cannot be empty");
+            }
+            
+            await authService.RegisterAsync(x);
+            navMgr.NavigateTo("/login");
+            
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            errorLabel = $"Error: {e.Message}";
+        }
+    }
+}

@@ -1,5 +1,5 @@
-﻿using Domain;
-using Domain.DTOs.Post;
+﻿using Shared.DTOs.Post;
+using Shared.Models;
 
 namespace HttpClients.ClientsInterface;
 

@@ -34,6 +34,106 @@
       "Username": "kuatsKoz\u0142\u0105",
       "Password": "ewfwefwqef",
       "Id": 7
+    },
+    {
+      "Username": "test99",
+      "Password": "haslo",
+      "Id": 8
+    },
+    {
+      "Username": "filip",
+      "Password": "12",
+      "Id": 9
+    },
+    {
+      "Username": "filip69",
+      "Password": "12345",
+      "Id": 10
+    },
+    {
+      "Username": "hihi",
+      "Password": "kutas",
+      "Id": 11
+    },
+    {
+      "Username": "nowy",
+      "Password": "1234",
+      "Id": 12
+    },
+    {
+      "Username": "nowa",
+      "Password": "1234",
+      "Id": 13
+    },
+    {
+      "Username": "kolo",
+      "Password": "kolo",
+      "Id": 14
+    },
+    {
+      "Username": "juju",
+      "Password": "juju",
+      "Id": 15
+    },
+    {
+      "Username": "kasia",
+      "Password": "x",
+      "Id": 16
+    },
+    {
+      "Username": "hhh",
+      "Password": "h",
+      "Id": 17
+    },
+    {
+      "Username": "kkk",
+      "Password": "k",
+      "Id": 18
+    },
+    {
+      "Username": "555",
+      "Password": "55",
+      "Id": 19
+    },
+    {
+      "Username": "444",
+      "Password": "4",
+      "Id": 20
+    },
+    {
+      "Username": "string",
+      "Password": "string",
+      "Id": 21
+    },
+    {
+      "Username": "4444",
+      "Password": "4",
+      "Id": 22
+    },
+    {
+      "Username": "jjj",
+      "Password": "",
+      "Id": 23
+    },
+    {
+      "Username": "register",
+      "Password": "1234",
+      "Id": 24
+    },
+    {
+      "Username": "ttt",
+      "Password": "t",
+      "Id": 25
+    },
+    {
+      "Username": "fff",
+      "Password": "f",
+      "Id": 26
+    },
+    {
+      "Username": "ffff",
+      "Password": "ffff",
+      "Id": 27
     }
   ],
   "Posts": [
@@ -46,6 +146,26 @@
       "Title": "retset",
       "Body": "testset",
       "Id": 1
+    },
+    {
+      "User": {
+        "Username": "test",
+        "Password": "test1",
+        "Id": 2
+      },
+      "Title": "working",
+      "Body": "cao ",
+      "Id": 2
+    },
+    {
+      "User": {
+        "Username": "fff",
+        "Password": "f",
+        "Id": 26
+      },
+      "Title": "dziala",
+      "Body": "a no dziala i ma sie dobrze",
+      "Id": 3
     }
   ]
 }

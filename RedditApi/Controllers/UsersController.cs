@@ -1,7 +1,7 @@
 ﻿using Application.LogicInterfaces;
-using Domain;
-using Domain.DTOs;
 using Microsoft.AspNetCore.Mvc;
+using Shared.DTOs.User;
+using Shared.Models;
 
 namespace Reddit.Controllers;
 

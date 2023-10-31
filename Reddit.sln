@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditApi", "RedditApi\RedditApi.csproj", "{6B4156A0-CFDB-43B8-8697-AC3ED0947E34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{611D3813-4983-48FF-9666-26150F4883DE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{43589AF3-0F42-413A-BEC4-5348AB4CCAFF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileData", "FileData\FileData.csproj", "{FC808D92-5F22-40DC-A90A-532E75BEEC1E}"
@@ -11,6 +9,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor", "Blazor\Blazor.csproj", "{65C79C54-805A-4B90-9EA0-02A6038C01B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClients", "HttpClients\HttpClients.csproj", "{45E0EB57-E47F-4AB2-ABCD-06C382652B91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{07C19F3D-A481-4E25-ABCA-AC291335827A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +22,6 @@ Global
 		{6B4156A0-CFDB-43B8-8697-AC3ED0947E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B4156A0-CFDB-43B8-8697-AC3ED0947E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B4156A0-CFDB-43B8-8697-AC3ED0947E34}.Release|Any CPU.Build.0 = Release|Any CPU
-		{611D3813-4983-48FF-9666-26150F4883DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{611D3813-4983-48FF-9666-26150F4883DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{611D3813-4983-48FF-9666-26150F4883DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{611D3813-4983-48FF-9666-26150F4883DE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{43589AF3-0F42-413A-BEC4-5348AB4CCAFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{43589AF3-0F42-413A-BEC4-5348AB4CCAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43589AF3-0F42-413A-BEC4-5348AB4CCAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -42,5 +38,9 @@ Global
 		{45E0EB57-E47F-4AB2-ABCD-06C382652B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45E0EB57-E47F-4AB2-ABCD-06C382652B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45E0EB57-E47F-4AB2-ABCD-06C382652B91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C19F3D-A481-4E25-ABCA-AC291335827A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C19F3D-A481-4E25-ABCA-AC291335827A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C19F3D-A481-4E25-ABCA-AC291335827A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C19F3D-A481-4E25-ABCA-AC291335827A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

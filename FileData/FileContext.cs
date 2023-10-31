@@ -1,5 +1,5 @@
 ﻿using System.Text.Json;
-using Domain;
+using Shared.Models;
 
 namespace FileData;
 
@@ -17,7 +17,7 @@ public class FileContext
         }
     }
 
-    public ICollection<User> Users
+    public ICollection<Shared.Models.User> Users
     {
         get
         {
@@ -35,7 +35,7 @@ public class FileContext
             dataContainer = new ()
             {
                 Posts = new List<Post>(),
-                Users = new List<User>()
+                Users = new List<Shared.Models.User>()
             };
             return;
         }

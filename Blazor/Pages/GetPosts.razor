@@ -1,8 +1,9 @@
 ﻿@page "/ViewPosts"
-@using Domain
 @using HttpClients.ClientsInterface
+@using global::Shared.Models
 @inject IPostServices postService;
 @inject NavigationManager navMgr
+@attribute [Authorize]
 
 <h3 style="text-align: center">Overview of all posts</h3>
 

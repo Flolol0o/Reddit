@@ -1,6 +1,6 @@
 ﻿@page "/ViewPost/{id:int}"
 @using HttpClients.ClientsInterface
-@using Domain
+@using global::Shared.Models
 @inject IPostServices postService
 @inject NavigationManager navMgr
 
@@ -16,7 +16,7 @@
             <label>@post.Body</label>
         </div>
         <div class="form-group field">
-            <label>Posted by @post.User</label>
+            <label>Posted by @post.User.Username</label>
         </div>
         <div class="button-row">
             <button @onclick="Proceed" class="acceptbtn">Home</button>

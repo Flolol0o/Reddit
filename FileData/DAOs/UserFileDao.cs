@@ -1,7 +1,9 @@
 ﻿using System.Threading.Channels;
 using Application.DaoInterfaces;
-using Domain;
-using Domain.DTOs;
+using Shared;
+using Shared.DTOs;
+using Shared.DTOs.User;
+using Shared.Models;
 
 namespace FileData.DAOs;
 

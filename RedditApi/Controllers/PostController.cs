@@ -1,7 +1,8 @@
 ﻿using Application.LogicInterfaces;
-using Domain;
-using Domain.DTOs.Post;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Shared.DTOs.Post;
+using Shared.Models;
 
 namespace Reddit.Controllers;
 
