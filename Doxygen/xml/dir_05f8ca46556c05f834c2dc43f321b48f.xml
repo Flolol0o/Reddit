@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_05f8ca46556c05f834c2dc43f321b48f" kind="dir">
+    <compoundname>C:/Users/filip/RiderProjects/Reddit/Blazor/Services</compoundname>
+    <innerdir refid="dir_49ed00ab064796fbd0ac79fb1b83fa55">C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/"/>
+  </compounddef>
+</doxygen>

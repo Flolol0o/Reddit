@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_shared_2_models_2_user_8cs" kind="file" language="C#">
+    <compoundname>User.cs</compoundname>
+    <innerclass refid="class_shared_1_1_models_1_1_user" prot="public">Shared::Models::User</innerclass>
+    <innernamespace refid="namespace_shared">Shared</innernamespace>
+    <innernamespace refid="namespace_shared_1_1_models">Shared::Models</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_shared_1_1_models" kindref="compound">Shared.Models</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_shared_1_1_models_1_1_user" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_shared_1_1_models_1_1_user_1a64bd2b0474caf713064648c6f9b2e45f" kindref="member">Username</ref><sp/>{<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_shared_1_1_models_1_1_user_1a7f89604705c816aee82c239897097312" kindref="member">Password</ref><sp/>{<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_shared_1_1_models_1_1_user_1ab6e6592b397daf182c5b65c39de4a7dc" kindref="member">Id</ref><sp/>{<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Shared/Models/User.cs"/>
+  </compounddef>
+</doxygen>

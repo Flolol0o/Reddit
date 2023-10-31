@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_e3005c81112c68beb8ffc2bf4e27b753" kind="dir">
+    <compoundname>C:/Users/filip/RiderProjects/Reddit/Blazor/obj/Debug</compoundname>
+    <innerdir refid="dir_ccc387ce4254b4df7002d8931dd5dada">C:/Users/filip/RiderProjects/Reddit/Blazor/obj/Debug/net7.0</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/obj/Debug/"/>
+  </compounddef>
+</doxygen>

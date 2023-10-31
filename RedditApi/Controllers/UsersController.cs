@@ -15,7 +15,7 @@ public class UsersController : ControllerBase
     {
         this.userLogic = userLogic;
     }
-    
+
     [HttpPost]
     public async Task<ActionResult<User>> CreateAsync(UserCreationDto dto)
     {
@@ -30,7 +30,7 @@ public class UsersController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
-    
+
     [HttpGet]
     public async Task<ActionResult<IEnumerable<User>>> GetAsync([FromQuery] string? username)
     {
@@ -47,4 +47,3 @@ public class UsersController : ControllerBase
         }
     }
 }
-

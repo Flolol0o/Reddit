@@ -34,9 +34,10 @@
         </div>
     </Authorized>
 </AuthorizeView>
+
 @code {
-    private string userName="";
-    private string password ="";
+    private string userName = "";
+    private string password = "";
     private string errorLabel;
 
     private async Task LoginAsync()
@@ -51,18 +52,17 @@
                 Username = userName
             };
 
-            if (userName=="")
+            if (userName == "")
             {
                 throw new Exception("Username field cannot be empty");
             }
-            if (password=="")
+            if (password == "")
             {
                 throw new Exception("Password field cannot be empty");
             }
-            
+
             await authService.RegisterAsync(x);
             navMgr.NavigateTo("/login");
-            
         }
         catch (Exception e)
         {
@@ -70,4 +70,5 @@
             errorLabel = $"Error: {e.Message}";
         }
     }
+
 }

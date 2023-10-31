@@ -1,0 +1,94 @@
+\doxysection{Blazor.\+Services.\+Http.\+Jwt\+Auth\+Service Class Reference}
+\hypertarget{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service}{}\label{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service}\index{Blazor.Services.Http.JwtAuthService@{Blazor.Services.Http.JwtAuthService}}
+Inheritance diagram for Blazor.\+Services.\+Http.\+Jwt\+Auth\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+async Task \mbox{\hyperlink{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_ad5cf007b4579f6b7b95090ecc8126d71}{Login\+Async}} (string username, string password)
+\item 
+async Task \mbox{\hyperlink{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_a062120b0ab193a83742aa2997bf248a6}{Logout\+Async}} ()
+\item 
+async Task \mbox{\hyperlink{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_a300b8a76cf16c9b1a60d9557d96adf17}{Register\+Async}} (\mbox{\hyperlink{class_shared_1_1_models_1_1_user}{User}} user)
+\item 
+Task$<$ Claims\+Principal $>$ \mbox{\hyperlink{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_ac45d6cad62d81c07410e4a477cc8920e}{Get\+Auth\+Async}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static ? string \mbox{\hyperlink{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_a933f99a5f8a9c9ee848a467122f9028e}{Jwt}} = "{}"{}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Action$<$ Claims\+Principal $>$ \mbox{\hyperlink{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_a207bdee2469e2ef26a5bcaea2a7e29a3}{On\+Auth\+State\+Changed}} = null!\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service}{Blazor.\+Services.\+Http.\+IAuth\+Service}}}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_ac45d6cad62d81c07410e4a477cc8920e}\label{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_ac45d6cad62d81c07410e4a477cc8920e} 
+\index{Blazor.Services.Http.JwtAuthService@{Blazor.Services.Http.JwtAuthService}!GetAuthAsync@{GetAuthAsync}}
+\index{GetAuthAsync@{GetAuthAsync}!Blazor.Services.Http.JwtAuthService@{Blazor.Services.Http.JwtAuthService}}
+\doxysubsubsection{\texorpdfstring{GetAuthAsync()}{GetAuthAsync()}}
+{\footnotesize\ttfamily Task$<$ Claims\+Principal $>$ Blazor.\+Services.\+Http.\+Jwt\+Auth\+Service.\+Get\+Auth\+Async (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_ac93c8f6044df9845cdacc2baaaf4126d}{Blazor.\+Services.\+Http.\+IAuth\+Service}}.
+
+\Hypertarget{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_ad5cf007b4579f6b7b95090ecc8126d71}\label{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_ad5cf007b4579f6b7b95090ecc8126d71} 
+\index{Blazor.Services.Http.JwtAuthService@{Blazor.Services.Http.JwtAuthService}!LoginAsync@{LoginAsync}}
+\index{LoginAsync@{LoginAsync}!Blazor.Services.Http.JwtAuthService@{Blazor.Services.Http.JwtAuthService}}
+\doxysubsubsection{\texorpdfstring{LoginAsync()}{LoginAsync()}}
+{\footnotesize\ttfamily async Task Blazor.\+Services.\+Http.\+Jwt\+Auth\+Service.\+Login\+Async (\begin{DoxyParamCaption}\item[{string}]{username,  }\item[{string}]{password }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_a6dd83c1e13ecd278f2e2e5b58b326084}{Blazor.\+Services.\+Http.\+IAuth\+Service}}.
+
+\Hypertarget{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_a062120b0ab193a83742aa2997bf248a6}\label{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_a062120b0ab193a83742aa2997bf248a6} 
+\index{Blazor.Services.Http.JwtAuthService@{Blazor.Services.Http.JwtAuthService}!LogoutAsync@{LogoutAsync}}
+\index{LogoutAsync@{LogoutAsync}!Blazor.Services.Http.JwtAuthService@{Blazor.Services.Http.JwtAuthService}}
+\doxysubsubsection{\texorpdfstring{LogoutAsync()}{LogoutAsync()}}
+{\footnotesize\ttfamily async Task Blazor.\+Services.\+Http.\+Jwt\+Auth\+Service.\+Logout\+Async (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_a6a55b86472e79c2853ca396596f2d620}{Blazor.\+Services.\+Http.\+IAuth\+Service}}.
+
+\Hypertarget{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_a300b8a76cf16c9b1a60d9557d96adf17}\label{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_a300b8a76cf16c9b1a60d9557d96adf17} 
+\index{Blazor.Services.Http.JwtAuthService@{Blazor.Services.Http.JwtAuthService}!RegisterAsync@{RegisterAsync}}
+\index{RegisterAsync@{RegisterAsync}!Blazor.Services.Http.JwtAuthService@{Blazor.Services.Http.JwtAuthService}}
+\doxysubsubsection{\texorpdfstring{RegisterAsync()}{RegisterAsync()}}
+{\footnotesize\ttfamily async Task Blazor.\+Services.\+Http.\+Jwt\+Auth\+Service.\+Register\+Async (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_shared_1_1_models_1_1_user}{User}}}]{user }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_a0b8e48bb73b7af5f69c95f75907f02d3}{Blazor.\+Services.\+Http.\+IAuth\+Service}}.
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_a933f99a5f8a9c9ee848a467122f9028e}\label{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_a933f99a5f8a9c9ee848a467122f9028e} 
+\index{Blazor.Services.Http.JwtAuthService@{Blazor.Services.Http.JwtAuthService}!Jwt@{Jwt}}
+\index{Jwt@{Jwt}!Blazor.Services.Http.JwtAuthService@{Blazor.Services.Http.JwtAuthService}}
+\doxysubsubsection{\texorpdfstring{Jwt}{Jwt}}
+{\footnotesize\ttfamily ? string Blazor.\+Services.\+Http.\+Jwt\+Auth\+Service.\+Jwt = "{}"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+\Hypertarget{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_a207bdee2469e2ef26a5bcaea2a7e29a3}\label{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_a207bdee2469e2ef26a5bcaea2a7e29a3} 
+\index{Blazor.Services.Http.JwtAuthService@{Blazor.Services.Http.JwtAuthService}!OnAuthStateChanged@{OnAuthStateChanged}}
+\index{OnAuthStateChanged@{OnAuthStateChanged}!Blazor.Services.Http.JwtAuthService@{Blazor.Services.Http.JwtAuthService}}
+\doxysubsubsection{\texorpdfstring{OnAuthStateChanged}{OnAuthStateChanged}}
+{\footnotesize\ttfamily Action$<$Claims\+Principal$>$ Blazor.\+Services.\+Http.\+Jwt\+Auth\+Service.\+On\+Auth\+State\+Changed = null!\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Implements \mbox{\hyperlink{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_aae5f2fba76698d891dfc325d9ce0beef}{Blazor.\+Services.\+Http.\+IAuth\+Service}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/filip/\+Rider\+Projects/\+Reddit/\+Blazor/\+Services/\+Http/\mbox{\hyperlink{_jwt_auth_service_8cs}{Jwt\+Auth\+Service.\+cs}}\end{DoxyCompactItemize}

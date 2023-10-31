@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_shared_1_1_models_1_1_user" kind="class" language="C#" prot="public">
+    <compoundname>Shared::Models::User</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_shared_1_1_models_1_1_user_1a64bd2b0474caf713064648c6f9b2e45f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Shared.Models.User.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <qualifiedname>Shared.Models.User.Username</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Shared/Models/User.cs" line="5" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/Models/User.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shared_1_1_models_1_1_user_1a7f89604705c816aee82c239897097312" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Shared.Models.User.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <qualifiedname>Shared.Models.User.Password</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Shared/Models/User.cs" line="6" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/Models/User.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shared_1_1_models_1_1_user_1ab6e6592b397daf182c5b65c39de4a7dc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Shared.Models.User.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>Shared.Models.User.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Shared/Models/User.cs" line="7" column="16" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/Models/User.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Shared/Models/User.cs" line="3" column="7" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/Models/User.cs" bodystart="4" bodyend="8"/>
+    <listofallmembers>
+      <member refid="class_shared_1_1_models_1_1_user_1ab6e6592b397daf182c5b65c39de4a7dc" prot="public" virt="non-virtual"><scope>Shared::Models::User</scope><name>Id</name></member>
+      <member refid="class_shared_1_1_models_1_1_user_1a7f89604705c816aee82c239897097312" prot="public" virt="non-virtual"><scope>Shared::Models::User</scope><name>Password</name></member>
+      <member refid="class_shared_1_1_models_1_1_user_1a64bd2b0474caf713064648c6f9b2e45f" prot="public" virt="non-virtual"><scope>Shared::Models::User</scope><name>Username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

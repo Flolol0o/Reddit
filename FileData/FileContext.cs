@@ -17,7 +17,7 @@ public class FileContext
         }
     }
 
-    public ICollection<Shared.Models.User> Users
+    public ICollection<User> Users
     {
         get
         {
@@ -25,27 +25,28 @@ public class FileContext
             return dataContainer!.Users;
         }
     }
-    
+
     private void LoadData()
     {
         if (dataContainer != null) return;
-    
+
         if (!File.Exists(FilePath))
         {
-            dataContainer = new ()
+            dataContainer = new()
             {
                 Posts = new List<Post>(),
                 Users = new List<Shared.Models.User>()
             };
             return;
         }
+
         string content = File.ReadAllText(FilePath);
         dataContainer = JsonSerializer.Deserialize<DataContainer>(content);
     }
-    
+
     public void SaveChanges()
     {
-        string serialized = JsonSerializer.Serialize(dataContainer,new JsonSerializerOptions{WriteIndented = true});
+        string serialized = JsonSerializer.Serialize(dataContainer, new JsonSerializerOptions { WriteIndented = true });
         File.WriteAllText(FilePath, serialized);
         dataContainer = null;
     }

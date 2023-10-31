@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_shared_2_d_t_os_2_user_2_user_creation_dto_8cs" kind="file" language="C#">
+    <compoundname>UserCreationDto.cs</compoundname>
+    <innerclass refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto" prot="public">Shared::DTOs::User::UserCreationDto</innerclass>
+    <innernamespace refid="namespace_shared">Shared</innernamespace>
+    <innernamespace refid="namespace_shared_1_1_d_t_os">Shared::DTOs</innernamespace>
+    <innernamespace refid="namespace_shared_1_1_d_t_os_1_1_user">Shared::DTOs::User</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_shared_1_1_d_t_os_1_1_user" refkind="compound"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_shared_1_1_d_t_os_1_1_user" kindref="compound">Shared.DTOs.User</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto" kindref="compound">UserCreationDto</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1a07ac50166d81b10da18c8da8e201a24c" kindref="member">Username</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1a7fbbf1c80fbf86f3b3ebd03bd5025f1c" kindref="member">Password</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1ad7a6029736f219de2851e6b6db33cea7" kindref="member">Id</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto" kindref="compound">UserCreationDto</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>username,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>password,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1a07ac50166d81b10da18c8da8e201a24c" kindref="member">Username</ref><sp/>=<sp/>username;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1a7fbbf1c80fbf86f3b3ebd03bd5025f1c" kindref="member">Password</ref><sp/>=<sp/>password;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1ad7a6029736f219de2851e6b6db33cea7" kindref="member">Id</ref><sp/>=<sp/>id;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserCreationDto.cs"/>
+  </compounddef>
+</doxygen>

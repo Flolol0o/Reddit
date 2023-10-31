@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_reddit_1_1_controllers_1_1_auth_controller" kind="class" language="C#" prot="public">
+    <compoundname>Reddit::Controllers::AuthController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_reddit_1_1_controllers_1_1_auth_controller_1aee11caa53f7469c86d068b31ce151d7c" prot="private" static="no" mutable="no">
+        <type>readonly IConfiguration</type>
+        <definition>readonly IConfiguration Reddit.Controllers.AuthController.config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <qualifiedname>Reddit.Controllers.AuthController.config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/AuthController.cs" line="19" column="37" bodyfile="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/AuthController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_reddit_1_1_controllers_1_1_auth_controller_1ab3e4d36bbfb3b5a25230558f17a72c20" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_reddit_1_1_services_1_1_i_auth_service" kindref="compound">IAuthService</ref></type>
+        <definition>readonly IAuthService Reddit.Controllers.AuthController.authService</definition>
+        <argsstring></argsstring>
+        <name>authService</name>
+        <qualifiedname>Reddit.Controllers.AuthController.authService</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/AuthController.cs" line="20" column="35" bodyfile="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/AuthController.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_reddit_1_1_controllers_1_1_auth_controller_1a5768247c0648c4c00c37485487c722f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Reddit.Controllers.AuthController.AuthController</definition>
+        <argsstring>(IConfiguration config, IAuthService authService)</argsstring>
+        <name>AuthController</name>
+        <qualifiedname>Reddit.Controllers.AuthController.AuthController</qualifiedname>
+        <param>
+          <type>IConfiguration</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_reddit_1_1_services_1_1_i_auth_service" kindref="compound">IAuthService</ref></type>
+          <declname>authService</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/AuthController.cs" line="22" column="12" bodyfile="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/AuthController.cs" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reddit_1_1_controllers_1_1_auth_controller_1a62e84cc6d85104933d47b10e323fd4d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult &gt;</type>
+        <definition>async Task&lt; ActionResult &gt; Reddit.Controllers.AuthController.Login</definition>
+        <argsstring>([FromBody] UserLoginDto userLoginDto)</argsstring>
+        <name>Login</name>
+        <qualifiedname>Reddit.Controllers.AuthController.Login</qualifiedname>
+        <param>
+          <attributes>[FromBody]</attributes>
+          <type><ref refid="class_shared_1_1_d_t_os_1_1_post_1_1_user_login_dto" kindref="compound">UserLoginDto</ref></type>
+          <declname>userLoginDto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/AuthController.cs" line="63" column="23" bodyfile="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/AuthController.cs" bodystart="63" bodyend="76"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_reddit_1_1_controllers_1_1_auth_controller_1a223249bba65a9318d747a64aad5c93c5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Claim &gt;</type>
+        <definition>List&lt; Claim &gt; Reddit.Controllers.AuthController.GenerateClaims</definition>
+        <argsstring>(User user)</argsstring>
+        <name>GenerateClaims</name>
+        <qualifiedname>Reddit.Controllers.AuthController.GenerateClaims</qualifiedname>
+        <param>
+          <type><ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref></type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/AuthController.cs" line="28" column="18" bodyfile="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/AuthController.cs" bodystart="28" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reddit_1_1_controllers_1_1_auth_controller_1a2ffbb122ffbe5d9a25430e52ea9c10c8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Reddit.Controllers.AuthController.GenerateJwt</definition>
+        <argsstring>(User user)</argsstring>
+        <name>GenerateJwt</name>
+        <qualifiedname>Reddit.Controllers.AuthController.GenerateJwt</qualifiedname>
+        <param>
+          <type><ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref></type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/AuthController.cs" line="40" column="20" bodyfile="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/AuthController.cs" bodystart="40" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>Reddit.Controllers.AuthController</label>
+        <link refid="class_reddit_1_1_controllers_1_1_auth_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>Reddit.Controllers.AuthController</label>
+        <link refid="class_reddit_1_1_controllers_1_1_auth_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/AuthController.cs" line="17" column="7" bodyfile="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/AuthController.cs" bodystart="18" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_reddit_1_1_controllers_1_1_auth_controller_1a5768247c0648c4c00c37485487c722f8" prot="public" virt="non-virtual"><scope>Reddit::Controllers::AuthController</scope><name>AuthController</name></member>
+      <member refid="class_reddit_1_1_controllers_1_1_auth_controller_1ab3e4d36bbfb3b5a25230558f17a72c20" prot="private" virt="non-virtual"><scope>Reddit::Controllers::AuthController</scope><name>authService</name></member>
+      <member refid="class_reddit_1_1_controllers_1_1_auth_controller_1aee11caa53f7469c86d068b31ce151d7c" prot="private" virt="non-virtual"><scope>Reddit::Controllers::AuthController</scope><name>config</name></member>
+      <member refid="class_reddit_1_1_controllers_1_1_auth_controller_1a223249bba65a9318d747a64aad5c93c5" prot="private" virt="non-virtual"><scope>Reddit::Controllers::AuthController</scope><name>GenerateClaims</name></member>
+      <member refid="class_reddit_1_1_controllers_1_1_auth_controller_1a2ffbb122ffbe5d9a25430e52ea9c10c8" prot="private" virt="non-virtual"><scope>Reddit::Controllers::AuthController</scope><name>GenerateJwt</name></member>
+      <member refid="class_reddit_1_1_controllers_1_1_auth_controller_1a62e84cc6d85104933d47b10e323fd4d9" prot="public" virt="non-virtual"><scope>Reddit::Controllers::AuthController</scope><name>Login</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

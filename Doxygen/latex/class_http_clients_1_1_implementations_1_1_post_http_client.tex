@@ -1,0 +1,66 @@
+\doxysection{Http\+Clients.\+Implementations.\+Post\+Http\+Client Class Reference}
+\hypertarget{class_http_clients_1_1_implementations_1_1_post_http_client}{}\label{class_http_clients_1_1_implementations_1_1_post_http_client}\index{HttpClients.Implementations.PostHttpClient@{HttpClients.Implementations.PostHttpClient}}
+Inheritance diagram for Http\+Clients.\+Implementations.\+Post\+Http\+Client\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_http_clients_1_1_implementations_1_1_post_http_client}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_http_clients_1_1_implementations_1_1_post_http_client_ac9be5cd10dd520534523ad5c8c61767d}{Post\+Http\+Client}} (Http\+Client client)
+\item 
+async Task \mbox{\hyperlink{class_http_clients_1_1_implementations_1_1_post_http_client_aef510500b637d5057e9fb9b9cc4a8497}{Create}} (\mbox{\hyperlink{class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto}{Post\+Creation\+Dto}} dto)
+\item 
+async Task$<$ \mbox{\hyperlink{class_shared_1_1_models_1_1_post}{Post}} $>$ \mbox{\hyperlink{class_http_clients_1_1_implementations_1_1_post_http_client_af3107ac4417ba10f6f8c8bcd3233def1}{Get\+By\+Id\+Async}} (int id)
+\item 
+async Task$<$ IEnumerable$<$ \mbox{\hyperlink{class_shared_1_1_models_1_1_post}{Post}} $>$ $>$ \mbox{\hyperlink{class_http_clients_1_1_implementations_1_1_post_http_client_aae418661810b6f18fbbf7cd33d4dd998}{Get\+Posts}} (string? title\+Contains=null)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_http_clients_1_1_implementations_1_1_post_http_client_ac9be5cd10dd520534523ad5c8c61767d}\label{class_http_clients_1_1_implementations_1_1_post_http_client_ac9be5cd10dd520534523ad5c8c61767d} 
+\index{HttpClients.Implementations.PostHttpClient@{HttpClients.Implementations.PostHttpClient}!PostHttpClient@{PostHttpClient}}
+\index{PostHttpClient@{PostHttpClient}!HttpClients.Implementations.PostHttpClient@{HttpClients.Implementations.PostHttpClient}}
+\doxysubsubsection{\texorpdfstring{PostHttpClient()}{PostHttpClient()}}
+{\footnotesize\ttfamily Http\+Clients.\+Implementations.\+Post\+Http\+Client.\+Post\+Http\+Client (\begin{DoxyParamCaption}\item[{Http\+Client}]{client }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_http_clients_1_1_implementations_1_1_post_http_client_aef510500b637d5057e9fb9b9cc4a8497}\label{class_http_clients_1_1_implementations_1_1_post_http_client_aef510500b637d5057e9fb9b9cc4a8497} 
+\index{HttpClients.Implementations.PostHttpClient@{HttpClients.Implementations.PostHttpClient}!Create@{Create}}
+\index{Create@{Create}!HttpClients.Implementations.PostHttpClient@{HttpClients.Implementations.PostHttpClient}}
+\doxysubsubsection{\texorpdfstring{Create()}{Create()}}
+{\footnotesize\ttfamily async Task Http\+Clients.\+Implementations.\+Post\+Http\+Client.\+Create (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto}{Post\+Creation\+Dto}}}]{dto }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_http_clients_1_1_clients_interface_1_1_i_post_services_afe1fbeeb312ce36f0b2bda5767bd488a}{Http\+Clients.\+Clients\+Interface.\+IPost\+Services}}.
+
+\Hypertarget{class_http_clients_1_1_implementations_1_1_post_http_client_af3107ac4417ba10f6f8c8bcd3233def1}\label{class_http_clients_1_1_implementations_1_1_post_http_client_af3107ac4417ba10f6f8c8bcd3233def1} 
+\index{HttpClients.Implementations.PostHttpClient@{HttpClients.Implementations.PostHttpClient}!GetByIdAsync@{GetByIdAsync}}
+\index{GetByIdAsync@{GetByIdAsync}!HttpClients.Implementations.PostHttpClient@{HttpClients.Implementations.PostHttpClient}}
+\doxysubsubsection{\texorpdfstring{GetByIdAsync()}{GetByIdAsync()}}
+{\footnotesize\ttfamily async Task$<$ \mbox{\hyperlink{class_shared_1_1_models_1_1_post}{Post}} $>$ Http\+Clients.\+Implementations.\+Post\+Http\+Client.\+Get\+By\+Id\+Async (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_http_clients_1_1_clients_interface_1_1_i_post_services_aa2ffb3c3c686b96210a7098969114fac}{Http\+Clients.\+Clients\+Interface.\+IPost\+Services}}.
+
+\Hypertarget{class_http_clients_1_1_implementations_1_1_post_http_client_aae418661810b6f18fbbf7cd33d4dd998}\label{class_http_clients_1_1_implementations_1_1_post_http_client_aae418661810b6f18fbbf7cd33d4dd998} 
+\index{HttpClients.Implementations.PostHttpClient@{HttpClients.Implementations.PostHttpClient}!GetPosts@{GetPosts}}
+\index{GetPosts@{GetPosts}!HttpClients.Implementations.PostHttpClient@{HttpClients.Implementations.PostHttpClient}}
+\doxysubsubsection{\texorpdfstring{GetPosts()}{GetPosts()}}
+{\footnotesize\ttfamily async Task$<$ IEnumerable$<$ \mbox{\hyperlink{class_shared_1_1_models_1_1_post}{Post}} $>$ $>$ Http\+Clients.\+Implementations.\+Post\+Http\+Client.\+Get\+Posts (\begin{DoxyParamCaption}\item[{string?}]{title\+Contains = {\ttfamily null} }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_http_clients_1_1_clients_interface_1_1_i_post_services_a3be79714dc51fd5b9c26f2c11b7f99bc}{Http\+Clients.\+Clients\+Interface.\+IPost\+Services}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/filip/\+Rider\+Projects/\+Reddit/\+Http\+Clients/\+Implementations/\mbox{\hyperlink{_post_http_client_8cs}{Post\+Http\+Client.\+cs}}\end{DoxyCompactItemize}

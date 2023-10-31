@@ -2,18 +2,15 @@
 using System.Text;
 using System.Text.Json;
 using Shared.DTOs.Post;
-using Shared.DTOs.User;
 using Shared.Models;
 
 namespace Blazor.Services.Http;
 
 public class JwtAuthService : IAuthService
 {
-    private readonly HttpClient client = new ();
-
-    // this private variable for simple caching
+    private readonly HttpClient client = new();
     public static string? Jwt { get; private set; } = "";
-    
+
     public Action<ClaimsPrincipal> OnAuthStateChanged { get; set; } = null!;
 
     public async Task LoginAsync(string username, string password)
@@ -53,7 +50,7 @@ public class JwtAuthService : IAuthService
     {
         string userAsJson = JsonSerializer.Serialize(user);
         StringContent content = new(userAsJson, Encoding.UTF8, "application/json");
-        
+
         HttpResponseMessage response = await client.PostAsync("http://localhost:5282/users", content);
         string responseContent = await response.Content.ReadAsStringAsync();
         if (!response.IsSuccessStatusCode)
@@ -67,7 +64,7 @@ public class JwtAuthService : IAuthService
         ClaimsPrincipal claimsPrincipal = CreateClaimsPrincipal();
         return Task.FromResult(claimsPrincipal);
     }
-    
+
     private static IEnumerable<Claim> ParseClaimsFromJwt(string jwt)
     {
         string payload = jwt.Split('.')[1];
@@ -90,7 +87,7 @@ public class JwtAuthService : IAuthService
 
         return Convert.FromBase64String(base64);
     }
-    
+
     private static ClaimsPrincipal CreateClaimsPrincipal()
     {
         if (string.IsNullOrEmpty(Jwt))
@@ -99,12 +96,10 @@ public class JwtAuthService : IAuthService
         }
 
         IEnumerable<Claim> claims = ParseClaimsFromJwt(Jwt);
-    
+
         ClaimsIdentity identity = new(claims, "jwt");
 
         ClaimsPrincipal principal = new(identity);
         return principal;
     }
-    
-    
 }

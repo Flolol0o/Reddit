@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_2d472a84b93ab52a58ff90636bddb0f8" kind="dir">
+    <compoundname>C:/Users/filip/RiderProjects/Reddit/RedditApi/obj/Debug/net7.0</compoundname>
+    <innerfile refid="_reddit_api_2obj_2_debug_2net7_80_2_8_n_e_t_core_app_00_version_0av7_80_8_assembly_attributes_8cs">.NETCoreApp,Version=v7.0.AssemblyAttributes.cs</innerfile>
+    <innerfile refid="_reddit_8_assembly_info_8cs">Reddit.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_reddit_8_global_usings_8g_8cs">Reddit.GlobalUsings.g.cs</innerfile>
+    <innerfile refid="_reddit_api_8_assembly_info_8cs">RedditApi.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_reddit_api_8_global_usings_8g_8cs">RedditApi.GlobalUsings.g.cs</innerfile>
+    <innerfile refid="_reddit_api_8_mvc_application_parts_assembly_info_8cs">RedditApi.MvcApplicationPartsAssemblyInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/RedditApi/obj/Debug/net7.0/"/>
+  </compounddef>
+</doxygen>

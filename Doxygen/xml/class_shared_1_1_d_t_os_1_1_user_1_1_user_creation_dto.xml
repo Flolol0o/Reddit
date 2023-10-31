@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto" kind="class" language="C#" prot="public">
+    <compoundname>Shared::DTOs::User::UserCreationDto</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1a07ac50166d81b10da18c8da8e201a24c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Shared.DTOs.User.UserCreationDto.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <qualifiedname>Shared.DTOs.User.UserCreationDto.Username</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserCreationDto.cs" line="5" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserCreationDto.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1a7fbbf1c80fbf86f3b3ebd03bd5025f1c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Shared.DTOs.User.UserCreationDto.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <qualifiedname>Shared.DTOs.User.UserCreationDto.Password</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserCreationDto.cs" line="6" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserCreationDto.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1ad7a6029736f219de2851e6b6db33cea7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Shared.DTOs.User.UserCreationDto.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>Shared.DTOs.User.UserCreationDto.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserCreationDto.cs" line="7" column="16" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserCreationDto.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1a059bac40c6c5867c96f2b745852f2c18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Shared.DTOs.User.UserCreationDto.UserCreationDto</definition>
+        <argsstring>(string username, string password, int id)</argsstring>
+        <name>UserCreationDto</name>
+        <qualifiedname>Shared.DTOs.User.UserCreationDto.UserCreationDto</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserCreationDto.cs" line="9" column="12" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserCreationDto.cs" bodystart="9" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserCreationDto.cs" line="3" column="7" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserCreationDto.cs" bodystart="4" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1ad7a6029736f219de2851e6b6db33cea7" prot="public" virt="non-virtual"><scope>Shared::DTOs::User::UserCreationDto</scope><name>Id</name></member>
+      <member refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1a7fbbf1c80fbf86f3b3ebd03bd5025f1c" prot="public" virt="non-virtual"><scope>Shared::DTOs::User::UserCreationDto</scope><name>Password</name></member>
+      <member refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1a059bac40c6c5867c96f2b745852f2c18" prot="public" virt="non-virtual"><scope>Shared::DTOs::User::UserCreationDto</scope><name>UserCreationDto</name></member>
+      <member refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1a07ac50166d81b10da18c8da8e201a24c" prot="public" virt="non-virtual"><scope>Shared::DTOs::User::UserCreationDto</scope><name>Username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

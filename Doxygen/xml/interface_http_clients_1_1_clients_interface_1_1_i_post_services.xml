@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="interface_http_clients_1_1_clients_interface_1_1_i_post_services" kind="interface" language="C#" prot="public">
+    <compoundname>HttpClients::ClientsInterface::IPostServices</compoundname>
+    <derivedcompoundref refid="class_http_clients_1_1_implementations_1_1_post_http_client" prot="public" virt="non-virtual">HttpClients.Implementations.PostHttpClient</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_http_clients_1_1_clients_interface_1_1_i_post_services_1afe1fbeeb312ce36f0b2bda5767bd488a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task HttpClients.ClientsInterface.IPostServices.Create</definition>
+        <argsstring>(PostCreationDto dto)</argsstring>
+        <name>Create</name>
+        <qualifiedname>HttpClients.ClientsInterface.IPostServices.Create</qualifiedname>
+        <reimplementedby refid="class_http_clients_1_1_implementations_1_1_post_http_client_1aef510500b637d5057e9fb9b9cc4a8497">Create</reimplementedby>
+        <param>
+          <type><ref refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto" kindref="compound">PostCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/ClientsInterface/IPostServices.cs" line="8" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_http_clients_1_1_clients_interface_1_1_i_post_services_1aa2ffb3c3c686b96210a7098969114fac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_shared_1_1_models_1_1_post" kindref="compound">Post</ref> &gt;</type>
+        <definition>Task&lt; Post &gt; HttpClients.ClientsInterface.IPostServices.GetByIdAsync</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetByIdAsync</name>
+        <qualifiedname>HttpClients.ClientsInterface.IPostServices.GetByIdAsync</qualifiedname>
+        <reimplementedby refid="class_http_clients_1_1_implementations_1_1_post_http_client_1af3107ac4417ba10f6f8c8bcd3233def1">GetByIdAsync</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/ClientsInterface/IPostServices.cs" line="9" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_http_clients_1_1_clients_interface_1_1_i_post_services_1a3be79714dc51fd5b9c26f2c11b7f99bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; IEnumerable&lt; <ref refid="class_shared_1_1_models_1_1_post" kindref="compound">Post</ref> &gt; &gt;</type>
+        <definition>Task&lt; IEnumerable&lt; Post &gt; &gt; HttpClients.ClientsInterface.IPostServices.GetPosts</definition>
+        <argsstring>(string? titleContains=null)</argsstring>
+        <name>GetPosts</name>
+        <qualifiedname>HttpClients.ClientsInterface.IPostServices.GetPosts</qualifiedname>
+        <reimplementedby refid="class_http_clients_1_1_implementations_1_1_post_http_client_1aae418661810b6f18fbbf7cd33d4dd998">GetPosts</reimplementedby>
+        <param>
+          <type>string?</type>
+          <declname>titleContains</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/ClientsInterface/IPostServices.cs" line="10" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>HttpClients.ClientsInterface.IPostServices</label>
+        <link refid="interface_http_clients_1_1_clients_interface_1_1_i_post_services"/>
+      </node>
+      <node id="2">
+        <label>HttpClients.Implementations.PostHttpClient</label>
+        <link refid="class_http_clients_1_1_implementations_1_1_post_http_client"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/ClientsInterface/IPostServices.cs" line="6" column="18" bodyfile="C:/Users/filip/RiderProjects/Reddit/HttpClients/ClientsInterface/IPostServices.cs" bodystart="7" bodyend="11"/>
+    <listofallmembers>
+      <member refid="interface_http_clients_1_1_clients_interface_1_1_i_post_services_1afe1fbeeb312ce36f0b2bda5767bd488a" prot="public" virt="non-virtual"><scope>HttpClients::ClientsInterface::IPostServices</scope><name>Create</name></member>
+      <member refid="interface_http_clients_1_1_clients_interface_1_1_i_post_services_1aa2ffb3c3c686b96210a7098969114fac" prot="public" virt="non-virtual"><scope>HttpClients::ClientsInterface::IPostServices</scope><name>GetByIdAsync</name></member>
+      <member refid="interface_http_clients_1_1_clients_interface_1_1_i_post_services_1a3be79714dc51fd5b9c26f2c11b7f99bc" prot="public" virt="non-virtual"><scope>HttpClients::ClientsInterface::IPostServices</scope><name>GetPosts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

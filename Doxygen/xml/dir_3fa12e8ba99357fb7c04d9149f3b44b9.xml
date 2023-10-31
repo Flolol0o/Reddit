@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_3fa12e8ba99357fb7c04d9149f3b44b9" kind="dir">
+    <compoundname>C:/Users/filip/RiderProjects/Reddit/Domain/obj/Debug</compoundname>
+    <innerdir refid="dir_40c732c5f202d7682be86bbfa3b9ec48">C:/Users/filip/RiderProjects/Reddit/Domain/obj/Debug/net7.0</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Domain/obj/Debug/"/>
+  </compounddef>
+</doxygen>

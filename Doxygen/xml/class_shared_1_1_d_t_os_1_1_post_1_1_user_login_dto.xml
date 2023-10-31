@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_shared_1_1_d_t_os_1_1_post_1_1_user_login_dto" kind="class" language="C#" prot="public">
+    <compoundname>Shared::DTOs::Post::UserLoginDto</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_shared_1_1_d_t_os_1_1_post_1_1_user_login_dto_1a065b08ff53f05da773e8982143aa4460" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Shared.DTOs.Post.UserLoginDto.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <qualifiedname>Shared.DTOs.Post.UserLoginDto.Username</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserLoginDto.cs" line="5" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserLoginDto.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shared_1_1_d_t_os_1_1_post_1_1_user_login_dto_1ae6444f3331148e00c2fd021f8772af8a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Shared.DTOs.Post.UserLoginDto.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <qualifiedname>Shared.DTOs.Post.UserLoginDto.Password</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserLoginDto.cs" line="6" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserLoginDto.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserLoginDto.cs" line="3" column="7" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserLoginDto.cs" bodystart="4" bodyend="7"/>
+    <listofallmembers>
+      <member refid="class_shared_1_1_d_t_os_1_1_post_1_1_user_login_dto_1ae6444f3331148e00c2fd021f8772af8a" prot="public" virt="non-virtual"><scope>Shared::DTOs::Post::UserLoginDto</scope><name>Password</name></member>
+      <member refid="class_shared_1_1_d_t_os_1_1_post_1_1_user_login_dto_1a065b08ff53f05da773e8982143aa4460" prot="public" virt="non-virtual"><scope>Shared::DTOs::Post::UserLoginDto</scope><name>Username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

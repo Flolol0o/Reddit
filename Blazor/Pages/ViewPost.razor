@@ -26,9 +26,10 @@
 
 
 @code {
+
     [Parameter]
     public int id { get; set; }
-    
+
     private Post post;
 
     private string msg = "";
@@ -54,7 +55,7 @@
         {
             Console.WriteLine(e);
             msg = e.Message;
-        } 
+        }
     }
 
 }

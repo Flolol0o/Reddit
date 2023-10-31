@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto" kind="class" language="C#" prot="public">
+    <compoundname>Domain::DTOs::Post::PostBasicDto</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1a8a828414a868f8ef29baa6cb75222a47" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Domain.DTOs.Post.PostBasicDto.User</definition>
+        <argsstring></argsstring>
+        <name>User</name>
+        <qualifiedname>Domain.DTOs.Post.PostBasicDto.User</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostBasicDto.cs" line="5" column="16" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostBasicDto.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1acad4d11364f35e58ee80465d7b2189ce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Domain.DTOs.Post.PostBasicDto.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>Domain.DTOs.Post.PostBasicDto.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostBasicDto.cs" line="6" column="16" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostBasicDto.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1a828a118309b0c744bc0649c86933b54c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Domain.DTOs.Post.PostBasicDto.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>Domain.DTOs.Post.PostBasicDto.Title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostBasicDto.cs" line="7" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostBasicDto.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1acca53c2b11d4f82adb5a9968d5334dbd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Domain.DTOs.Post.PostBasicDto.Body</definition>
+        <argsstring></argsstring>
+        <name>Body</name>
+        <qualifiedname>Domain.DTOs.Post.PostBasicDto.Body</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostBasicDto.cs" line="8" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostBasicDto.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1ac6b5dc00f8d7a4a1b8c242cf84faebe6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Domain.DTOs.Post.PostBasicDto.PostBasicDto</definition>
+        <argsstring>(int user, int id, string title, string body)</argsstring>
+        <name>PostBasicDto</name>
+        <qualifiedname>Domain.DTOs.Post.PostBasicDto.PostBasicDto</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>user</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostBasicDto.cs" line="11" column="12" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostBasicDto.cs" bodystart="11" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostBasicDto.cs" line="3" column="7" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostBasicDto.cs" bodystart="4" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1acca53c2b11d4f82adb5a9968d5334dbd" prot="public" virt="non-virtual"><scope>Domain::DTOs::Post::PostBasicDto</scope><name>Body</name></member>
+      <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1acad4d11364f35e58ee80465d7b2189ce" prot="public" virt="non-virtual"><scope>Domain::DTOs::Post::PostBasicDto</scope><name>Id</name></member>
+      <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1ac6b5dc00f8d7a4a1b8c242cf84faebe6" prot="public" virt="non-virtual"><scope>Domain::DTOs::Post::PostBasicDto</scope><name>PostBasicDto</name></member>
+      <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1a828a118309b0c744bc0649c86933b54c" prot="public" virt="non-virtual"><scope>Domain::DTOs::Post::PostBasicDto</scope><name>Title</name></member>
+      <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1a8a828414a868f8ef29baa6cb75222a47" prot="public" virt="non-virtual"><scope>Domain::DTOs::Post::PostBasicDto</scope><name>User</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_reddit_api_2_services_2_i_auth_service_8cs" kind="file" language="C#">
+    <compoundname>IAuthService.cs</compoundname>
+    <innerclass refid="interface_reddit_1_1_services_1_1_i_auth_service" prot="public">Reddit::Services::IAuthService</innerclass>
+    <innernamespace refid="namespace_reddit">Reddit</innernamespace>
+    <innernamespace refid="namespace_reddit_1_1_services">Reddit::Services</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_shared_1_1_models" kindref="compound">Shared.Models</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_reddit_1_1_services" kindref="compound">Reddit.Services</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="interface_reddit_1_1_services_1_1_i_auth_service" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_reddit_1_1_services_1_1_i_auth_service" kindref="compound">IAuthService</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>Task&lt;User&gt;<sp/><ref refid="interface_reddit_1_1_services_1_1_i_auth_service_1a11e3900e46a2adee07bc38b5143426ac" kindref="member">ValidateUser</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>username,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>password);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>Task<sp/><ref refid="interface_reddit_1_1_services_1_1_i_auth_service_1a70c19b36a9ea9a39a8d089e4d32e1130" kindref="member">RegisterUser</ref>(<ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref><sp/>user);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/filip/RiderProjects/Reddit/RedditApi/Services/IAuthService.cs"/>
+  </compounddef>
+</doxygen>

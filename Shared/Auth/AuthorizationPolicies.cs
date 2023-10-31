@@ -1,5 +1,4 @@
-﻿using System.Security.Claims;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 
 namespace Shared.Auth;
 
@@ -9,7 +8,7 @@ public class AuthorizationPolicies
     {
         services.AddAuthorizationCore(options =>
         {
-            options.AddPolicy("MustBeLoggedIn",a =>
+            options.AddPolicy("MustBeLoggedIn", a =>
                 a.RequireAuthenticatedUser());
         });
     }

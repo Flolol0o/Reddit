@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_blazor_2_services_2_http_2_i_auth_service_8cs" kind="file" language="C#">
+    <compoundname>IAuthService.cs</compoundname>
+    <innerclass refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service" prot="public">Blazor::Services::Http::IAuthService</innerclass>
+    <innernamespace refid="namespace_blazor">Blazor</innernamespace>
+    <innernamespace refid="namespace_blazor_1_1_services">Blazor::Services</innernamespace>
+    <innernamespace refid="namespace_blazor_1_1_services_1_1_http">Blazor::Services::Http</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Security.Claims;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_shared_1_1_models" kindref="compound">Shared.Models</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespace_blazor_1_1_services" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_blazor_1_1_services_1_1_http" kindref="compound">Blazor.Services.Http</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service" kindref="compound">IAuthService</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Task<sp/><ref refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1a6dd83c1e13ecd278f2e2e5b58b326084" kindref="member">LoginAsync</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>username,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>password);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Task<sp/><ref refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1a6a55b86472e79c2853ca396596f2d620" kindref="member">LogoutAsync</ref>();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Task<sp/><ref refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1a0b8e48bb73b7af5f69c95f75907f02d3" kindref="member">RegisterAsync</ref>(<ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref><sp/>user);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Task&lt;ClaimsPrincipal&gt;<sp/><ref refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1ac93c8f6044df9845cdacc2baaaf4126d" kindref="member">GetAuthAsync</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Action&lt;ClaimsPrincipal&gt;<sp/><ref refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1aae5f2fba76698d891dfc325d9ce0beef" kindref="member">OnAuthStateChanged</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/IAuthService.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_blazor_1_1_services_1_1_http" kind="namespace" language="C#">
+    <compoundname>Blazor::Services::Http</compoundname>
+    <innerclass refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service" prot="public">Blazor::Services::Http::IAuthService</innerclass>
+    <innerclass refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service" prot="public">Blazor::Services::Http::JwtAuthService</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/IAuthService.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

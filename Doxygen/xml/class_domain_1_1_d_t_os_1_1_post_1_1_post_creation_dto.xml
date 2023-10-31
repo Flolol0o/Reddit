@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_domain_1_1_d_t_os_1_1_post_1_1_post_creation_dto" kind="class" language="C#" prot="public">
+    <compoundname>Domain::DTOs::Post::PostCreationDto</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_domain_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1adc4397455e04c95b1c2799a2fa52eed8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Domain.DTOs.Post.PostCreationDto.User</definition>
+        <argsstring></argsstring>
+        <name>User</name>
+        <qualifiedname>Domain.DTOs.Post.PostCreationDto.User</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostCreationDto.cs" line="5" column="16" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostCreationDto.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_domain_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1a36070c264dea3f49eccd6ffc845c8339" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Domain.DTOs.Post.PostCreationDto.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>Domain.DTOs.Post.PostCreationDto.Title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostCreationDto.cs" line="6" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostCreationDto.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_domain_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1a63f02cc65da5b4a9e5723e6370a82b9f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Domain.DTOs.Post.PostCreationDto.Body</definition>
+        <argsstring></argsstring>
+        <name>Body</name>
+        <qualifiedname>Domain.DTOs.Post.PostCreationDto.Body</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostCreationDto.cs" line="7" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostCreationDto.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_domain_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1a1ba550d3f4544143ffa52ee7ebdeaa43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Domain.DTOs.Post.PostCreationDto.PostCreationDto</definition>
+        <argsstring>(int user, string title, string body)</argsstring>
+        <name>PostCreationDto</name>
+        <qualifiedname>Domain.DTOs.Post.PostCreationDto.PostCreationDto</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>user</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostCreationDto.cs" line="10" column="12" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostCreationDto.cs" bodystart="10" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostCreationDto.cs" line="3" column="7" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostCreationDto.cs" bodystart="4" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1a63f02cc65da5b4a9e5723e6370a82b9f" prot="public" virt="non-virtual"><scope>Domain::DTOs::Post::PostCreationDto</scope><name>Body</name></member>
+      <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1a1ba550d3f4544143ffa52ee7ebdeaa43" prot="public" virt="non-virtual"><scope>Domain::DTOs::Post::PostCreationDto</scope><name>PostCreationDto</name></member>
+      <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1a36070c264dea3f49eccd6ffc845c8339" prot="public" virt="non-virtual"><scope>Domain::DTOs::Post::PostCreationDto</scope><name>Title</name></member>
+      <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1adc4397455e04c95b1c2799a2fa52eed8" prot="public" virt="non-virtual"><scope>Domain::DTOs::Post::PostCreationDto</scope><name>User</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

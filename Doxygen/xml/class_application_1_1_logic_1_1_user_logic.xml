@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_application_1_1_logic_1_1_user_logic" kind="class" language="C#" prot="public">
+    <compoundname>Application::Logic::UserLogic</compoundname>
+    <basecompoundref refid="interface_application_1_1_logic_interfaces_1_1_i_user_logic" prot="public" virt="non-virtual">Application.LogicInterfaces.IUserLogic</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_application_1_1_logic_1_1_user_logic_1adbe18cc00cf003eaf336f1bb29b2ad8f" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_application_1_1_dao_interfaces_1_1_i_user_dao" kindref="compound">IUserDao</ref></type>
+        <definition>readonly IUserDao Application.Logic.UserLogic.userDao</definition>
+        <argsstring></argsstring>
+        <name>userDao</name>
+        <qualifiedname>Application.Logic.UserLogic.userDao</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Application/Logic/UserLogic.cs" line="10" column="31" bodyfile="C:/Users/filip/RiderProjects/Reddit/Application/Logic/UserLogic.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_application_1_1_logic_1_1_user_logic_1a768a3a1f79e118f3db27d21598d6e1e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Application.Logic.UserLogic.UserLogic</definition>
+        <argsstring>(IUserDao userDao)</argsstring>
+        <name>UserLogic</name>
+        <qualifiedname>Application.Logic.UserLogic.UserLogic</qualifiedname>
+        <param>
+          <type><ref refid="interface_application_1_1_dao_interfaces_1_1_i_user_dao" kindref="compound">IUserDao</ref></type>
+          <declname>userDao</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Application/Logic/UserLogic.cs" line="12" column="12" bodyfile="C:/Users/filip/RiderProjects/Reddit/Application/Logic/UserLogic.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_application_1_1_logic_1_1_user_logic_1ab9b0053cbac09361a100a444f2c98b45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref> &gt;</type>
+        <definition>async Task&lt; User &gt; Application.Logic.UserLogic.CreateAsync</definition>
+        <argsstring>(UserCreationDto dto)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>Application.Logic.UserLogic.CreateAsync</qualifiedname>
+        <reimplements refid="interface_application_1_1_logic_interfaces_1_1_i_user_logic_1a47939ee604264ab8ff8eb8fe445b2cae">CreateAsync</reimplements>
+        <param>
+          <type><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto" kindref="compound">UserCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Application/Logic/UserLogic.cs" line="17" column="23" bodyfile="C:/Users/filip/RiderProjects/Reddit/Application/Logic/UserLogic.cs" bodystart="17" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_application_1_1_logic_1_1_user_logic_1a3879445a85f2cf34a4afb4673e2bf8bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; IEnumerable&lt; <ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref> &gt; &gt;</type>
+        <definition>Task&lt; IEnumerable&lt; User &gt; &gt; Application.Logic.UserLogic.GetAsync</definition>
+        <argsstring>(UserSearchParametersDto dto)</argsstring>
+        <name>GetAsync</name>
+        <qualifiedname>Application.Logic.UserLogic.GetAsync</qualifiedname>
+        <reimplements refid="interface_application_1_1_logic_interfaces_1_1_i_user_logic_1af3389590e06262708c1a0e163edca8fa">GetAsync</reimplements>
+        <param>
+          <type><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_search_parameters_dto" kindref="compound">UserSearchParametersDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Application/Logic/UserLogic.cs" line="36" column="17" bodyfile="C:/Users/filip/RiderProjects/Reddit/Application/Logic/UserLogic.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_application_1_1_logic_1_1_user_logic_1acad26f040b0650b6188348677256825c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Application.Logic.UserLogic.ValidateData</definition>
+        <argsstring>(UserCreationDto dto)</argsstring>
+        <name>ValidateData</name>
+        <qualifiedname>Application.Logic.UserLogic.ValidateData</qualifiedname>
+        <param>
+          <type><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto" kindref="compound">UserCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Application/Logic/UserLogic.cs" line="41" column="25" bodyfile="C:/Users/filip/RiderProjects/Reddit/Application/Logic/UserLogic.cs" bodystart="41" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Application.Logic.UserLogic</label>
+        <link refid="class_application_1_1_logic_1_1_user_logic"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IUserLogic</label>
+        <link refid="interface_application_1_1_logic_interfaces_1_1_i_user_logic"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Application.Logic.UserLogic</label>
+        <link refid="class_application_1_1_logic_1_1_user_logic"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IUserLogic</label>
+        <link refid="interface_application_1_1_logic_interfaces_1_1_i_user_logic"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Application/Logic/UserLogic.cs" line="8" column="7" bodyfile="C:/Users/filip/RiderProjects/Reddit/Application/Logic/UserLogic.cs" bodystart="9" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_application_1_1_logic_1_1_user_logic_1ab9b0053cbac09361a100a444f2c98b45" prot="public" virt="non-virtual"><scope>Application::Logic::UserLogic</scope><name>CreateAsync</name></member>
+      <member refid="class_application_1_1_logic_1_1_user_logic_1a3879445a85f2cf34a4afb4673e2bf8bd" prot="public" virt="non-virtual"><scope>Application::Logic::UserLogic</scope><name>GetAsync</name></member>
+      <member refid="class_application_1_1_logic_1_1_user_logic_1adbe18cc00cf003eaf336f1bb29b2ad8f" prot="private" virt="non-virtual"><scope>Application::Logic::UserLogic</scope><name>userDao</name></member>
+      <member refid="class_application_1_1_logic_1_1_user_logic_1a768a3a1f79e118f3db27d21598d6e1e0" prot="public" virt="non-virtual"><scope>Application::Logic::UserLogic</scope><name>UserLogic</name></member>
+      <member refid="class_application_1_1_logic_1_1_user_logic_1acad26f040b0650b6188348677256825c" prot="private" virt="non-virtual"><scope>Application::Logic::UserLogic</scope><name>ValidateData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

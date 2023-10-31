@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_file_data_1_1_d_a_os_1_1_post_file_dao" kind="class" language="C#" prot="public">
+    <compoundname>FileData::DAOs::PostFileDao</compoundname>
+    <basecompoundref refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao" prot="public" virt="non-virtual">Application.DaoInterfaces.IPostDao</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_file_data_1_1_d_a_os_1_1_post_file_dao_1abad0d4df795cc13733931d5827a26e4f" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_file_data_1_1_file_context" kindref="compound">FileContext</ref></type>
+        <definition>readonly FileContext FileData.DAOs.PostFileDao.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <qualifiedname>FileData.DAOs.PostFileDao.context</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/PostFileDao.cs" line="8" column="34" bodyfile="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/PostFileDao.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_file_data_1_1_d_a_os_1_1_post_file_dao_1ab9cbcb67cbfd1c6efe43cac4c6562314" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FileData.DAOs.PostFileDao.PostFileDao</definition>
+        <argsstring>(FileContext context)</argsstring>
+        <name>PostFileDao</name>
+        <qualifiedname>FileData.DAOs.PostFileDao.PostFileDao</qualifiedname>
+        <param>
+          <type><ref refid="class_file_data_1_1_file_context" kindref="compound">FileContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/PostFileDao.cs" line="10" column="12" bodyfile="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/PostFileDao.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_data_1_1_d_a_os_1_1_post_file_dao_1accf375a8037290c09e6aac5bbc4af58c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_shared_1_1_models_1_1_post" kindref="compound">Post</ref> &gt;</type>
+        <definition>Task&lt; Post &gt; FileData.DAOs.PostFileDao.CreateAsync</definition>
+        <argsstring>(Post post)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>FileData.DAOs.PostFileDao.CreateAsync</qualifiedname>
+        <reimplements refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao_1af6fcb74404767533d854e2b09f39d832">CreateAsync</reimplements>
+        <param>
+          <type><ref refid="class_shared_1_1_models_1_1_post" kindref="compound">Post</ref></type>
+          <declname>post</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/PostFileDao.cs" line="15" column="17" bodyfile="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/PostFileDao.cs" bodystart="15" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_data_1_1_d_a_os_1_1_post_file_dao_1a4bb5659f43d5e5d41565856e5d249c74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; IEnumerable&lt; <ref refid="class_shared_1_1_models_1_1_post" kindref="compound">Post</ref> &gt; &gt;</type>
+        <definition>Task&lt; IEnumerable&lt; Post &gt; &gt; FileData.DAOs.PostFileDao.GetAsync</definition>
+        <argsstring>()</argsstring>
+        <name>GetAsync</name>
+        <qualifiedname>FileData.DAOs.PostFileDao.GetAsync</qualifiedname>
+        <reimplements refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao_1ad8bea82a37a400a4ffd53ba4cd915f49">GetAsync</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/PostFileDao.cs" line="32" column="17" bodyfile="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/PostFileDao.cs" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_data_1_1_d_a_os_1_1_post_file_dao_1a196430f5e5e60d1a371150a663be0546" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_shared_1_1_models_1_1_post" kindref="compound">Post</ref>?&gt;</type>
+        <definition>Task&lt; Post?&gt; FileData.DAOs.PostFileDao.GetById</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetById</name>
+        <qualifiedname>FileData.DAOs.PostFileDao.GetById</qualifiedname>
+        <reimplements refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao_1a55cc604b14d915598f1368e9fa38c11a">GetById</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/PostFileDao.cs" line="38" column="17" bodyfile="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/PostFileDao.cs" bodystart="38" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FileData.DAOs.PostFileDao</label>
+        <link refid="class_file_data_1_1_d_a_os_1_1_post_file_dao"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPostDao</label>
+        <link refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FileData.DAOs.PostFileDao</label>
+        <link refid="class_file_data_1_1_d_a_os_1_1_post_file_dao"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPostDao</label>
+        <link refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/PostFileDao.cs" line="6" column="7" bodyfile="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/PostFileDao.cs" bodystart="7" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_file_data_1_1_d_a_os_1_1_post_file_dao_1abad0d4df795cc13733931d5827a26e4f" prot="private" virt="non-virtual"><scope>FileData::DAOs::PostFileDao</scope><name>context</name></member>
+      <member refid="class_file_data_1_1_d_a_os_1_1_post_file_dao_1accf375a8037290c09e6aac5bbc4af58c" prot="public" virt="non-virtual"><scope>FileData::DAOs::PostFileDao</scope><name>CreateAsync</name></member>
+      <member refid="class_file_data_1_1_d_a_os_1_1_post_file_dao_1a4bb5659f43d5e5d41565856e5d249c74" prot="public" virt="non-virtual"><scope>FileData::DAOs::PostFileDao</scope><name>GetAsync</name></member>
+      <member refid="class_file_data_1_1_d_a_os_1_1_post_file_dao_1a196430f5e5e60d1a371150a663be0546" prot="public" virt="non-virtual"><scope>FileData::DAOs::PostFileDao</scope><name>GetById</name></member>
+      <member refid="class_file_data_1_1_d_a_os_1_1_post_file_dao_1ab9cbcb67cbfd1c6efe43cac4c6562314" prot="public" virt="non-virtual"><scope>FileData::DAOs::PostFileDao</scope><name>PostFileDao</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

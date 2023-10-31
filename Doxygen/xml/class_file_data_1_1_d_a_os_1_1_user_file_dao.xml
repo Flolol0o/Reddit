@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_file_data_1_1_d_a_os_1_1_user_file_dao" kind="class" language="C#" prot="public">
+    <compoundname>FileData::DAOs::UserFileDao</compoundname>
+    <basecompoundref refid="interface_application_1_1_dao_interfaces_1_1_i_user_dao" prot="public" virt="non-virtual">Application.DaoInterfaces.IUserDao</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_file_data_1_1_d_a_os_1_1_user_file_dao_1a8f32f13bafda6895d699010cc72be80c" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_file_data_1_1_file_context" kindref="compound">FileContext</ref></type>
+        <definition>readonly FileContext FileData.DAOs.UserFileDao.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <qualifiedname>FileData.DAOs.UserFileDao.context</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/UserFileDao.cs" line="12" column="34" bodyfile="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/UserFileDao.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_file_data_1_1_d_a_os_1_1_user_file_dao_1a56b8038bd4ba5781b7c85aee495acda8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FileData.DAOs.UserFileDao.UserFileDao</definition>
+        <argsstring>(FileContext context)</argsstring>
+        <name>UserFileDao</name>
+        <qualifiedname>FileData.DAOs.UserFileDao.UserFileDao</qualifiedname>
+        <param>
+          <type><ref refid="class_file_data_1_1_file_context" kindref="compound">FileContext</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/UserFileDao.cs" line="14" column="12" bodyfile="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/UserFileDao.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_data_1_1_d_a_os_1_1_user_file_dao_1a7a83fa2c4411346389a3511d4e0e58ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref> &gt;</type>
+        <definition>Task&lt; User &gt; FileData.DAOs.UserFileDao.CreateAsync</definition>
+        <argsstring>(User user)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>FileData.DAOs.UserFileDao.CreateAsync</qualifiedname>
+        <reimplements refid="interface_application_1_1_dao_interfaces_1_1_i_user_dao_1a2c3760668124344c6cee00a248f6af4b">CreateAsync</reimplements>
+        <param>
+          <type><ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref></type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/UserFileDao.cs" line="19" column="17" bodyfile="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/UserFileDao.cs" bodystart="19" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_data_1_1_d_a_os_1_1_user_file_dao_1aa7f611270714ec7b77095d779ebf3612" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; IEnumerable&lt; <ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref> &gt; &gt;</type>
+        <definition>Task&lt; IEnumerable&lt; User &gt; &gt; FileData.DAOs.UserFileDao.GetAsync</definition>
+        <argsstring>(UserSearchParametersDto dto)</argsstring>
+        <name>GetAsync</name>
+        <qualifiedname>FileData.DAOs.UserFileDao.GetAsync</qualifiedname>
+        <reimplements refid="interface_application_1_1_dao_interfaces_1_1_i_user_dao_1a3bdcf624449ac1998a1d1b82d1ca0aa4">GetAsync</reimplements>
+        <param>
+          <type><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_search_parameters_dto" kindref="compound">UserSearchParametersDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/UserFileDao.cs" line="36" column="17" bodyfile="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/UserFileDao.cs" bodystart="36" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_data_1_1_d_a_os_1_1_user_file_dao_1a23c3b025e6905e8cf7c6cbf8bbbdf41d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref>?&gt;</type>
+        <definition>Task&lt; User?&gt; FileData.DAOs.UserFileDao.GetByUsername</definition>
+        <argsstring>(string userName)</argsstring>
+        <name>GetByUsername</name>
+        <qualifiedname>FileData.DAOs.UserFileDao.GetByUsername</qualifiedname>
+        <reimplements refid="interface_application_1_1_dao_interfaces_1_1_i_user_dao_1a76bbb373534a06bc546e5b985d6fab5b">GetByUsername</reimplements>
+        <param>
+          <type>string</type>
+          <declname>userName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/UserFileDao.cs" line="48" column="17" bodyfile="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/UserFileDao.cs" bodystart="48" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_file_data_1_1_d_a_os_1_1_user_file_dao_1a7164ccbbedbc59626d7c700a0a446fd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref>?&gt;</type>
+        <definition>Task&lt; User?&gt; FileData.DAOs.UserFileDao.GetByIdAsync</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetByIdAsync</name>
+        <qualifiedname>FileData.DAOs.UserFileDao.GetByIdAsync</qualifiedname>
+        <reimplements refid="interface_application_1_1_dao_interfaces_1_1_i_user_dao_1a10b63e2599c29c8385b863e5052a1261">GetByIdAsync</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/UserFileDao.cs" line="56" column="17" bodyfile="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/UserFileDao.cs" bodystart="56" bodyend="64"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>FileData.DAOs.UserFileDao</label>
+        <link refid="class_file_data_1_1_d_a_os_1_1_user_file_dao"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IUserDao</label>
+        <link refid="interface_application_1_1_dao_interfaces_1_1_i_user_dao"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>FileData.DAOs.UserFileDao</label>
+        <link refid="class_file_data_1_1_d_a_os_1_1_user_file_dao"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IUserDao</label>
+        <link refid="interface_application_1_1_dao_interfaces_1_1_i_user_dao"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/UserFileDao.cs" line="10" column="7" bodyfile="C:/Users/filip/RiderProjects/Reddit/FileData/DAOs/UserFileDao.cs" bodystart="11" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_file_data_1_1_d_a_os_1_1_user_file_dao_1a8f32f13bafda6895d699010cc72be80c" prot="private" virt="non-virtual"><scope>FileData::DAOs::UserFileDao</scope><name>context</name></member>
+      <member refid="class_file_data_1_1_d_a_os_1_1_user_file_dao_1a7a83fa2c4411346389a3511d4e0e58ee" prot="public" virt="non-virtual"><scope>FileData::DAOs::UserFileDao</scope><name>CreateAsync</name></member>
+      <member refid="class_file_data_1_1_d_a_os_1_1_user_file_dao_1aa7f611270714ec7b77095d779ebf3612" prot="public" virt="non-virtual"><scope>FileData::DAOs::UserFileDao</scope><name>GetAsync</name></member>
+      <member refid="class_file_data_1_1_d_a_os_1_1_user_file_dao_1a7164ccbbedbc59626d7c700a0a446fd3" prot="public" virt="non-virtual"><scope>FileData::DAOs::UserFileDao</scope><name>GetByIdAsync</name></member>
+      <member refid="class_file_data_1_1_d_a_os_1_1_user_file_dao_1a23c3b025e6905e8cf7c6cbf8bbbdf41d" prot="public" virt="non-virtual"><scope>FileData::DAOs::UserFileDao</scope><name>GetByUsername</name></member>
+      <member refid="class_file_data_1_1_d_a_os_1_1_user_file_dao_1a56b8038bd4ba5781b7c85aee495acda8" prot="public" virt="non-virtual"><scope>FileData::DAOs::UserFileDao</scope><name>UserFileDao</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

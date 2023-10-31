@@ -22,10 +22,10 @@ public class PostFileDao : IPostDao
         }
 
         post.Id = postId;
-        
+
         context.Posts.Add(post);
         context.SaveChanges();
-        
+
         return Task.FromResult(post);
     }
 

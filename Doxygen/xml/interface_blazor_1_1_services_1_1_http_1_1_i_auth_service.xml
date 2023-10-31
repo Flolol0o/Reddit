@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service" kind="interface" language="C#" prot="public">
+    <compoundname>Blazor::Services::Http::IAuthService</compoundname>
+    <derivedcompoundref refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service" prot="public" virt="non-virtual">Blazor.Services.Http.JwtAuthService</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1aae5f2fba76698d891dfc325d9ce0beef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Action&lt; ClaimsPrincipal &gt;</type>
+        <definition>Action&lt;ClaimsPrincipal&gt; Blazor.Services.Http.IAuthService.OnAuthStateChanged</definition>
+        <argsstring></argsstring>
+        <name>OnAuthStateChanged</name>
+        <qualifiedname>Blazor.Services.Http.IAuthService.OnAuthStateChanged</qualifiedname>
+        <reimplementedby refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a207bdee2469e2ef26a5bcaea2a7e29a3">OnAuthStateChanged</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/IAuthService.cs" line="13" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/IAuthService.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1a6dd83c1e13ecd278f2e2e5b58b326084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Blazor.Services.Http.IAuthService.LoginAsync</definition>
+        <argsstring>(string username, string password)</argsstring>
+        <name>LoginAsync</name>
+        <qualifiedname>Blazor.Services.Http.IAuthService.LoginAsync</qualifiedname>
+        <reimplementedby refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1ad5cf007b4579f6b7b95090ecc8126d71">LoginAsync</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/IAuthService.cs" line="8" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1a6a55b86472e79c2853ca396596f2d620" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Blazor.Services.Http.IAuthService.LogoutAsync</definition>
+        <argsstring>()</argsstring>
+        <name>LogoutAsync</name>
+        <qualifiedname>Blazor.Services.Http.IAuthService.LogoutAsync</qualifiedname>
+        <reimplementedby refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a062120b0ab193a83742aa2997bf248a6">LogoutAsync</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/IAuthService.cs" line="9" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1a0b8e48bb73b7af5f69c95f75907f02d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task Blazor.Services.Http.IAuthService.RegisterAsync</definition>
+        <argsstring>(User user)</argsstring>
+        <name>RegisterAsync</name>
+        <qualifiedname>Blazor.Services.Http.IAuthService.RegisterAsync</qualifiedname>
+        <reimplementedby refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a300b8a76cf16c9b1a60d9557d96adf17">RegisterAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref></type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/IAuthService.cs" line="10" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1ac93c8f6044df9845cdacc2baaaf4126d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; ClaimsPrincipal &gt;</type>
+        <definition>Task&lt; ClaimsPrincipal &gt; Blazor.Services.Http.IAuthService.GetAuthAsync</definition>
+        <argsstring>()</argsstring>
+        <name>GetAuthAsync</name>
+        <qualifiedname>Blazor.Services.Http.IAuthService.GetAuthAsync</qualifiedname>
+        <reimplementedby refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1ac45d6cad62d81c07410e4a477cc8920e">GetAuthAsync</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/IAuthService.cs" line="11" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Blazor.Services.Http.IAuthService</label>
+        <link refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service"/>
+      </node>
+      <node id="2">
+        <label>Blazor.Services.Http.JwtAuthService</label>
+        <link refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/IAuthService.cs" line="6" column="18" bodyfile="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/IAuthService.cs" bodystart="7" bodyend="14"/>
+    <listofallmembers>
+      <member refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1ac93c8f6044df9845cdacc2baaaf4126d" prot="public" virt="non-virtual"><scope>Blazor::Services::Http::IAuthService</scope><name>GetAuthAsync</name></member>
+      <member refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1a6dd83c1e13ecd278f2e2e5b58b326084" prot="public" virt="non-virtual"><scope>Blazor::Services::Http::IAuthService</scope><name>LoginAsync</name></member>
+      <member refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1a6a55b86472e79c2853ca396596f2d620" prot="public" virt="non-virtual"><scope>Blazor::Services::Http::IAuthService</scope><name>LogoutAsync</name></member>
+      <member refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1aae5f2fba76698d891dfc325d9ce0beef" prot="public" virt="non-virtual"><scope>Blazor::Services::Http::IAuthService</scope><name>OnAuthStateChanged</name></member>
+      <member refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1a0b8e48bb73b7af5f69c95f75907f02d3" prot="public" virt="non-virtual"><scope>Blazor::Services::Http::IAuthService</scope><name>RegisterAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,5 +1,4 @@
 ﻿using Application.LogicInterfaces;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Shared.DTOs.Post;
 using Shared.Models;
@@ -11,7 +10,7 @@ namespace Reddit.Controllers;
 public class PostController : ControllerBase
 {
     private readonly IPostLogic postLogic;
-    
+
     public PostController(IPostLogic logic)
     {
         postLogic = logic;
@@ -31,7 +30,7 @@ public class PostController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
-    
+
     [HttpGet]
     public async Task<ActionResult<Post>> GetAsync()
     {

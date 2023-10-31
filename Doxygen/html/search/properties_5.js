@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['title_0',['title',['../class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto.html#a828a118309b0c744bc0649c86933b54c',1,'Domain.DTOs.Post.PostBasicDto.Title'],['../class_domain_1_1_d_t_os_1_1_post_1_1_post_creation_dto.html#a36070c264dea3f49eccd6ffc845c8339',1,'Domain.DTOs.Post.PostCreationDto.Title'],['../class_domain_1_1_post.html#aa181715bd2c673be39cf36a820064da3',1,'Domain.Post.Title'],['../class_shared_1_1_d_t_os_1_1_post_1_1_post_basic_dto.html#a2198168af1f645631c3ba52f3e93f856',1,'Shared.DTOs.Post.PostBasicDto.Title'],['../class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto.html#a97993113937aff75aac0472327eed66b',1,'Shared.DTOs.Post.PostCreationDto.Title'],['../class_shared_1_1_models_1_1_post.html#ab0ca5bee6ab9e5355b7d872cce775fa1',1,'Shared.Models.Post.Title']]]
+];

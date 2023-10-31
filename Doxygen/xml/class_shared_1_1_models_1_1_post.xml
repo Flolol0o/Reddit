@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_shared_1_1_models_1_1_post" kind="class" language="C#" prot="public">
+    <compoundname>Shared::Models::Post</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_shared_1_1_models_1_1_post_1ae79d2a1a30c815e21dd9fbafb3a6c03a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref></type>
+        <definition>User Shared.Models.Post.User</definition>
+        <argsstring></argsstring>
+        <name>User</name>
+        <qualifiedname>Shared.Models.Post.User</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Shared/Models/Post.cs" line="5" column="17" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/Models/Post.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shared_1_1_models_1_1_post_1ab0ca5bee6ab9e5355b7d872cce775fa1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Shared.Models.Post.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <qualifiedname>Shared.Models.Post.Title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Shared/Models/Post.cs" line="6" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/Models/Post.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shared_1_1_models_1_1_post_1a2acccaea45cb8e509a57453353641163" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Shared.Models.Post.Body</definition>
+        <argsstring></argsstring>
+        <name>Body</name>
+        <qualifiedname>Shared.Models.Post.Body</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Shared/Models/Post.cs" line="7" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/Models/Post.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shared_1_1_models_1_1_post_1a167d7b3bea43a0a007e65afe162ec140" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Shared.Models.Post.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>Shared.Models.Post.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Shared/Models/Post.cs" line="8" column="16" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/Models/Post.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_shared_1_1_models_1_1_post_1afd6bc1e30248f44a7baeec4834ee84c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Shared.Models.Post.Post</definition>
+        <argsstring>(User user, string title, string body)</argsstring>
+        <name>Post</name>
+        <qualifiedname>Shared.Models.Post.Post</qualifiedname>
+        <param>
+          <type><ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref></type>
+          <declname>user</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>body</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Shared/Models/Post.cs" line="10" column="12" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/Models/Post.cs" bodystart="10" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Shared/Models/Post.cs" line="3" column="7" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/Models/Post.cs" bodystart="4" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_shared_1_1_models_1_1_post_1a2acccaea45cb8e509a57453353641163" prot="public" virt="non-virtual"><scope>Shared::Models::Post</scope><name>Body</name></member>
+      <member refid="class_shared_1_1_models_1_1_post_1a167d7b3bea43a0a007e65afe162ec140" prot="public" virt="non-virtual"><scope>Shared::Models::Post</scope><name>Id</name></member>
+      <member refid="class_shared_1_1_models_1_1_post_1afd6bc1e30248f44a7baeec4834ee84c8" prot="public" virt="non-virtual"><scope>Shared::Models::Post</scope><name>Post</name></member>
+      <member refid="class_shared_1_1_models_1_1_post_1ab0ca5bee6ab9e5355b7d872cce775fa1" prot="public" virt="non-virtual"><scope>Shared::Models::Post</scope><name>Title</name></member>
+      <member refid="class_shared_1_1_models_1_1_post_1ae79d2a1a30c815e21dd9fbafb3a6c03a" prot="public" virt="non-virtual"><scope>Shared::Models::Post</scope><name>User</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

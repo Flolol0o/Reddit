@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.8" xml:lang="en-US">
+  <compound refid="class_reddit_1_1_controllers_1_1_auth_controller" kind="class"><name>Reddit::Controllers::AuthController</name>
+    <member refid="class_reddit_1_1_controllers_1_1_auth_controller_1aee11caa53f7469c86d068b31ce151d7c" kind="variable"><name>config</name></member>
+    <member refid="class_reddit_1_1_controllers_1_1_auth_controller_1ab3e4d36bbfb3b5a25230558f17a72c20" kind="variable"><name>authService</name></member>
+    <member refid="class_reddit_1_1_controllers_1_1_auth_controller_1a5768247c0648c4c00c37485487c722f8" kind="function"><name>AuthController</name></member>
+    <member refid="class_reddit_1_1_controllers_1_1_auth_controller_1a62e84cc6d85104933d47b10e323fd4d9" kind="function"><name>Login</name></member>
+    <member refid="class_reddit_1_1_controllers_1_1_auth_controller_1a223249bba65a9318d747a64aad5c93c5" kind="function"><name>GenerateClaims</name></member>
+    <member refid="class_reddit_1_1_controllers_1_1_auth_controller_1a2ffbb122ffbe5d9a25430e52ea9c10c8" kind="function"><name>GenerateJwt</name></member>
+  </compound>
+  <compound refid="class_shared_1_1_auth_1_1_authorization_policies" kind="class"><name>Shared::Auth::AuthorizationPolicies</name>
+    <member refid="class_shared_1_1_auth_1_1_authorization_policies_1ac74cca1659ba679a9ae17e3f4571cefd" kind="function"><name>AddPolicies</name></member>
+  </compound>
+  <compound refid="class_reddit_1_1_services_1_1_auth_service" kind="class"><name>Reddit::Services::AuthService</name>
+    <member refid="class_reddit_1_1_services_1_1_auth_service_1a8f4ed64718eafa5756aaf7450c4f52f4" kind="variable"><name>context</name></member>
+    <member refid="class_reddit_1_1_services_1_1_auth_service_1ae255393d5119981925d0577e08557cb2" kind="function"><name>AuthService</name></member>
+    <member refid="class_reddit_1_1_services_1_1_auth_service_1acbc4a54f0c872ba6a5d60bf73d4a879f" kind="function"><name>ValidateUser</name></member>
+    <member refid="class_reddit_1_1_services_1_1_auth_service_1a5ee9d163740553ed54999e447612264a" kind="function"><name>RegisterUser</name></member>
+  </compound>
+  <compound refid="class_blazor_1_1_auth_1_1_custom_auth_provider" kind="class"><name>Blazor::Auth::CustomAuthProvider</name>
+    <member refid="class_blazor_1_1_auth_1_1_custom_auth_provider_1a53a64fe5b7479500f89770b56cf7d97a" kind="variable"><name>authService</name></member>
+    <member refid="class_blazor_1_1_auth_1_1_custom_auth_provider_1ae178e5b150b18d97d064657c1a2f33e9" kind="function"><name>CustomAuthProvider</name></member>
+    <member refid="class_blazor_1_1_auth_1_1_custom_auth_provider_1aa86c4d32bb20308f2167daa125a3ab03" kind="function"><name>GetAuthenticationStateAsync</name></member>
+    <member refid="class_blazor_1_1_auth_1_1_custom_auth_provider_1aa02ba557144448097ede042976562bd9" kind="function"><name>AuthStateChanged</name></member>
+  </compound>
+  <compound refid="class_file_data_1_1_data_container" kind="class"><name>FileData::DataContainer</name>
+    <member refid="class_file_data_1_1_data_container_1a90500aff6fc3ccb32d4f9c3297d9183f" kind="property"><name>Users</name></member>
+    <member refid="class_file_data_1_1_data_container_1a2cae924c303c25a57bc317307af99047" kind="property"><name>Posts</name></member>
+  </compound>
+  <compound refid="class_file_data_1_1_file_context" kind="class"><name>FileData::FileContext</name>
+    <member refid="class_file_data_1_1_file_context_1a63a09a986e0121def61422011ca461bf" kind="variable"><name>FilePath</name></member>
+    <member refid="class_file_data_1_1_file_context_1a27792f4ac237693dd9dfeba43b0f4846" kind="variable"><name>dataContainer</name></member>
+    <member refid="class_file_data_1_1_file_context_1ac82a4497abc65e7f5baf7057bb467b59" kind="property"><name>Posts</name></member>
+    <member refid="class_file_data_1_1_file_context_1acd70529aa40332768b2ef7c3ac295693" kind="property"><name>Users</name></member>
+    <member refid="class_file_data_1_1_file_context_1a40df36388de1a8c33c1adf406476a524" kind="function"><name>LoadData</name></member>
+    <member refid="class_file_data_1_1_file_context_1ad1d94fa4996c44109f6883a8923eed35" kind="function"><name>SaveChanges</name></member>
+  </compound>
+  <compound refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service" kind="interface"><name>Blazor::Services::Http::IAuthService</name>
+    <member refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1aae5f2fba76698d891dfc325d9ce0beef" kind="property"><name>OnAuthStateChanged</name></member>
+    <member refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1a6dd83c1e13ecd278f2e2e5b58b326084" kind="function"><name>LoginAsync</name></member>
+    <member refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1a6a55b86472e79c2853ca396596f2d620" kind="function"><name>LogoutAsync</name></member>
+    <member refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1a0b8e48bb73b7af5f69c95f75907f02d3" kind="function"><name>RegisterAsync</name></member>
+    <member refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1ac93c8f6044df9845cdacc2baaaf4126d" kind="function"><name>GetAuthAsync</name></member>
+  </compound>
+  <compound refid="interface_reddit_1_1_services_1_1_i_auth_service" kind="interface"><name>Reddit::Services::IAuthService</name>
+    <member refid="interface_reddit_1_1_services_1_1_i_auth_service_1a11e3900e46a2adee07bc38b5143426ac" kind="function"><name>ValidateUser</name></member>
+    <member refid="interface_reddit_1_1_services_1_1_i_auth_service_1a70c19b36a9ea9a39a8d089e4d32e1130" kind="function"><name>RegisterUser</name></member>
+  </compound>
+  <compound refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao" kind="interface"><name>Application::DaoInterfaces::IPostDao</name>
+    <member refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao_1af6fcb74404767533d854e2b09f39d832" kind="function"><name>CreateAsync</name></member>
+    <member refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao_1ad8bea82a37a400a4ffd53ba4cd915f49" kind="function"><name>GetAsync</name></member>
+    <member refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao_1a55cc604b14d915598f1368e9fa38c11a" kind="function"><name>GetById</name></member>
+  </compound>
+  <compound refid="interface_application_1_1_logic_interfaces_1_1_i_post_logic" kind="interface"><name>Application::LogicInterfaces::IPostLogic</name>
+    <member refid="interface_application_1_1_logic_interfaces_1_1_i_post_logic_1a0d6fea54b1b854ff16200fc8a8c9d9ad" kind="function"><name>CreateAsync</name></member>
+    <member refid="interface_application_1_1_logic_interfaces_1_1_i_post_logic_1af9bdcad720191a533f4bc3fbd400fe99" kind="function"><name>GetAsync</name></member>
+    <member refid="interface_application_1_1_logic_interfaces_1_1_i_post_logic_1af9d79cd7ab427c4c8188568a30766490" kind="function"><name>GetAsyncById</name></member>
+  </compound>
+  <compound refid="interface_http_clients_1_1_clients_interface_1_1_i_post_services" kind="interface"><name>HttpClients::ClientsInterface::IPostServices</name>
+    <member refid="interface_http_clients_1_1_clients_interface_1_1_i_post_services_1afe1fbeeb312ce36f0b2bda5767bd488a" kind="function"><name>Create</name></member>
+    <member refid="interface_http_clients_1_1_clients_interface_1_1_i_post_services_1aa2ffb3c3c686b96210a7098969114fac" kind="function"><name>GetByIdAsync</name></member>
+    <member refid="interface_http_clients_1_1_clients_interface_1_1_i_post_services_1a3be79714dc51fd5b9c26f2c11b7f99bc" kind="function"><name>GetPosts</name></member>
+  </compound>
+  <compound refid="interface_application_1_1_dao_interfaces_1_1_i_user_dao" kind="interface"><name>Application::DaoInterfaces::IUserDao</name>
+    <member refid="interface_application_1_1_dao_interfaces_1_1_i_user_dao_1a2c3760668124344c6cee00a248f6af4b" kind="function"><name>CreateAsync</name></member>
+    <member refid="interface_application_1_1_dao_interfaces_1_1_i_user_dao_1a3bdcf624449ac1998a1d1b82d1ca0aa4" kind="function"><name>GetAsync</name></member>
+    <member refid="interface_application_1_1_dao_interfaces_1_1_i_user_dao_1a76bbb373534a06bc546e5b985d6fab5b" kind="function"><name>GetByUsername</name></member>
+    <member refid="interface_application_1_1_dao_interfaces_1_1_i_user_dao_1a10b63e2599c29c8385b863e5052a1261" kind="function"><name>GetByIdAsync</name></member>
+  </compound>
+  <compound refid="interface_application_1_1_logic_interfaces_1_1_i_user_logic" kind="interface"><name>Application::LogicInterfaces::IUserLogic</name>
+    <member refid="interface_application_1_1_logic_interfaces_1_1_i_user_logic_1a47939ee604264ab8ff8eb8fe445b2cae" kind="function"><name>CreateAsync</name></member>
+    <member refid="interface_application_1_1_logic_interfaces_1_1_i_user_logic_1af3389590e06262708c1a0e163edca8fa" kind="function"><name>GetAsync</name></member>
+  </compound>
+  <compound refid="interface_http_clients_1_1_clients_interface_1_1_i_user_services" kind="interface"><name>HttpClients::ClientsInterface::IUserServices</name>
+    <member refid="interface_http_clients_1_1_clients_interface_1_1_i_user_services_1a80a9ba1858c490e24cc9da9edd022c12" kind="function"><name>Create</name></member>
+    <member refid="interface_http_clients_1_1_clients_interface_1_1_i_user_services_1a58a7a9c7ce165cce1a8ca6df5f8da3be" kind="function"><name>GetUsers</name></member>
+  </compound>
+  <compound refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service" kind="class"><name>Blazor::Services::Http::JwtAuthService</name>
+    <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1aa77193e3ea19ff6f14906e167dbea2ce" kind="variable"><name>client</name></member>
+    <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a933f99a5f8a9c9ee848a467122f9028e" kind="property"><name>Jwt</name></member>
+    <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a207bdee2469e2ef26a5bcaea2a7e29a3" kind="property"><name>OnAuthStateChanged</name></member>
+    <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1ad5cf007b4579f6b7b95090ecc8126d71" kind="function"><name>LoginAsync</name></member>
+    <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a062120b0ab193a83742aa2997bf248a6" kind="function"><name>LogoutAsync</name></member>
+    <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a300b8a76cf16c9b1a60d9557d96adf17" kind="function"><name>RegisterAsync</name></member>
+    <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1ac45d6cad62d81c07410e4a477cc8920e" kind="function"><name>GetAuthAsync</name></member>
+    <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a62089d3aaa7716fb3a9fff65cf514e99" kind="function"><name>ParseClaimsFromJwt</name></member>
+    <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a1991c241ef988ff470b18cf3c85bdf7a" kind="function"><name>ParseBase64WithoutPadding</name></member>
+    <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a6c4dd75eb01c7de990bd4eca34fa29f4" kind="function"><name>CreateClaimsPrincipal</name></member>
+  </compound>
+  <compound refid="class_domain_1_1_post" kind="class"><name>Domain::Post</name>
+    <member refid="class_domain_1_1_post_1a1457307b22493e819fbef88e7f664761" kind="property"><name>User</name></member>
+    <member refid="class_domain_1_1_post_1aa181715bd2c673be39cf36a820064da3" kind="property"><name>Title</name></member>
+    <member refid="class_domain_1_1_post_1a3328d04229be94a006c7787bb7c61382" kind="property"><name>Body</name></member>
+    <member refid="class_domain_1_1_post_1acb21c99276aafa6cfccbbd69a62fa873" kind="property"><name>Id</name></member>
+    <member refid="class_domain_1_1_post_1a024ecfcd0143b72b97aa641ec13a705b" kind="function"><name>Post</name></member>
+  </compound>
+  <compound refid="class_shared_1_1_models_1_1_post" kind="class"><name>Shared::Models::Post</name>
+    <member refid="class_shared_1_1_models_1_1_post_1ae79d2a1a30c815e21dd9fbafb3a6c03a" kind="property"><name>User</name></member>
+    <member refid="class_shared_1_1_models_1_1_post_1ab0ca5bee6ab9e5355b7d872cce775fa1" kind="property"><name>Title</name></member>
+    <member refid="class_shared_1_1_models_1_1_post_1a2acccaea45cb8e509a57453353641163" kind="property"><name>Body</name></member>
+    <member refid="class_shared_1_1_models_1_1_post_1a167d7b3bea43a0a007e65afe162ec140" kind="property"><name>Id</name></member>
+    <member refid="class_shared_1_1_models_1_1_post_1afd6bc1e30248f44a7baeec4834ee84c8" kind="function"><name>Post</name></member>
+  </compound>
+  <compound refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto" kind="class"><name>Domain::DTOs::Post::PostBasicDto</name>
+    <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1a8a828414a868f8ef29baa6cb75222a47" kind="property"><name>User</name></member>
+    <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1acad4d11364f35e58ee80465d7b2189ce" kind="property"><name>Id</name></member>
+    <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1a828a118309b0c744bc0649c86933b54c" kind="property"><name>Title</name></member>
+    <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1acca53c2b11d4f82adb5a9968d5334dbd" kind="property"><name>Body</name></member>
+    <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1ac6b5dc00f8d7a4a1b8c242cf84faebe6" kind="function"><name>PostBasicDto</name></member>
+  </compound>
+  <compound refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_basic_dto" kind="class"><name>Shared::DTOs::Post::PostBasicDto</name>
+    <member refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1ad3e9c1d196cdf9d745a2b80f61c466d8" kind="property"><name>User</name></member>
+    <member refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1aa6e88221be980e5492f836d64be1c0cc" kind="property"><name>Id</name></member>
+    <member refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1a2198168af1f645631c3ba52f3e93f856" kind="property"><name>Title</name></member>
+    <member refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1a95217a740bff7b1a6d1d4a78596f9cf4" kind="property"><name>Body</name></member>
+    <member refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_basic_dto_1a2cee5bf2376f76f72097b09b892eab3a" kind="function"><name>PostBasicDto</name></member>
+  </compound>
+  <compound refid="class_reddit_1_1_controllers_1_1_post_controller" kind="class"><name>Reddit::Controllers::PostController</name>
+    <member refid="class_reddit_1_1_controllers_1_1_post_controller_1aa3bc2bf0f4f35f66fe47efecd1244348" kind="variable"><name>postLogic</name></member>
+    <member refid="class_reddit_1_1_controllers_1_1_post_controller_1a24fe9ccbc726e0283b04d5f7628a7d6f" kind="function"><name>PostController</name></member>
+    <member refid="class_reddit_1_1_controllers_1_1_post_controller_1aeed0d81f8de06d3cec72551eaf6cfab7" kind="function"><name>CreateAsync</name></member>
+    <member refid="class_reddit_1_1_controllers_1_1_post_controller_1aabfb6b074af129029ab874ddc21d1485" kind="function"><name>GetAsync</name></member>
+    <member refid="class_reddit_1_1_controllers_1_1_post_controller_1a93b2442bbdcb9b21b902e5339ab44837" kind="function"><name>GetByIdAsync</name></member>
+  </compound>
+  <compound refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_creation_dto" kind="class"><name>Domain::DTOs::Post::PostCreationDto</name>
+    <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1adc4397455e04c95b1c2799a2fa52eed8" kind="property"><name>User</name></member>
+    <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1a36070c264dea3f49eccd6ffc845c8339" kind="property"><name>Title</name></member>
+    <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1a63f02cc65da5b4a9e5723e6370a82b9f" kind="property"><name>Body</name></member>
+    <member refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1a1ba550d3f4544143ffa52ee7ebdeaa43" kind="function"><name>PostCreationDto</name></member>
+  </compound>
+  <compound refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto" kind="class"><name>Shared::DTOs::Post::PostCreationDto</name>
+    <member refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1ac52c4da3ab5fa1dfcc49c7a2c7dbf41d" kind="property"><name>User</name></member>
+    <member refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1a97993113937aff75aac0472327eed66b" kind="property"><name>Title</name></member>
+    <member refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1abf4144f8969111d455ef6cb8fe6b85a0" kind="property"><name>Body</name></member>
+    <member refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1a953d15a0c7e743d744f770dcef478ffa" kind="function"><name>PostCreationDto</name></member>
+  </compound>
+  <compound refid="class_file_data_1_1_d_a_os_1_1_post_file_dao" kind="class"><name>FileData::DAOs::PostFileDao</name>
+    <member refid="class_file_data_1_1_d_a_os_1_1_post_file_dao_1abad0d4df795cc13733931d5827a26e4f" kind="variable"><name>context</name></member>
+    <member refid="class_file_data_1_1_d_a_os_1_1_post_file_dao_1ab9cbcb67cbfd1c6efe43cac4c6562314" kind="function"><name>PostFileDao</name></member>
+    <member refid="class_file_data_1_1_d_a_os_1_1_post_file_dao_1accf375a8037290c09e6aac5bbc4af58c" kind="function"><name>CreateAsync</name></member>
+    <member refid="class_file_data_1_1_d_a_os_1_1_post_file_dao_1a4bb5659f43d5e5d41565856e5d249c74" kind="function"><name>GetAsync</name></member>
+    <member refid="class_file_data_1_1_d_a_os_1_1_post_file_dao_1a196430f5e5e60d1a371150a663be0546" kind="function"><name>GetById</name></member>
+  </compound>
+  <compound refid="class_http_clients_1_1_implementations_1_1_post_http_client" kind="class"><name>HttpClients::Implementations::PostHttpClient</name>
+    <member refid="class_http_clients_1_1_implementations_1_1_post_http_client_1af9d2ac9440cbf4fa531fd706622e6124" kind="variable"><name>Client</name></member>
+    <member refid="class_http_clients_1_1_implementations_1_1_post_http_client_1ac9be5cd10dd520534523ad5c8c61767d" kind="function"><name>PostHttpClient</name></member>
+    <member refid="class_http_clients_1_1_implementations_1_1_post_http_client_1aef510500b637d5057e9fb9b9cc4a8497" kind="function"><name>Create</name></member>
+    <member refid="class_http_clients_1_1_implementations_1_1_post_http_client_1af3107ac4417ba10f6f8c8bcd3233def1" kind="function"><name>GetByIdAsync</name></member>
+    <member refid="class_http_clients_1_1_implementations_1_1_post_http_client_1aae418661810b6f18fbbf7cd33d4dd998" kind="function"><name>GetPosts</name></member>
+  </compound>
+  <compound refid="class_application_1_1_logic_1_1_post_logic" kind="class"><name>Application::Logic::PostLogic</name>
+    <member refid="class_application_1_1_logic_1_1_post_logic_1aad59d662ecf5e780be60f126529a0d03" kind="variable"><name>postDao</name></member>
+    <member refid="class_application_1_1_logic_1_1_post_logic_1a9dc8c473e1df72cb070fc7686bf01d9c" kind="variable"><name>userDao</name></member>
+    <member refid="class_application_1_1_logic_1_1_post_logic_1ae9d745e7b6ba6fa1640d4e8ce3a8e782" kind="function"><name>PostLogic</name></member>
+    <member refid="class_application_1_1_logic_1_1_post_logic_1a182e8451739675e863f08eb7b37d9b5e" kind="function"><name>CreateAsync</name></member>
+    <member refid="class_application_1_1_logic_1_1_post_logic_1a59e1ee954b7385a1956a6dfddfb6165a" kind="function"><name>GetAsync</name></member>
+    <member refid="class_application_1_1_logic_1_1_post_logic_1ac5efdd5d325f06b273b3f1b25fd63463" kind="function"><name>GetAsyncById</name></member>
+    <member refid="class_application_1_1_logic_1_1_post_logic_1ac98c286a0d8b3a31ee53d82ea0a3ad6b" kind="function"><name>ValidateTodo</name></member>
+  </compound>
+  <compound refid="class_domain_1_1_user" kind="class"><name>Domain::User</name>
+    <member refid="class_domain_1_1_user_1a9389027809b30b307391a01cc498020e" kind="property"><name>Username</name></member>
+    <member refid="class_domain_1_1_user_1abef05270a794f21fa1397df9ee8785c3" kind="property"><name>Password</name></member>
+    <member refid="class_domain_1_1_user_1a57fc8d5cc5155f46654d659091310ca6" kind="property"><name>Id</name></member>
+  </compound>
+  <compound refid="class_shared_1_1_models_1_1_user" kind="class"><name>Shared::Models::User</name>
+    <member refid="class_shared_1_1_models_1_1_user_1a64bd2b0474caf713064648c6f9b2e45f" kind="property"><name>Username</name></member>
+    <member refid="class_shared_1_1_models_1_1_user_1a7f89604705c816aee82c239897097312" kind="property"><name>Password</name></member>
+    <member refid="class_shared_1_1_models_1_1_user_1ab6e6592b397daf182c5b65c39de4a7dc" kind="property"><name>Id</name></member>
+  </compound>
+  <compound refid="class_domain_1_1_d_t_os_1_1_user_creation_dto" kind="class"><name>Domain::DTOs::UserCreationDto</name>
+    <member refid="class_domain_1_1_d_t_os_1_1_user_creation_dto_1acf7d2726ff52b7381e7566a6796dbc42" kind="property"><name>Username</name></member>
+    <member refid="class_domain_1_1_d_t_os_1_1_user_creation_dto_1a5b3dcf71334c97ed4c759d9f177ab64f" kind="property"><name>Password</name></member>
+    <member refid="class_domain_1_1_d_t_os_1_1_user_creation_dto_1a93ac738a8651e03660d3838400d20619" kind="function"><name>UserCreationDto</name></member>
+  </compound>
+  <compound refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto" kind="class"><name>Shared::DTOs::User::UserCreationDto</name>
+    <member refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1a07ac50166d81b10da18c8da8e201a24c" kind="property"><name>Username</name></member>
+    <member refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1a7fbbf1c80fbf86f3b3ebd03bd5025f1c" kind="property"><name>Password</name></member>
+    <member refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1ad7a6029736f219de2851e6b6db33cea7" kind="property"><name>Id</name></member>
+    <member refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto_1a059bac40c6c5867c96f2b745852f2c18" kind="function"><name>UserCreationDto</name></member>
+  </compound>
+  <compound refid="class_file_data_1_1_d_a_os_1_1_user_file_dao" kind="class"><name>FileData::DAOs::UserFileDao</name>
+    <member refid="class_file_data_1_1_d_a_os_1_1_user_file_dao_1a8f32f13bafda6895d699010cc72be80c" kind="variable"><name>context</name></member>
+    <member refid="class_file_data_1_1_d_a_os_1_1_user_file_dao_1a56b8038bd4ba5781b7c85aee495acda8" kind="function"><name>UserFileDao</name></member>
+    <member refid="class_file_data_1_1_d_a_os_1_1_user_file_dao_1a7a83fa2c4411346389a3511d4e0e58ee" kind="function"><name>CreateAsync</name></member>
+    <member refid="class_file_data_1_1_d_a_os_1_1_user_file_dao_1aa7f611270714ec7b77095d779ebf3612" kind="function"><name>GetAsync</name></member>
+    <member refid="class_file_data_1_1_d_a_os_1_1_user_file_dao_1a23c3b025e6905e8cf7c6cbf8bbbdf41d" kind="function"><name>GetByUsername</name></member>
+    <member refid="class_file_data_1_1_d_a_os_1_1_user_file_dao_1a7164ccbbedbc59626d7c700a0a446fd3" kind="function"><name>GetByIdAsync</name></member>
+  </compound>
+  <compound refid="class_http_clients_1_1_implementations_1_1_user_http_client" kind="class"><name>HttpClients::Implementations::UserHttpClient</name>
+    <member refid="class_http_clients_1_1_implementations_1_1_user_http_client_1a2416221770e7a4bda8ee683cf8b4e30c" kind="variable"><name>client</name></member>
+    <member refid="class_http_clients_1_1_implementations_1_1_user_http_client_1a187428842203137810f7f323f5ba4cc4" kind="function"><name>UserHttpClient</name></member>
+    <member refid="class_http_clients_1_1_implementations_1_1_user_http_client_1ac5ba98873d9fcf453c865ed4aa6752ce" kind="function"><name>Create</name></member>
+    <member refid="class_http_clients_1_1_implementations_1_1_user_http_client_1a03fbd223a240c176340448aff08cd6c1" kind="function"><name>GetUsers</name></member>
+  </compound>
+  <compound refid="class_application_1_1_logic_1_1_user_logic" kind="class"><name>Application::Logic::UserLogic</name>
+    <member refid="class_application_1_1_logic_1_1_user_logic_1adbe18cc00cf003eaf336f1bb29b2ad8f" kind="variable"><name>userDao</name></member>
+    <member refid="class_application_1_1_logic_1_1_user_logic_1a768a3a1f79e118f3db27d21598d6e1e0" kind="function"><name>UserLogic</name></member>
+    <member refid="class_application_1_1_logic_1_1_user_logic_1ab9b0053cbac09361a100a444f2c98b45" kind="function"><name>CreateAsync</name></member>
+    <member refid="class_application_1_1_logic_1_1_user_logic_1a3879445a85f2cf34a4afb4673e2bf8bd" kind="function"><name>GetAsync</name></member>
+    <member refid="class_application_1_1_logic_1_1_user_logic_1acad26f040b0650b6188348677256825c" kind="function"><name>ValidateData</name></member>
+  </compound>
+  <compound refid="class_shared_1_1_d_t_os_1_1_post_1_1_user_login_dto" kind="class"><name>Shared::DTOs::Post::UserLoginDto</name>
+    <member refid="class_shared_1_1_d_t_os_1_1_post_1_1_user_login_dto_1a065b08ff53f05da773e8982143aa4460" kind="property"><name>Username</name></member>
+    <member refid="class_shared_1_1_d_t_os_1_1_post_1_1_user_login_dto_1ae6444f3331148e00c2fd021f8772af8a" kind="property"><name>Password</name></member>
+  </compound>
+  <compound refid="class_reddit_1_1_controllers_1_1_users_controller" kind="class"><name>Reddit::Controllers::UsersController</name>
+    <member refid="class_reddit_1_1_controllers_1_1_users_controller_1a84cca993309616366989430bbae4c91b" kind="variable"><name>userLogic</name></member>
+    <member refid="class_reddit_1_1_controllers_1_1_users_controller_1a19e85f7867eb36cb07aa2b649ff1a766" kind="function"><name>UsersController</name></member>
+    <member refid="class_reddit_1_1_controllers_1_1_users_controller_1adaf54659ff8a46b21af2cc2590454b69" kind="function"><name>CreateAsync</name></member>
+    <member refid="class_reddit_1_1_controllers_1_1_users_controller_1a1e67e8444867b54604778c3ba65e2df1" kind="function"><name>GetAsync</name></member>
+  </compound>
+  <compound refid="class_domain_1_1_d_t_os_1_1_user_search_parameters_dto" kind="class"><name>Domain::DTOs::UserSearchParametersDto</name>
+    <member refid="class_domain_1_1_d_t_os_1_1_user_search_parameters_dto_1abe3e2c00992a02d5b2a479558a29042f" kind="property"><name>UsernameContains</name></member>
+    <member refid="class_domain_1_1_d_t_os_1_1_user_search_parameters_dto_1a9aaa7308c5d69588956ba28b8322d7a3" kind="function"><name>UserSearchParametersDto</name></member>
+  </compound>
+  <compound refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_search_parameters_dto" kind="class"><name>Shared::DTOs::User::UserSearchParametersDto</name>
+    <member refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_search_parameters_dto_1ac8a82c05e7321d01140c47a50f130c6b" kind="property"><name>UsernameContains</name></member>
+    <member refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_search_parameters_dto_1a7c9413bd5ba12b21b6b2df46a798ec31" kind="function"><name>UserSearchParametersDto</name></member>
+  </compound>
+  <compound refid="namespace_application" kind="namespace"><name>Application</name>
+  </compound>
+  <compound refid="namespace_application_1_1_dao_interfaces" kind="namespace"><name>Application::DaoInterfaces</name>
+  </compound>
+  <compound refid="namespace_application_1_1_logic" kind="namespace"><name>Application::Logic</name>
+  </compound>
+  <compound refid="namespace_application_1_1_logic_interfaces" kind="namespace"><name>Application::LogicInterfaces</name>
+  </compound>
+  <compound refid="namespace_blazor" kind="namespace"><name>Blazor</name>
+  </compound>
+  <compound refid="namespace_blazor_1_1_auth" kind="namespace"><name>Blazor::Auth</name>
+  </compound>
+  <compound refid="namespace_blazor_1_1_services" kind="namespace"><name>Blazor::Services</name>
+  </compound>
+  <compound refid="namespace_blazor_1_1_services_1_1_http" kind="namespace"><name>Blazor::Services::Http</name>
+  </compound>
+  <compound refid="namespace_domain" kind="namespace"><name>Domain</name>
+  </compound>
+  <compound refid="namespace_domain_1_1_d_t_os" kind="namespace"><name>Domain::DTOs</name>
+  </compound>
+  <compound refid="namespace_domain_1_1_d_t_os_1_1_post" kind="namespace"><name>Domain::DTOs::Post</name>
+  </compound>
+  <compound refid="namespace_file_data" kind="namespace"><name>FileData</name>
+  </compound>
+  <compound refid="namespace_file_data_1_1_d_a_os" kind="namespace"><name>FileData::DAOs</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_microsoft_1_1_asp_net_core_1_1_builder" kind="namespace"><name>global::Microsoft::AspNetCore::Builder</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_microsoft_1_1_asp_net_core_1_1_hosting" kind="namespace"><name>global::Microsoft::AspNetCore::Hosting</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_microsoft_1_1_asp_net_core_1_1_http" kind="namespace"><name>global::Microsoft::AspNetCore::Http</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_microsoft_1_1_asp_net_core_1_1_routing" kind="namespace"><name>global::Microsoft::AspNetCore::Routing</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_microsoft_1_1_extensions_1_1_configuration" kind="namespace"><name>global::Microsoft::Extensions::Configuration</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_microsoft_1_1_extensions_1_1_dependency_injection" kind="namespace"><name>global::Microsoft::Extensions::DependencyInjection</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_microsoft_1_1_extensions_1_1_hosting" kind="namespace"><name>global::Microsoft::Extensions::Hosting</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_microsoft_1_1_extensions_1_1_logging" kind="namespace"><name>global::Microsoft::Extensions::Logging</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system" kind="namespace"><name>global::System</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_collections_1_1_generic" kind="namespace"><name>global::System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_i_o" kind="namespace"><name>global::System::IO</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_linq" kind="namespace"><name>global::System::Linq</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_net_1_1_http" kind="namespace"><name>global::System::Net::Http</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_net_1_1_http_1_1_json" kind="namespace"><name>global::System::Net::Http::Json</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading" kind="namespace"><name>global::System::Threading</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading_1_1_tasks" kind="namespace"><name>global::System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_http_clients" kind="namespace"><name>HttpClients</name>
+  </compound>
+  <compound refid="namespace_http_clients_1_1_clients_interface" kind="namespace"><name>HttpClients::ClientsInterface</name>
+  </compound>
+  <compound refid="namespace_http_clients_1_1_implementations" kind="namespace"><name>HttpClients::Implementations</name>
+  </compound>
+  <compound refid="namespace_jwt_registered_claim_names" kind="namespace"><name>JwtRegisteredClaimNames</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_authentication_1_1_jwt_bearer" kind="namespace"><name>Microsoft::AspNetCore::Authentication::JwtBearer</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_authorization" kind="namespace"><name>Microsoft::AspNetCore::Authorization</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_components_1_1_authorization" kind="namespace"><name>Microsoft::AspNetCore::Components::Authorization</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_components_1_1_web" kind="namespace"><name>Microsoft::AspNetCore::Components::Web</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_components_1_1_web_assembly_1_1_hosting" kind="namespace"><name>Microsoft::AspNetCore::Components::WebAssembly::Hosting</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_asp_net_core_1_1_mvc" kind="namespace"><name>Microsoft::AspNetCore::Mvc</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_extensions_1_1_dependency_injection" kind="namespace"><name>Microsoft::Extensions::DependencyInjection</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_identity_model_1_1_tokens" kind="namespace"><name>Microsoft::IdentityModel::Tokens</name>
+  </compound>
+  <compound refid="namespace_reddit" kind="namespace"><name>Reddit</name>
+  </compound>
+  <compound refid="namespace_reddit_1_1_controllers" kind="namespace"><name>Reddit::Controllers</name>
+  </compound>
+  <compound refid="namespace_reddit_1_1_services" kind="namespace"><name>Reddit::Services</name>
+  </compound>
+  <compound refid="namespace_shared" kind="namespace"><name>Shared</name>
+  </compound>
+  <compound refid="namespace_shared_1_1_auth" kind="namespace"><name>Shared::Auth</name>
+  </compound>
+  <compound refid="namespace_shared_1_1_d_t_os" kind="namespace"><name>Shared::DTOs</name>
+  </compound>
+  <compound refid="namespace_shared_1_1_d_t_os_1_1_post" kind="namespace"><name>Shared::DTOs::Post</name>
+  </compound>
+  <compound refid="namespace_shared_1_1_d_t_os_1_1_user" kind="namespace"><name>Shared::DTOs::User</name>
+  </compound>
+  <compound refid="namespace_shared_1_1_models" kind="namespace"><name>Shared::Models</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model_1_1_data_annotations" kind="namespace"><name>System::ComponentModel::DataAnnotations</name>
+  </compound>
+  <compound refid="namespace_system_1_1_identity_model_1_1_tokens_1_1_jwt" kind="namespace"><name>System::IdentityModel::Tokens::Jwt</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net_1_1_http_1_1_json" kind="namespace"><name>System::Net::Http::Json</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_claims" kind="namespace"><name>System::Security::Claims</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_json" kind="namespace"><name>System::Text::Json</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_channels" kind="namespace"><name>System::Threading::Channels</name>
+  </compound>
+  <compound refid="_i_post_dao_8cs" kind="file"><name>IPostDao.cs</name>
+  </compound>
+  <compound refid="_i_user_dao_8cs" kind="file"><name>IUserDao.cs</name>
+  </compound>
+  <compound refid="_post_logic_8cs" kind="file"><name>PostLogic.cs</name>
+  </compound>
+  <compound refid="_user_logic_8cs" kind="file"><name>UserLogic.cs</name>
+  </compound>
+  <compound refid="_i_post_logic_8cs" kind="file"><name>IPostLogic.cs</name>
+  </compound>
+  <compound refid="_i_user_logic_8cs" kind="file"><name>IUserLogic.cs</name>
+  </compound>
+  <compound refid="_application_2obj_2_debug_2net7_80_2_8_n_e_t_core_app_00_version_0av7_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v7.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_blazor_2obj_2_debug_2net7_80_2_8_n_e_t_core_app_00_version_0av7_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v7.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_domain_2obj_2_debug_2net7_80_2_8_n_e_t_core_app_00_version_0av7_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v7.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_file_data_2obj_2_debug_2net7_80_2_8_n_e_t_core_app_00_version_0av7_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v7.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_http_clients_2obj_2_debug_2net7_80_2_8_n_e_t_core_app_00_version_0av7_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v7.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_reddit_api_2obj_2_debug_2net7_80_2_8_n_e_t_core_app_00_version_0av7_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v7.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_shared_2obj_2_debug_2net7_80_2_8_n_e_t_core_app_00_version_0av7_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v7.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_application_8_assembly_info_8cs" kind="file"><name>Application.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_application_8_global_usings_8g_8cs" kind="file"><name>Application.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_custom_auth_provider_8cs" kind="file"><name>CustomAuthProvider.cs</name>
+  </compound>
+  <compound refid="_blazor_8_assembly_info_8cs" kind="file"><name>Blazor.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_blazor_8_global_usings_8g_8cs" kind="file"><name>Blazor.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_blazor_2_program_8cs" kind="file"><name>Program.cs</name>
+    <member refid="_blazor_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kind="variable"><name>builder</name></member>
+    <member refid="_blazor_2_program_8cs_1a40d549968a84d91d5a5eb9ecf29daae9" kind="function"><name>Add&lt; App &gt;</name></member>
+    <member refid="_blazor_2_program_8cs_1ad6782a94a41c3712e4b16f5e5e37f781" kind="function"><name>Add&lt; HeadOutlet &gt;</name></member>
+    <member refid="_blazor_2_program_8cs_1a0c8fdf4a374faa5a945877c7ef9a7ae9" kind="function"><name>AddScoped</name></member>
+    <member refid="_blazor_2_program_8cs_1ac9c43480bd986d53a3ef60b2a339dd7e" kind="function"><name>AddScoped&lt; IUserServices, UserHttpClient &gt;</name></member>
+    <member refid="_blazor_2_program_8cs_1aeab2379fc9778bbe9466a462181f5ed7" kind="function"><name>AddScoped&lt; IPostServices, PostHttpClient &gt;</name></member>
+    <member refid="_blazor_2_program_8cs_1ae14ea207d2637a339741660d3f70d58c" kind="function"><name>AddScoped&lt; IAuthService, JwtAuthService &gt;</name></member>
+    <member refid="_blazor_2_program_8cs_1a1f1cce3f5474799a573735972fcfa9db" kind="function"><name>AddScoped&lt; AuthenticationStateProvider, CustomAuthProvider &gt;</name></member>
+    <member refid="_blazor_2_program_8cs_1a076111912e0b92dfcc028f6af646ee9a" kind="function"><name>AddPolicies</name></member>
+    <member refid="_blazor_2_program_8cs_1a103eab9352a5901779f62f6c98b53f7b" kind="function"><name>Build</name></member>
+  </compound>
+  <compound refid="_reddit_api_2_program_8cs" kind="file"><name>Program.cs</name>
+    <member refid="_reddit_api_2_program_8cs_1a2f78352277081c620fd4cf92a5ce15e5" kind="variable"><name>builder</name></member>
+    <member refid="_reddit_api_2_program_8cs_1a7b225fcb720e4d5ed2bbf60e28a25e6d" kind="variable"><name>app</name></member>
+    <member refid="_reddit_api_2_program_8cs_1a3b245bd9cec0926214206d043efa613a" kind="function"><name>AddScoped&lt; FileContext &gt;</name></member>
+    <member refid="_reddit_api_2_program_8cs_1a95fc4a9c32b33ddac38e4068bd316037" kind="function"><name>AddScoped&lt; IUserDao, UserFileDao &gt;</name></member>
+    <member refid="_reddit_api_2_program_8cs_1afe00142d079f47b205fcaf1c9f5c636f" kind="function"><name>AddScoped&lt; IUserLogic, UserLogic &gt;</name></member>
+    <member refid="_reddit_api_2_program_8cs_1a8dbf3f9bc1ec2aa3a46fb360fc92d025" kind="function"><name>AddScoped&lt; IPostDao, PostFileDao &gt;</name></member>
+    <member refid="_reddit_api_2_program_8cs_1a761ff1b30e2e3e3a0893e9fc44e7b5de" kind="function"><name>AddScoped&lt; IPostLogic, PostLogic &gt;</name></member>
+    <member refid="_reddit_api_2_program_8cs_1af28a70e4e3146d0106efbb9b60bf5e94" kind="function"><name>AddScoped&lt; IAuthService, AuthService &gt;</name></member>
+    <member refid="_reddit_api_2_program_8cs_1abc3694a0e15618f2499e5a540264f833" kind="function"><name>AddControllers</name></member>
+    <member refid="_reddit_api_2_program_8cs_1a0d7859f9cad50e8e9fdf015100780e07" kind="function"><name>AddEndpointsApiExplorer</name></member>
+    <member refid="_reddit_api_2_program_8cs_1ae0ce43c019a5621d731d0c622c793644" kind="function"><name>AddSwaggerGen</name></member>
+    <member refid="_reddit_api_2_program_8cs_1a495f0380ba53bc755f4d772fcf52f1f8" kind="function"><name>AddAuthentication</name></member>
+    <member refid="_reddit_api_2_program_8cs_1a076111912e0b92dfcc028f6af646ee9a" kind="function"><name>AddPolicies</name></member>
+    <member refid="_reddit_api_2_program_8cs_1a79a944c7f0e25196ca3c5a8638b919b9" kind="function"><name>if</name></member>
+    <member refid="_reddit_api_2_program_8cs_1a490c4127fedc91f86231d9e4d1331522" kind="function"><name>UseCors</name></member>
+    <member refid="_reddit_api_2_program_8cs_1aa4d447fc3129a3aa301d736b8bd04ae9" kind="function"><name>UseHttpsRedirection</name></member>
+    <member refid="_reddit_api_2_program_8cs_1a6435d8beeff4999dc0b0c6d60a86a4e2" kind="function"><name>UseAuthentication</name></member>
+    <member refid="_reddit_api_2_program_8cs_1af6f72d752b2e73aa0292f74bd13237ab" kind="function"><name>UseAuthorization</name></member>
+    <member refid="_reddit_api_2_program_8cs_1a9e2ee3170aa6279b68eefd1651f7d96c" kind="function"><name>MapControllers</name></member>
+    <member refid="_reddit_api_2_program_8cs_1aaa3dbf02e269c3ef7e8546d290c6b3dd" kind="function"><name>Run</name></member>
+  </compound>
+  <compound refid="_blazor_2_services_2_http_2_i_auth_service_8cs" kind="file"><name>IAuthService.cs</name>
+  </compound>
+  <compound refid="_reddit_api_2_services_2_i_auth_service_8cs" kind="file"><name>IAuthService.cs</name>
+  </compound>
+  <compound refid="_jwt_auth_service_8cs" kind="file"><name>JwtAuthService.cs</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="_domain_2_d_t_os_2_post_2_post_basic_dto_8cs" kind="file"><name>PostBasicDto.cs</name>
+  </compound>
+  <compound refid="_shared_2_d_t_os_2_post_2_post_basic_dto_8cs" kind="file"><name>PostBasicDto.cs</name>
+  </compound>
+  <compound refid="_domain_2_d_t_os_2_post_2_post_creation_dto_8cs" kind="file"><name>PostCreationDto.cs</name>
+  </compound>
+  <compound refid="_shared_2_d_t_os_2_post_2_post_creation_dto_8cs" kind="file"><name>PostCreationDto.cs</name>
+  </compound>
+  <compound refid="_domain_2_d_t_os_2_user_2_user_creation_dto_8cs" kind="file"><name>UserCreationDto.cs</name>
+  </compound>
+  <compound refid="_shared_2_d_t_os_2_user_2_user_creation_dto_8cs" kind="file"><name>UserCreationDto.cs</name>
+  </compound>
+  <compound refid="_domain_2_d_t_os_2_user_2_user_search_parameters_dto_8cs" kind="file"><name>UserSearchParametersDto.cs</name>
+  </compound>
+  <compound refid="_shared_2_d_t_os_2_user_2_user_search_parameters_dto_8cs" kind="file"><name>UserSearchParametersDto.cs</name>
+  </compound>
+  <compound refid="_domain_2_model_2_post_8cs" kind="file"><name>Post.cs</name>
+  </compound>
+  <compound refid="_shared_2_models_2_post_8cs" kind="file"><name>Post.cs</name>
+  </compound>
+  <compound refid="_domain_2_model_2_user_8cs" kind="file"><name>User.cs</name>
+  </compound>
+  <compound refid="_shared_2_models_2_user_8cs" kind="file"><name>User.cs</name>
+  </compound>
+  <compound refid="_domain_8_assembly_info_8cs" kind="file"><name>Domain.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_domain_8_global_usings_8g_8cs" kind="file"><name>Domain.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_domain_2obj_2_debug_2net7_80_2_shared_8_assembly_info_8cs" kind="file"><name>Shared.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_shared_2obj_2_debug_2net7_80_2_shared_8_assembly_info_8cs" kind="file"><name>Shared.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_domain_2obj_2_debug_2net7_80_2_shared_8_global_usings_8g_8cs" kind="file"><name>Shared.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_shared_2obj_2_debug_2net7_80_2_shared_8_global_usings_8g_8cs" kind="file"><name>Shared.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_post_file_dao_8cs" kind="file"><name>PostFileDao.cs</name>
+  </compound>
+  <compound refid="_user_file_dao_8cs" kind="file"><name>UserFileDao.cs</name>
+  </compound>
+  <compound refid="_data_container_8cs" kind="file"><name>DataContainer.cs</name>
+  </compound>
+  <compound refid="_file_context_8cs" kind="file"><name>FileContext.cs</name>
+  </compound>
+  <compound refid="_file_data_8_assembly_info_8cs" kind="file"><name>FileData.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_file_data_8_global_usings_8g_8cs" kind="file"><name>FileData.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_i_post_services_8cs" kind="file"><name>IPostServices.cs</name>
+  </compound>
+  <compound refid="_i_user_services_8cs" kind="file"><name>IUserServices.cs</name>
+  </compound>
+  <compound refid="_post_http_client_8cs" kind="file"><name>PostHttpClient.cs</name>
+  </compound>
+  <compound refid="_user_http_client_8cs" kind="file"><name>UserHttpClient.cs</name>
+  </compound>
+  <compound refid="_http_clients_8_assembly_info_8cs" kind="file"><name>HttpClients.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_http_clients_8_global_usings_8g_8cs" kind="file"><name>HttpClients.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_auth_controller_8cs" kind="file"><name>AuthController.cs</name>
+    <member refid="_auth_controller_8cs_1a48712954fbf9469353794c7c60e81ed1" kind="typedef"><name>JwtRegisteredClaimNames</name></member>
+  </compound>
+  <compound refid="_post_controller_8cs" kind="file"><name>PostController.cs</name>
+  </compound>
+  <compound refid="_users_controller_8cs" kind="file"><name>UsersController.cs</name>
+  </compound>
+  <compound refid="_reddit_8_assembly_info_8cs" kind="file"><name>Reddit.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_reddit_8_global_usings_8g_8cs" kind="file"><name>Reddit.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_reddit_api_8_assembly_info_8cs" kind="file"><name>RedditApi.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_reddit_api_8_global_usings_8g_8cs" kind="file"><name>RedditApi.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_reddit_api_8_mvc_application_parts_assembly_info_8cs" kind="file"><name>RedditApi.MvcApplicationPartsAssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_auth_service_8cs" kind="file"><name>AuthService.cs</name>
+  </compound>
+  <compound refid="_authorization_policies_8cs" kind="file"><name>AuthorizationPolicies.cs</name>
+  </compound>
+  <compound refid="_user_login_dto_8cs" kind="file"><name>UserLoginDto.cs</name>
+  </compound>
+  <compound refid="md__c_1_2_users_2filip_2_rider_projects_2_reddit_2_blazor_2wwwroot_2css_2open-iconic_2_r_e_a_d_m_e" kind="page"><name>md__c_1_2_users_2filip_2_rider_projects_2_reddit_2_blazor_2wwwroot_2css_2open-iconic_2_r_e_a_d_m_e</name>
+  </compound>
+  <compound refid="dir_eb1463819d84903762eb6f59cc0c4383" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Application</name>
+  </compound>
+  <compound refid="dir_e4f2378e74ae4b2c1585c0400ad9ac0c" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Blazor/Auth</name>
+  </compound>
+  <compound refid="dir_3610144651057a03ccdb20c927028faa" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Shared/Auth</name>
+  </compound>
+  <compound refid="dir_fea7052778fb29877968546cc88d412a" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Blazor</name>
+  </compound>
+  <compound refid="dir_410fdf6dd6e1b6b0f60c3364c49a3fc3" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/HttpClients/ClientsInterface</name>
+  </compound>
+  <compound refid="dir_35a65a1455db732fc72c08ddd3ca86a3" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers</name>
+  </compound>
+  <compound refid="dir_309a28e63a79a0e43f04c635823bfc78" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Blazor/wwwroot/css</name>
+  </compound>
+  <compound refid="dir_7af43466560a4063ec0b17c5e398412a" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Application/DaoInterfaces</name>
+  </compound>
+  <compound refid="dir_34a14ee4b7bec1d99bf09de32d3e5297" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/FileData/DAOs</name>
+  </compound>
+  <compound refid="dir_55198698640d0537336279b54f54d82c" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Application/obj/Debug</name>
+  </compound>
+  <compound refid="dir_e3005c81112c68beb8ffc2bf4e27b753" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Blazor/obj/Debug</name>
+  </compound>
+  <compound refid="dir_3fa12e8ba99357fb7c04d9149f3b44b9" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Domain/obj/Debug</name>
+  </compound>
+  <compound refid="dir_ef582bf3ba1c12edd7a70fd26a26c02c" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/FileData/obj/Debug</name>
+  </compound>
+  <compound refid="dir_62fe986dcd4623202d331cc61294aac3" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/HttpClients/obj/Debug</name>
+  </compound>
+  <compound refid="dir_3d9d5833855cf1ee137df869a89ba5f9" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/RedditApi/obj/Debug</name>
+  </compound>
+  <compound refid="dir_f177435de9156633feda66c715fcae76" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Shared/obj/Debug</name>
+  </compound>
+  <compound refid="dir_8c888e3f1190d8e08b273c29d1443e32" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Domain</name>
+  </compound>
+  <compound refid="dir_142f28ba630de44da101f87319caa406" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Domain/DTOs</name>
+  </compound>
+  <compound refid="dir_c121af58502ffc334a9db92ca6b7676c" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Shared/DTOs</name>
+  </compound>
+  <compound refid="dir_9088a83d7ee906be5a7b7656c6019c58" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/FileData</name>
+  </compound>
+  <compound refid="dir_49ed00ab064796fbd0ac79fb1b83fa55" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http</name>
+  </compound>
+  <compound refid="dir_63deb18562f218169bbb3b2ed70fa2f5" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/HttpClients</name>
+  </compound>
+  <compound refid="dir_e0a80cb2873e9bc92be9e216d9bf1a12" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations</name>
+  </compound>
+  <compound refid="dir_561dec857dbd2c71c4d5477b92f4dd0e" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Application/Logic</name>
+  </compound>
+  <compound refid="dir_9564bbb6a523553f1632a64e4bbdc057" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Application/LogicInterfaces</name>
+  </compound>
+  <compound refid="dir_a99865e90f2ac88ed590e57b33b7e985" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Domain/Model</name>
+  </compound>
+  <compound refid="dir_29c7f52d59ab9eda420d247411785042" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Shared/Models</name>
+  </compound>
+  <compound refid="dir_26c10ab7a9ecce1a6c88aaeb09f856c6" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Application/obj/Debug/net7.0</name>
+  </compound>
+  <compound refid="dir_ccc387ce4254b4df7002d8931dd5dada" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Blazor/obj/Debug/net7.0</name>
+  </compound>
+  <compound refid="dir_40c732c5f202d7682be86bbfa3b9ec48" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Domain/obj/Debug/net7.0</name>
+  </compound>
+  <compound refid="dir_eecfef27aa276184a158d24c7402957a" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/FileData/obj/Debug/net7.0</name>
+  </compound>
+  <compound refid="dir_f7949e227fc73719a6e5b87e1d2da0c1" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/HttpClients/obj/Debug/net7.0</name>
+  </compound>
+  <compound refid="dir_2d472a84b93ab52a58ff90636bddb0f8" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/RedditApi/obj/Debug/net7.0</name>
+  </compound>
+  <compound refid="dir_de30af3ae8d5469be875dff6867671dd" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Shared/obj/Debug/net7.0</name>
+  </compound>
+  <compound refid="dir_d9e8db57fd4192eb1e34a3c47b60ba7e" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Application/obj</name>
+  </compound>
+  <compound refid="dir_67769673851a44cd0555abb2066365e2" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Blazor/obj</name>
+  </compound>
+  <compound refid="dir_bbedd37c473ae4a8226c8dcbf7c99165" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Domain/obj</name>
+  </compound>
+  <compound refid="dir_fa3baccaba435b64128d7d27583f0e54" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/FileData/obj</name>
+  </compound>
+  <compound refid="dir_282ad7e8925ba59824537d6ba7e85973" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/HttpClients/obj</name>
+  </compound>
+  <compound refid="dir_a314da852e9cd5c2c47d01cf2c621a5f" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/RedditApi/obj</name>
+  </compound>
+  <compound refid="dir_3b0e1503baa947183ce128fb3a956a37" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Shared/obj</name>
+  </compound>
+  <compound refid="dir_963aaac7f2f599b2100f320de0ecdb05" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Blazor/wwwroot/css/open-iconic</name>
+  </compound>
+  <compound refid="dir_d658fab57cd78104ecd8aca7cca738ba" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post</name>
+  </compound>
+  <compound refid="dir_558fce5df43e05dd9e00aab0b80af87c" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/Post</name>
+  </compound>
+  <compound refid="dir_c0c3d3f14ddff3ac2295ad8be57416c8" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/RedditApi</name>
+  </compound>
+  <compound refid="dir_05f8ca46556c05f834c2dc43f321b48f" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Blazor/Services</name>
+  </compound>
+  <compound refid="dir_a909ca9a11b28bb81a14696872da5f2f" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/RedditApi/Services</name>
+  </compound>
+  <compound refid="dir_da555cc5272c9bb1aca8990be5c6787a" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Shared</name>
+  </compound>
+  <compound refid="dir_702e47e2b93562c4feded1e5b30d1fb3" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/User</name>
+  </compound>
+  <compound refid="dir_62d5da8fae3cba769f3236b61919b3de" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User</name>
+  </compound>
+  <compound refid="dir_b5321bb3acf5516ba8ad087e485d9e49" kind="dir"><name>C:/Users/filip/RiderProjects/Reddit/Blazor/wwwroot</name>
+  </compound>
+</doxygenindex>

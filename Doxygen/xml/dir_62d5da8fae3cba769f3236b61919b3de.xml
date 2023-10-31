@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_62d5da8fae3cba769f3236b61919b3de" kind="dir">
+    <compoundname>C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User</compoundname>
+    <innerfile refid="_shared_2_d_t_os_2_user_2_user_creation_dto_8cs">UserCreationDto.cs</innerfile>
+    <innerfile refid="_user_login_dto_8cs">UserLoginDto.cs</innerfile>
+    <innerfile refid="_shared_2_d_t_os_2_user_2_user_search_parameters_dto_8cs">UserSearchParametersDto.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/"/>
+  </compounddef>
+</doxygen>

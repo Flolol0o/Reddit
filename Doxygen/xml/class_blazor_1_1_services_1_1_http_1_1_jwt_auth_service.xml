@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service" kind="class" language="C#" prot="public">
+    <compoundname>Blazor::Services::Http::JwtAuthService</compoundname>
+    <basecompoundref refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service" prot="public" virt="non-virtual">Blazor.Services.Http.IAuthService</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1aa77193e3ea19ff6f14906e167dbea2ce" prot="private" static="no" mutable="no">
+        <type>readonly HttpClient</type>
+        <definition>readonly HttpClient Blazor.Services.Http.JwtAuthService.client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <qualifiedname>Blazor.Services.Http.JwtAuthService.client</qualifiedname>
+        <initializer>= new ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" line="12" column="33" bodyfile="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a933f99a5f8a9c9ee848a467122f9028e" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>? string</type>
+        <definition>? string Blazor.Services.Http.JwtAuthService.Jwt</definition>
+        <argsstring></argsstring>
+        <name>Jwt</name>
+        <qualifiedname>Blazor.Services.Http.JwtAuthService.Jwt</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" line="15" column="26" bodyfile="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a207bdee2469e2ef26a5bcaea2a7e29a3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Action&lt; ClaimsPrincipal &gt;</type>
+        <definition>Action&lt;ClaimsPrincipal&gt; Blazor.Services.Http.JwtAuthService.OnAuthStateChanged</definition>
+        <argsstring></argsstring>
+        <name>OnAuthStateChanged</name>
+        <qualifiedname>Blazor.Services.Http.JwtAuthService.OnAuthStateChanged</qualifiedname>
+        <reimplements refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1aae5f2fba76698d891dfc325d9ce0beef">OnAuthStateChanged</reimplements>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" line="17" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1ad5cf007b4579f6b7b95090ecc8126d71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task Blazor.Services.Http.JwtAuthService.LoginAsync</definition>
+        <argsstring>(string username, string password)</argsstring>
+        <name>LoginAsync</name>
+        <qualifiedname>Blazor.Services.Http.JwtAuthService.LoginAsync</qualifiedname>
+        <reimplements refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1a6dd83c1e13ecd278f2e2e5b58b326084">LoginAsync</reimplements>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" line="19" column="23" bodyfile="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" bodystart="19" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a062120b0ab193a83742aa2997bf248a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task Blazor.Services.Http.JwtAuthService.LogoutAsync</definition>
+        <argsstring>()</argsstring>
+        <name>LogoutAsync</name>
+        <qualifiedname>Blazor.Services.Http.JwtAuthService.LogoutAsync</qualifiedname>
+        <reimplements refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1a6a55b86472e79c2853ca396596f2d620">LogoutAsync</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" line="46" column="23" bodyfile="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" bodystart="46" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a300b8a76cf16c9b1a60d9557d96adf17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task Blazor.Services.Http.JwtAuthService.RegisterAsync</definition>
+        <argsstring>(User user)</argsstring>
+        <name>RegisterAsync</name>
+        <qualifiedname>Blazor.Services.Http.JwtAuthService.RegisterAsync</qualifiedname>
+        <reimplements refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1a0b8e48bb73b7af5f69c95f75907f02d3">RegisterAsync</reimplements>
+        <param>
+          <type><ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref></type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" line="52" column="23" bodyfile="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" bodystart="52" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1ac45d6cad62d81c07410e4a477cc8920e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; ClaimsPrincipal &gt;</type>
+        <definition>Task&lt; ClaimsPrincipal &gt; Blazor.Services.Http.JwtAuthService.GetAuthAsync</definition>
+        <argsstring>()</argsstring>
+        <name>GetAuthAsync</name>
+        <qualifiedname>Blazor.Services.Http.JwtAuthService.GetAuthAsync</qualifiedname>
+        <reimplements refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_1ac93c8f6044df9845cdacc2baaaf4126d">GetAuthAsync</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" line="65" column="17" bodyfile="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" bodystart="65" bodyend="69"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a62089d3aaa7716fb3a9fff65cf514e99" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; Claim &gt;</type>
+        <definition>static IEnumerable&lt; Claim &gt; Blazor.Services.Http.JwtAuthService.ParseClaimsFromJwt</definition>
+        <argsstring>(string jwt)</argsstring>
+        <name>ParseClaimsFromJwt</name>
+        <qualifiedname>Blazor.Services.Http.JwtAuthService.ParseClaimsFromJwt</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>jwt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" line="71" column="32" bodyfile="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" bodystart="71" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a1991c241ef988ff470b18cf3c85bdf7a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte[] Blazor.Services.Http.JwtAuthService.ParseBase64WithoutPadding</definition>
+        <argsstring>(string base64)</argsstring>
+        <name>ParseBase64WithoutPadding</name>
+        <qualifiedname>Blazor.Services.Http.JwtAuthService.ParseBase64WithoutPadding</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>base64</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" line="79" column="25" bodyfile="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" bodystart="79" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a6c4dd75eb01c7de990bd4eca34fa29f4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ClaimsPrincipal</type>
+        <definition>static ClaimsPrincipal Blazor.Services.Http.JwtAuthService.CreateClaimsPrincipal</definition>
+        <argsstring>()</argsstring>
+        <name>CreateClaimsPrincipal</name>
+        <qualifiedname>Blazor.Services.Http.JwtAuthService.CreateClaimsPrincipal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" line="94" column="36" bodyfile="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" bodystart="94" bodyend="107"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Blazor.Services.Http.JwtAuthService</label>
+        <link refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IAuthService</label>
+        <link refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Blazor.Services.Http.JwtAuthService</label>
+        <link refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IAuthService</label>
+        <link refid="interface_blazor_1_1_services_1_1_http_1_1_i_auth_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" line="10" column="7" bodyfile="C:/Users/filip/RiderProjects/Reddit/Blazor/Services/Http/JwtAuthService.cs" bodystart="11" bodyend="110"/>
+    <listofallmembers>
+      <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1aa77193e3ea19ff6f14906e167dbea2ce" prot="private" virt="non-virtual"><scope>Blazor::Services::Http::JwtAuthService</scope><name>client</name></member>
+      <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a6c4dd75eb01c7de990bd4eca34fa29f4" prot="private" virt="non-virtual"><scope>Blazor::Services::Http::JwtAuthService</scope><name>CreateClaimsPrincipal</name></member>
+      <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1ac45d6cad62d81c07410e4a477cc8920e" prot="public" virt="non-virtual"><scope>Blazor::Services::Http::JwtAuthService</scope><name>GetAuthAsync</name></member>
+      <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a933f99a5f8a9c9ee848a467122f9028e" prot="public" virt="non-virtual"><scope>Blazor::Services::Http::JwtAuthService</scope><name>Jwt</name></member>
+      <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1ad5cf007b4579f6b7b95090ecc8126d71" prot="public" virt="non-virtual"><scope>Blazor::Services::Http::JwtAuthService</scope><name>LoginAsync</name></member>
+      <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a062120b0ab193a83742aa2997bf248a6" prot="public" virt="non-virtual"><scope>Blazor::Services::Http::JwtAuthService</scope><name>LogoutAsync</name></member>
+      <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a207bdee2469e2ef26a5bcaea2a7e29a3" prot="public" virt="non-virtual"><scope>Blazor::Services::Http::JwtAuthService</scope><name>OnAuthStateChanged</name></member>
+      <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a1991c241ef988ff470b18cf3c85bdf7a" prot="private" virt="non-virtual"><scope>Blazor::Services::Http::JwtAuthService</scope><name>ParseBase64WithoutPadding</name></member>
+      <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a62089d3aaa7716fb3a9fff65cf514e99" prot="private" virt="non-virtual"><scope>Blazor::Services::Http::JwtAuthService</scope><name>ParseClaimsFromJwt</name></member>
+      <member refid="class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_1a300b8a76cf16c9b1a60d9557d96adf17" prot="public" virt="non-virtual"><scope>Blazor::Services::Http::JwtAuthService</scope><name>RegisterAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

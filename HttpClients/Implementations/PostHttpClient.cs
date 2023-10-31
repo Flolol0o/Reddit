@@ -6,7 +6,7 @@ using Shared.Models;
 
 namespace HttpClients.Implementations;
 
-public class PostHttpClient: IPostServices
+public class PostHttpClient : IPostServices
 {
     private readonly HttpClient Client;
 
@@ -14,7 +14,7 @@ public class PostHttpClient: IPostServices
     {
         Client = client;
     }
-    
+
     public async Task Create(PostCreationDto dto)
     {
         HttpResponseMessage responseMessage = await Client.PostAsJsonAsync("/post", dto);
@@ -36,13 +36,13 @@ public class PostHttpClient: IPostServices
         }
 
         Console.WriteLine("wtff");
-        Post post = JsonSerializer.Deserialize<Post>(content, 
+        Post post = JsonSerializer.Deserialize<Post>(content,
             new JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true
             }
         )!;
-        
+
         return post;
     }
 
@@ -53,6 +53,7 @@ public class PostHttpClient: IPostServices
         {
             uri += $"?title={titleContains}";
         }
+
         Console.WriteLine("Testing3");
         HttpResponseMessage response = await Client.GetAsync(uri);
         string result = await response.Content.ReadAsStringAsync();

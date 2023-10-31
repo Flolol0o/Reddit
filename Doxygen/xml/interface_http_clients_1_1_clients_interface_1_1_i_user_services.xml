@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="interface_http_clients_1_1_clients_interface_1_1_i_user_services" kind="interface" language="C#" prot="public">
+    <compoundname>HttpClients::ClientsInterface::IUserServices</compoundname>
+    <derivedcompoundref refid="class_http_clients_1_1_implementations_1_1_user_http_client" prot="public" virt="non-virtual">HttpClients.Implementations.UserHttpClient</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_http_clients_1_1_clients_interface_1_1_i_user_services_1a80a9ba1858c490e24cc9da9edd022c12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref> &gt;</type>
+        <definition>Task&lt; User &gt; HttpClients.ClientsInterface.IUserServices.Create</definition>
+        <argsstring>(UserCreationDto dto)</argsstring>
+        <name>Create</name>
+        <qualifiedname>HttpClients.ClientsInterface.IUserServices.Create</qualifiedname>
+        <reimplementedby refid="class_http_clients_1_1_implementations_1_1_user_http_client_1ac5ba98873d9fcf453c865ed4aa6752ce">Create</reimplementedby>
+        <param>
+          <type><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto" kindref="compound">UserCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/ClientsInterface/IUserServices.cs" line="10" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_http_clients_1_1_clients_interface_1_1_i_user_services_1a58a7a9c7ce165cce1a8ca6df5f8da3be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; IEnumerable&lt; <ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref> &gt; &gt;</type>
+        <definition>Task&lt; IEnumerable&lt; User &gt; &gt; HttpClients.ClientsInterface.IUserServices.GetUsers</definition>
+        <argsstring>(string? usernameContains=null)</argsstring>
+        <name>GetUsers</name>
+        <qualifiedname>HttpClients.ClientsInterface.IUserServices.GetUsers</qualifiedname>
+        <reimplementedby refid="class_http_clients_1_1_implementations_1_1_user_http_client_1a03fbd223a240c176340448aff08cd6c1">GetUsers</reimplementedby>
+        <param>
+          <type>string?</type>
+          <declname>usernameContains</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/ClientsInterface/IUserServices.cs" line="11" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>HttpClients.ClientsInterface.IUserServices</label>
+        <link refid="interface_http_clients_1_1_clients_interface_1_1_i_user_services"/>
+      </node>
+      <node id="2">
+        <label>HttpClients.Implementations.UserHttpClient</label>
+        <link refid="class_http_clients_1_1_implementations_1_1_user_http_client"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/ClientsInterface/IUserServices.cs" line="8" column="18" bodyfile="C:/Users/filip/RiderProjects/Reddit/HttpClients/ClientsInterface/IUserServices.cs" bodystart="9" bodyend="13"/>
+    <listofallmembers>
+      <member refid="interface_http_clients_1_1_clients_interface_1_1_i_user_services_1a80a9ba1858c490e24cc9da9edd022c12" prot="public" virt="non-virtual"><scope>HttpClients::ClientsInterface::IUserServices</scope><name>Create</name></member>
+      <member refid="interface_http_clients_1_1_clients_interface_1_1_i_user_services_1a58a7a9c7ce165cce1a8ca6df5f8da3be" prot="public" virt="non-virtual"><scope>HttpClients::ClientsInterface::IUserServices</scope><name>GetUsers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

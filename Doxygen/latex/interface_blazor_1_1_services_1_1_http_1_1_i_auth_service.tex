@@ -1,0 +1,85 @@
+\doxysection{Blazor.\+Services.\+Http.\+IAuth\+Service Interface Reference}
+\hypertarget{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service}{}\label{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service}\index{Blazor.Services.Http.IAuthService@{Blazor.Services.Http.IAuthService}}
+Inheritance diagram for Blazor.\+Services.\+Http.\+IAuth\+Service\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Task \mbox{\hyperlink{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_a6dd83c1e13ecd278f2e2e5b58b326084}{Login\+Async}} (string username, string password)
+\item 
+Task \mbox{\hyperlink{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_a6a55b86472e79c2853ca396596f2d620}{Logout\+Async}} ()
+\item 
+Task \mbox{\hyperlink{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_a0b8e48bb73b7af5f69c95f75907f02d3}{Register\+Async}} (\mbox{\hyperlink{class_shared_1_1_models_1_1_user}{User}} user)
+\item 
+Task$<$ Claims\+Principal $>$ \mbox{\hyperlink{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_ac93c8f6044df9845cdacc2baaaf4126d}{Get\+Auth\+Async}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Action$<$ Claims\+Principal $>$ \mbox{\hyperlink{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_aae5f2fba76698d891dfc325d9ce0beef}{On\+Auth\+State\+Changed}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_ac93c8f6044df9845cdacc2baaaf4126d}\label{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_ac93c8f6044df9845cdacc2baaaf4126d} 
+\index{Blazor.Services.Http.IAuthService@{Blazor.Services.Http.IAuthService}!GetAuthAsync@{GetAuthAsync}}
+\index{GetAuthAsync@{GetAuthAsync}!Blazor.Services.Http.IAuthService@{Blazor.Services.Http.IAuthService}}
+\doxysubsubsection{\texorpdfstring{GetAuthAsync()}{GetAuthAsync()}}
+{\footnotesize\ttfamily Task$<$ Claims\+Principal $>$ Blazor.\+Services.\+Http.\+IAuth\+Service.\+Get\+Auth\+Async (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_ac45d6cad62d81c07410e4a477cc8920e}{Blazor.\+Services.\+Http.\+Jwt\+Auth\+Service}}.
+
+\Hypertarget{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_a6dd83c1e13ecd278f2e2e5b58b326084}\label{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_a6dd83c1e13ecd278f2e2e5b58b326084} 
+\index{Blazor.Services.Http.IAuthService@{Blazor.Services.Http.IAuthService}!LoginAsync@{LoginAsync}}
+\index{LoginAsync@{LoginAsync}!Blazor.Services.Http.IAuthService@{Blazor.Services.Http.IAuthService}}
+\doxysubsubsection{\texorpdfstring{LoginAsync()}{LoginAsync()}}
+{\footnotesize\ttfamily Task Blazor.\+Services.\+Http.\+IAuth\+Service.\+Login\+Async (\begin{DoxyParamCaption}\item[{string}]{username,  }\item[{string}]{password }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_ad5cf007b4579f6b7b95090ecc8126d71}{Blazor.\+Services.\+Http.\+Jwt\+Auth\+Service}}.
+
+\Hypertarget{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_a6a55b86472e79c2853ca396596f2d620}\label{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_a6a55b86472e79c2853ca396596f2d620} 
+\index{Blazor.Services.Http.IAuthService@{Blazor.Services.Http.IAuthService}!LogoutAsync@{LogoutAsync}}
+\index{LogoutAsync@{LogoutAsync}!Blazor.Services.Http.IAuthService@{Blazor.Services.Http.IAuthService}}
+\doxysubsubsection{\texorpdfstring{LogoutAsync()}{LogoutAsync()}}
+{\footnotesize\ttfamily Task Blazor.\+Services.\+Http.\+IAuth\+Service.\+Logout\+Async (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_a062120b0ab193a83742aa2997bf248a6}{Blazor.\+Services.\+Http.\+Jwt\+Auth\+Service}}.
+
+\Hypertarget{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_a0b8e48bb73b7af5f69c95f75907f02d3}\label{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_a0b8e48bb73b7af5f69c95f75907f02d3} 
+\index{Blazor.Services.Http.IAuthService@{Blazor.Services.Http.IAuthService}!RegisterAsync@{RegisterAsync}}
+\index{RegisterAsync@{RegisterAsync}!Blazor.Services.Http.IAuthService@{Blazor.Services.Http.IAuthService}}
+\doxysubsubsection{\texorpdfstring{RegisterAsync()}{RegisterAsync()}}
+{\footnotesize\ttfamily Task Blazor.\+Services.\+Http.\+IAuth\+Service.\+Register\+Async (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_shared_1_1_models_1_1_user}{User}}}]{user }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_a300b8a76cf16c9b1a60d9557d96adf17}{Blazor.\+Services.\+Http.\+Jwt\+Auth\+Service}}.
+
+
+
+\doxysubsection{Property Documentation}
+\Hypertarget{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_aae5f2fba76698d891dfc325d9ce0beef}\label{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service_aae5f2fba76698d891dfc325d9ce0beef} 
+\index{Blazor.Services.Http.IAuthService@{Blazor.Services.Http.IAuthService}!OnAuthStateChanged@{OnAuthStateChanged}}
+\index{OnAuthStateChanged@{OnAuthStateChanged}!Blazor.Services.Http.IAuthService@{Blazor.Services.Http.IAuthService}}
+\doxysubsubsection{\texorpdfstring{OnAuthStateChanged}{OnAuthStateChanged}}
+{\footnotesize\ttfamily Action$<$Claims\+Principal$>$ Blazor.\+Services.\+Http.\+IAuth\+Service.\+On\+Auth\+State\+Changed\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service_a207bdee2469e2ef26a5bcaea2a7e29a3}{Blazor.\+Services.\+Http.\+Jwt\+Auth\+Service}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/filip/\+Rider\+Projects/\+Reddit/\+Blazor/\+Services/\+Http/\mbox{\hyperlink{_blazor_2_services_2_http_2_i_auth_service_8cs}{IAuth\+Service.\+cs}}\end{DoxyCompactItemize}

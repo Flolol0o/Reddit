@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_142f28ba630de44da101f87319caa406" kind="dir">
+    <compoundname>C:/Users/filip/RiderProjects/Reddit/Domain/DTOs</compoundname>
+    <innerdir refid="dir_d658fab57cd78104ecd8aca7cca738ba">C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post</innerdir>
+    <innerdir refid="dir_702e47e2b93562c4feded1e5b30d1fb3">C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/User</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/"/>
+  </compounddef>
+</doxygen>

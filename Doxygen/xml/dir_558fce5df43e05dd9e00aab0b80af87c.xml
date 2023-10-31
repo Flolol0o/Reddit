@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_558fce5df43e05dd9e00aab0b80af87c" kind="dir">
+    <compoundname>C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/Post</compoundname>
+    <innerfile refid="_shared_2_d_t_os_2_post_2_post_basic_dto_8cs">PostBasicDto.cs</innerfile>
+    <innerfile refid="_shared_2_d_t_os_2_post_2_post_creation_dto_8cs">PostCreationDto.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/Post/"/>
+  </compounddef>
+</doxygen>

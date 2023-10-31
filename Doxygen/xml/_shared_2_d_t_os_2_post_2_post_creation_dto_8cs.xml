@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_shared_2_d_t_os_2_post_2_post_creation_dto_8cs" kind="file" language="C#">
+    <compoundname>PostCreationDto.cs</compoundname>
+    <innerclass refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto" prot="public">Shared::DTOs::Post::PostCreationDto</innerclass>
+    <innernamespace refid="namespace_shared">Shared</innernamespace>
+    <innernamespace refid="namespace_shared_1_1_d_t_os">Shared::DTOs</innernamespace>
+    <innernamespace refid="namespace_shared_1_1_d_t_os_1_1_post">Shared::DTOs::Post</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_shared_1_1_d_t_os_1_1_post" kindref="compound">Shared.DTOs.Post</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto" kindref="compound">PostCreationDto</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1ac52c4da3ab5fa1dfcc49c7a2c7dbf41d" kindref="member">User</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1a97993113937aff75aac0472327eed66b" kindref="member">Title</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1abf4144f8969111d455ef6cb8fe6b85a0" kindref="member">Body</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto" kindref="compound">PostCreationDto</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>user,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>title,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>body)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1ac52c4da3ab5fa1dfcc49c7a2c7dbf41d" kindref="member">User</ref><sp/>=<sp/>user;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1a97993113937aff75aac0472327eed66b" kindref="member">Title</ref><sp/>=<sp/>title;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto_1abf4144f8969111d455ef6cb8fe6b85a0" kindref="member">Body</ref><sp/>=<sp/>body;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/Post/PostCreationDto.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_c0c3d3f14ddff3ac2295ad8be57416c8" kind="dir">
+    <compoundname>C:/Users/filip/RiderProjects/Reddit/RedditApi</compoundname>
+    <innerdir refid="dir_35a65a1455db732fc72c08ddd3ca86a3">C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers</innerdir>
+    <innerdir refid="dir_a314da852e9cd5c2c47d01cf2c621a5f">C:/Users/filip/RiderProjects/Reddit/RedditApi/obj</innerdir>
+    <innerdir refid="dir_a909ca9a11b28bb81a14696872da5f2f">C:/Users/filip/RiderProjects/Reddit/RedditApi/Services</innerdir>
+    <innerfile refid="_reddit_api_2_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/RedditApi/"/>
+  </compounddef>
+</doxygen>

@@ -25,11 +25,11 @@ public class UserLogic : IUserLogic
         {
             Username = dto.Username
         };
-        
+
         toCreate.Password = dto.Password;
-        
+
         User created = await userDao.CreateAsync(toCreate);
-    
+
         return created;
     }
 

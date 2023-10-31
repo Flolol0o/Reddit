@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['legible_20collection_20of_20223_20icons_20with_20a_20tiny_20footprint_20mdash_20ready_20to_20use_20with_20bootstrap_20and_20foundation_20a_20href_20https_3a_20github_20com_20iconic_20open_20iconic_20view_20the_20collection_20a_0',['Open Iconic is the open source sibling of &lt;a href=&quot;https://github.com/iconic/open-iconic&quot; &gt;Iconic&lt;/a&gt;. It is a hyper-legible collection of 223 icons with a tiny footprint&amp;mdash;ready to use with Bootstrap and Foundation. &lt;a href=&quot;https://github.com/iconic/open-iconic&quot; &gt;View the collection&lt;/a&gt;',['../md__c_1_2_users_2filip_2_rider_projects_2_reddit_2_blazor_2wwwroot_2css_2open-iconic_2_r_e_a_d_m_e.html#autotoc_md0',1,'']]],
+  ['license_1',['License',['../md__c_1_2_users_2filip_2_rider_projects_2_reddit_2_blazor_2wwwroot_2css_2open-iconic_2_r_e_a_d_m_e.html#autotoc_md11',1,'']]],
+  ['login_2',['Login',['../class_reddit_1_1_controllers_1_1_auth_controller.html#a62e84cc6d85104933d47b10e323fd4d9',1,'Reddit::Controllers::AuthController']]],
+  ['loginasync_3',['loginasync',['../interface_blazor_1_1_services_1_1_http_1_1_i_auth_service.html#a6dd83c1e13ecd278f2e2e5b58b326084',1,'Blazor.Services.Http.IAuthService.LoginAsync()'],['../class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service.html#ad5cf007b4579f6b7b95090ecc8126d71',1,'Blazor.Services.Http.JwtAuthService.LoginAsync()']]],
+  ['logoutasync_4',['logoutasync',['../interface_blazor_1_1_services_1_1_http_1_1_i_auth_service.html#a6a55b86472e79c2853ca396596f2d620',1,'Blazor.Services.Http.IAuthService.LogoutAsync()'],['../class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service.html#a062120b0ab193a83742aa2997bf248a6',1,'Blazor.Services.Http.JwtAuthService.LogoutAsync()']]]
+];

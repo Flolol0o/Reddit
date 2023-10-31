@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_410fdf6dd6e1b6b0f60c3364c49a3fc3" kind="dir">
+    <compoundname>C:/Users/filip/RiderProjects/Reddit/HttpClients/ClientsInterface</compoundname>
+    <innerfile refid="_i_post_services_8cs">IPostServices.cs</innerfile>
+    <innerfile refid="_i_user_services_8cs">IUserServices.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/ClientsInterface/"/>
+  </compounddef>
+</doxygen>

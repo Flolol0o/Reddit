@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_auth_controller_8cs" kind="file" language="C#">
+    <compoundname>AuthController.cs</compoundname>
+    <innerclass refid="class_reddit_1_1_controllers_1_1_auth_controller" prot="public">Reddit::Controllers::AuthController</innerclass>
+    <innernamespace refid="namespace_reddit">Reddit</innernamespace>
+    <innernamespace refid="namespace_reddit_1_1_controllers">Reddit::Controllers</innernamespace>
+    <innernamespace refid="namespace_system_1_1_identity_model_1_1_tokens_1_1_jwt">System::IdentityModel::Tokens::Jwt</innernamespace>
+    <innernamespace refid="namespace_microsoft_1_1_asp_net_core_1_1_authorization">Microsoft::AspNetCore::Authorization</innernamespace>
+    <innernamespace refid="namespace_microsoft_1_1_asp_net_core_1_1_mvc">Microsoft::AspNetCore::Mvc</innernamespace>
+    <innernamespace refid="namespace_microsoft_1_1_identity_model_1_1_tokens">Microsoft::IdentityModel::Tokens</innernamespace>
+    <innernamespace refid="namespace_jwt_registered_claim_names">JwtRegisteredClaimNames</innernamespace>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_auth_controller_8cs_1a48712954fbf9469353794c7c60e81ed1" prot="public" static="no">
+        <type>Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames</type>
+        <definition>using JwtRegisteredClaimNames =  Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames</definition>
+        <argsstring></argsstring>
+        <name>JwtRegisteredClaimNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/AuthController.cs" line="11" column="1" bodyfile="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/AuthController.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.IdentityModel.Tokens.Jwt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Security.Claims;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Text;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Microsoft.AspNetCore.Authorization;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Microsoft.AspNetCore.Mvc;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Microsoft.IdentityModel.Tokens;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_reddit_1_1_services" kindref="compound">Reddit.Services</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_shared_1_1_d_t_os_1_1_post" kindref="compound">Shared.DTOs.Post</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_shared_1_1_d_t_os_1_1_user" kindref="compound">Shared.DTOs.User</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_shared_1_1_models" kindref="compound">Shared.Models</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="_auth_controller_8cs_1a48712954fbf9469353794c7c60e81ed1" kindref="member">JwtRegisteredClaimNames</ref><sp/>=<sp/>Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="namespace_reddit" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_reddit_1_1_controllers" kindref="compound">Reddit.Controllers</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">[ApiController]</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">[Route(</highlight><highlight class="stringliteral">&quot;[controller]&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="17" refid="class_reddit_1_1_controllers_1_1_auth_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_reddit_1_1_controllers_1_1_auth_controller" kindref="compound">AuthController</ref><sp/>:<sp/>ControllerBase</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/>IConfiguration<sp/>config;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/><ref refid="interface_reddit_1_1_services_1_1_i_auth_service" kindref="compound">IAuthService</ref><sp/>authService;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_reddit_1_1_controllers_1_1_auth_controller" kindref="compound">AuthController</ref>(IConfiguration<sp/>config,<sp/><ref refid="interface_reddit_1_1_services_1_1_i_auth_service" kindref="compound">IAuthService</ref><sp/>authService)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.config<sp/>=<sp/>config;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.authService<sp/>=<sp/>authService;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>List&lt;Claim&gt;<sp/>GenerateClaims(<ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref><sp/>user)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>claims<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">[]</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Claim(<ref refid="_auth_controller_8cs_1a48712954fbf9469353794c7c60e81ed1" kindref="member">JwtRegisteredClaimNames</ref>.Sub,<sp/>config[</highlight><highlight class="stringliteral">&quot;Jwt:Subject&quot;</highlight><highlight class="normal">]),</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Claim(<ref refid="_auth_controller_8cs_1a48712954fbf9469353794c7c60e81ed1" kindref="member">JwtRegisteredClaimNames</ref>.Jti,<sp/>Guid.NewGuid().ToString()),</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Claim(<ref refid="_auth_controller_8cs_1a48712954fbf9469353794c7c60e81ed1" kindref="member">JwtRegisteredClaimNames</ref>.Iat,<sp/>DateTime.UtcNow.ToString()),</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Claim(ClaimTypes.Name,<sp/>user.<ref refid="class_shared_1_1_models_1_1_user_1a64bd2b0474caf713064648c6f9b2e45f" kindref="member">Username</ref>)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>claims.ToList();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>GenerateJwt(<ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref><sp/>user)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List&lt;Claim&gt;<sp/>claims<sp/>=<sp/>GenerateClaims(user);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SymmetricSecurityKey<sp/>key<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SymmetricSecurityKey(Encoding.UTF8.GetBytes(config[</highlight><highlight class="stringliteral">&quot;Jwt:Key&quot;</highlight><highlight class="normal">]));</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SigningCredentials<sp/>signIn<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SigningCredentials(key,<sp/>SecurityAlgorithms.HmacSha512);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>JwtHeader<sp/>header<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>JwtHeader(signIn);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>JwtPayload<sp/>payload<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>JwtPayload(</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>config[</highlight><highlight class="stringliteral">&quot;Jwt:Issuer&quot;</highlight><highlight class="normal">],</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>config[</highlight><highlight class="stringliteral">&quot;Jwt:Audience&quot;</highlight><highlight class="normal">],</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>claims,<sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DateTime.UtcNow.AddMinutes(60));</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>JwtSecurityToken<sp/>token<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>JwtSecurityToken(header,<sp/>payload);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>serializedToken<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>JwtSecurityTokenHandler().WriteToken(token);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>serializedToken;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>[HttpPost,<sp/>Route(</highlight><highlight class="stringliteral">&quot;login&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>async<sp/>Task&lt;ActionResult&gt;<sp/><ref refid="class_reddit_1_1_controllers_1_1_auth_controller_1a62e84cc6d85104933d47b10e323fd4d9" kindref="member">Login</ref>([FromBody]<sp/><ref refid="class_shared_1_1_d_t_os_1_1_post_1_1_user_login_dto" kindref="compound">UserLoginDto</ref><sp/>userLoginDto)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref><sp/>user<sp/>=<sp/>await<sp/>authService.ValidateUser(userLoginDto.Username,<sp/>userLoginDto.Password);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>token<sp/>=<sp/>GenerateJwt(user);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Ok(token);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(Exception<sp/>e)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BadRequest(e.Message);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/AuthController.cs"/>
+  </compounddef>
+</doxygen>

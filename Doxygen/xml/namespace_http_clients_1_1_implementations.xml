@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_http_clients_1_1_implementations" kind="namespace" language="C#">
+    <compoundname>HttpClients::Implementations</compoundname>
+    <innerclass refid="class_http_clients_1_1_implementations_1_1_post_http_client" prot="public">HttpClients::Implementations::PostHttpClient</innerclass>
+    <innerclass refid="class_http_clients_1_1_implementations_1_1_user_http_client" prot="public">HttpClients::Implementations::UserHttpClient</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/PostHttpClient.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

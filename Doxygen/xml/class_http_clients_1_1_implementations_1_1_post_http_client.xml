@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_http_clients_1_1_implementations_1_1_post_http_client" kind="class" language="C#" prot="public">
+    <compoundname>HttpClients::Implementations::PostHttpClient</compoundname>
+    <basecompoundref refid="interface_http_clients_1_1_clients_interface_1_1_i_post_services" prot="public" virt="non-virtual">HttpClients.ClientsInterface.IPostServices</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_http_clients_1_1_implementations_1_1_post_http_client_1af9d2ac9440cbf4fa531fd706622e6124" prot="private" static="no" mutable="no">
+        <type>readonly HttpClient</type>
+        <definition>readonly HttpClient HttpClients.Implementations.PostHttpClient.Client</definition>
+        <argsstring></argsstring>
+        <name>Client</name>
+        <qualifiedname>HttpClients.Implementations.PostHttpClient.Client</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/PostHttpClient.cs" line="11" column="33" bodyfile="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/PostHttpClient.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_http_clients_1_1_implementations_1_1_post_http_client_1ac9be5cd10dd520534523ad5c8c61767d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HttpClients.Implementations.PostHttpClient.PostHttpClient</definition>
+        <argsstring>(HttpClient client)</argsstring>
+        <name>PostHttpClient</name>
+        <qualifiedname>HttpClients.Implementations.PostHttpClient.PostHttpClient</qualifiedname>
+        <param>
+          <type>HttpClient</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/PostHttpClient.cs" line="13" column="12" bodyfile="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/PostHttpClient.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_http_clients_1_1_implementations_1_1_post_http_client_1aef510500b637d5057e9fb9b9cc4a8497" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task HttpClients.Implementations.PostHttpClient.Create</definition>
+        <argsstring>(PostCreationDto dto)</argsstring>
+        <name>Create</name>
+        <qualifiedname>HttpClients.Implementations.PostHttpClient.Create</qualifiedname>
+        <reimplements refid="interface_http_clients_1_1_clients_interface_1_1_i_post_services_1afe1fbeeb312ce36f0b2bda5767bd488a">Create</reimplements>
+        <param>
+          <type><ref refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto" kindref="compound">PostCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/PostHttpClient.cs" line="18" column="23" bodyfile="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/PostHttpClient.cs" bodystart="18" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_http_clients_1_1_implementations_1_1_post_http_client_1af3107ac4417ba10f6f8c8bcd3233def1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_shared_1_1_models_1_1_post" kindref="compound">Post</ref> &gt;</type>
+        <definition>async Task&lt; Post &gt; HttpClients.Implementations.PostHttpClient.GetByIdAsync</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetByIdAsync</name>
+        <qualifiedname>HttpClients.Implementations.PostHttpClient.GetByIdAsync</qualifiedname>
+        <reimplements refid="interface_http_clients_1_1_clients_interface_1_1_i_post_services_1aa2ffb3c3c686b96210a7098969114fac">GetByIdAsync</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/PostHttpClient.cs" line="28" column="23" bodyfile="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/PostHttpClient.cs" bodystart="28" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_http_clients_1_1_implementations_1_1_post_http_client_1aae418661810b6f18fbbf7cd33d4dd998" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IEnumerable&lt; <ref refid="class_shared_1_1_models_1_1_post" kindref="compound">Post</ref> &gt; &gt;</type>
+        <definition>async Task&lt; IEnumerable&lt; Post &gt; &gt; HttpClients.Implementations.PostHttpClient.GetPosts</definition>
+        <argsstring>(string? titleContains=null)</argsstring>
+        <name>GetPosts</name>
+        <qualifiedname>HttpClients.Implementations.PostHttpClient.GetPosts</qualifiedname>
+        <reimplements refid="interface_http_clients_1_1_clients_interface_1_1_i_post_services_1a3be79714dc51fd5b9c26f2c11b7f99bc">GetPosts</reimplements>
+        <param>
+          <type>string?</type>
+          <declname>titleContains</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/PostHttpClient.cs" line="49" column="23" bodyfile="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/PostHttpClient.cs" bodystart="49" bodyend="70"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>HttpClients.Implementations.PostHttpClient</label>
+        <link refid="class_http_clients_1_1_implementations_1_1_post_http_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPostServices</label>
+        <link refid="interface_http_clients_1_1_clients_interface_1_1_i_post_services"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>HttpClients.Implementations.PostHttpClient</label>
+        <link refid="class_http_clients_1_1_implementations_1_1_post_http_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPostServices</label>
+        <link refid="interface_http_clients_1_1_clients_interface_1_1_i_post_services"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/PostHttpClient.cs" line="9" column="7" bodyfile="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/PostHttpClient.cs" bodystart="10" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_http_clients_1_1_implementations_1_1_post_http_client_1af9d2ac9440cbf4fa531fd706622e6124" prot="private" virt="non-virtual"><scope>HttpClients::Implementations::PostHttpClient</scope><name>Client</name></member>
+      <member refid="class_http_clients_1_1_implementations_1_1_post_http_client_1aef510500b637d5057e9fb9b9cc4a8497" prot="public" virt="non-virtual"><scope>HttpClients::Implementations::PostHttpClient</scope><name>Create</name></member>
+      <member refid="class_http_clients_1_1_implementations_1_1_post_http_client_1af3107ac4417ba10f6f8c8bcd3233def1" prot="public" virt="non-virtual"><scope>HttpClients::Implementations::PostHttpClient</scope><name>GetByIdAsync</name></member>
+      <member refid="class_http_clients_1_1_implementations_1_1_post_http_client_1aae418661810b6f18fbbf7cd33d4dd998" prot="public" virt="non-virtual"><scope>HttpClients::Implementations::PostHttpClient</scope><name>GetPosts</name></member>
+      <member refid="class_http_clients_1_1_implementations_1_1_post_http_client_1ac9be5cd10dd520534523ad5c8c61767d" prot="public" virt="non-virtual"><scope>HttpClients::Implementations::PostHttpClient</scope><name>PostHttpClient</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

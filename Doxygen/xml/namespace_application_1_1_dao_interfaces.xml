@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_application_1_1_dao_interfaces" kind="namespace" language="C#">
+    <compoundname>Application::DaoInterfaces</compoundname>
+    <innerclass refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao" prot="public">Application::DaoInterfaces::IPostDao</innerclass>
+    <innerclass refid="interface_application_1_1_dao_interfaces_1_1_i_user_dao" prot="public">Application::DaoInterfaces::IUserDao</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Application/DaoInterfaces/IPostDao.cs" line="3" column="1"/>
+  </compounddef>
+</doxygen>

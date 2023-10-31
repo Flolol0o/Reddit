@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_domain_1_1_d_t_os_1_1_user_creation_dto" kind="class" language="C#" prot="public">
+    <compoundname>Domain::DTOs::UserCreationDto</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_domain_1_1_d_t_os_1_1_user_creation_dto_1acf7d2726ff52b7381e7566a6796dbc42" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Domain.DTOs.UserCreationDto.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <qualifiedname>Domain.DTOs.UserCreationDto.Username</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/User/UserCreationDto.cs" line="5" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/User/UserCreationDto.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_domain_1_1_d_t_os_1_1_user_creation_dto_1a5b3dcf71334c97ed4c759d9f177ab64f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Domain.DTOs.UserCreationDto.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <qualifiedname>Domain.DTOs.UserCreationDto.Password</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/User/UserCreationDto.cs" line="6" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/User/UserCreationDto.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_domain_1_1_d_t_os_1_1_user_creation_dto_1a93ac738a8651e03660d3838400d20619" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Domain.DTOs.UserCreationDto.UserCreationDto</definition>
+        <argsstring>(string username, string password)</argsstring>
+        <name>UserCreationDto</name>
+        <qualifiedname>Domain.DTOs.UserCreationDto.UserCreationDto</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/User/UserCreationDto.cs" line="8" column="12" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/User/UserCreationDto.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/User/UserCreationDto.cs" line="3" column="7" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/User/UserCreationDto.cs" bodystart="4" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_domain_1_1_d_t_os_1_1_user_creation_dto_1a5b3dcf71334c97ed4c759d9f177ab64f" prot="public" virt="non-virtual"><scope>Domain::DTOs::UserCreationDto</scope><name>Password</name></member>
+      <member refid="class_domain_1_1_d_t_os_1_1_user_creation_dto_1a93ac738a8651e03660d3838400d20619" prot="public" virt="non-virtual"><scope>Domain::DTOs::UserCreationDto</scope><name>UserCreationDto</name></member>
+      <member refid="class_domain_1_1_d_t_os_1_1_user_creation_dto_1acf7d2726ff52b7381e7566a6796dbc42" prot="public" virt="non-virtual"><scope>Domain::DTOs::UserCreationDto</scope><name>Username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

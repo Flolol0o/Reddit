@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_a909ca9a11b28bb81a14696872da5f2f" kind="dir">
+    <compoundname>C:/Users/filip/RiderProjects/Reddit/RedditApi/Services</compoundname>
+    <innerfile refid="_auth_service_8cs">AuthService.cs</innerfile>
+    <innerfile refid="_reddit_api_2_services_2_i_auth_service_8cs">IAuthService.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/RedditApi/Services/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_i_post_logic_8cs" kind="file" language="C#">
+    <compoundname>IPostLogic.cs</compoundname>
+    <innerclass refid="interface_application_1_1_logic_interfaces_1_1_i_post_logic" prot="public">Application::LogicInterfaces::IPostLogic</innerclass>
+    <innernamespace refid="namespace_application">Application</innernamespace>
+    <innernamespace refid="namespace_application_1_1_logic_interfaces">Application::LogicInterfaces</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_shared_1_1_d_t_os_1_1_post" kindref="compound">Shared.DTOs.Post</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_shared_1_1_models" kindref="compound">Shared.Models</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespace_application_1_1_logic_interfaces" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_application_1_1_logic_interfaces" kindref="compound">Application.LogicInterfaces</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="interface_application_1_1_logic_interfaces_1_1_i_post_logic" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_application_1_1_logic_interfaces_1_1_i_post_logic" kindref="compound">IPostLogic</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>Task&lt;Post&gt;<sp/><ref refid="interface_application_1_1_logic_interfaces_1_1_i_post_logic_1a0d6fea54b1b854ff16200fc8a8c9d9ad" kindref="member">CreateAsync</ref>(<ref refid="class_shared_1_1_d_t_os_1_1_post_1_1_post_creation_dto" kindref="compound">PostCreationDto</ref><sp/>dto);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>Task&lt;IEnumerable&lt;Post&gt;&gt;<sp/><ref refid="interface_application_1_1_logic_interfaces_1_1_i_post_logic_1af9bdcad720191a533f4bc3fbd400fe99" kindref="member">GetAsync</ref>();</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>Task&lt;Post&gt;<sp/><ref refid="interface_application_1_1_logic_interfaces_1_1_i_post_logic_1af9d79cd7ab427c4c8188568a30766490" kindref="member">GetAsyncById</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Application/LogicInterfaces/IPostLogic.cs"/>
+  </compounddef>
+</doxygen>

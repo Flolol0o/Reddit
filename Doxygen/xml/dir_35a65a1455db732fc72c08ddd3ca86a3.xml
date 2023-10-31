@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_35a65a1455db732fc72c08ddd3ca86a3" kind="dir">
+    <compoundname>C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers</compoundname>
+    <innerfile refid="_auth_controller_8cs">AuthController.cs</innerfile>
+    <innerfile refid="_post_controller_8cs">PostController.cs</innerfile>
+    <innerfile refid="_users_controller_8cs">UsersController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/RedditApi/Controllers/"/>
+  </compounddef>
+</doxygen>

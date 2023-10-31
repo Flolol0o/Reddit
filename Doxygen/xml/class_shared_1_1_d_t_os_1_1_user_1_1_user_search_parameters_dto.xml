@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_shared_1_1_d_t_os_1_1_user_1_1_user_search_parameters_dto" kind="class" language="C#" prot="public">
+    <compoundname>Shared::DTOs::User::UserSearchParametersDto</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_shared_1_1_d_t_os_1_1_user_1_1_user_search_parameters_dto_1ac8a82c05e7321d01140c47a50f130c6b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? Shared.DTOs.User.UserSearchParametersDto.UsernameContains</definition>
+        <argsstring></argsstring>
+        <name>UsernameContains</name>
+        <qualifiedname>Shared.DTOs.User.UserSearchParametersDto.UsernameContains</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserSearchParametersDto.cs" line="5" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserSearchParametersDto.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_shared_1_1_d_t_os_1_1_user_1_1_user_search_parameters_dto_1a7c9413bd5ba12b21b6b2df46a798ec31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Shared.DTOs.User.UserSearchParametersDto.UserSearchParametersDto</definition>
+        <argsstring>(string? usernameContains)</argsstring>
+        <name>UserSearchParametersDto</name>
+        <qualifiedname>Shared.DTOs.User.UserSearchParametersDto.UserSearchParametersDto</qualifiedname>
+        <param>
+          <type>string?</type>
+          <declname>usernameContains</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserSearchParametersDto.cs" line="7" column="12" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserSearchParametersDto.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserSearchParametersDto.cs" line="3" column="7" bodyfile="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserSearchParametersDto.cs" bodystart="4" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_search_parameters_dto_1ac8a82c05e7321d01140c47a50f130c6b" prot="public" virt="non-virtual"><scope>Shared::DTOs::User::UserSearchParametersDto</scope><name>UsernameContains</name></member>
+      <member refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_search_parameters_dto_1a7c9413bd5ba12b21b6b2df46a798ec31" prot="public" virt="non-virtual"><scope>Shared::DTOs::User::UserSearchParametersDto</scope><name>UserSearchParametersDto</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

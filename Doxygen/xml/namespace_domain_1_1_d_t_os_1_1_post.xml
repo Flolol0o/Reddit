@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_domain_1_1_d_t_os_1_1_post" kind="namespace" language="C#">
+    <compoundname>Domain::DTOs::Post</compoundname>
+    <innerclass refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto" prot="public">Domain::DTOs::Post::PostBasicDto</innerclass>
+    <innerclass refid="class_domain_1_1_d_t_os_1_1_post_1_1_post_creation_dto" prot="public">Domain::DTOs::Post::PostCreationDto</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Domain/DTOs/Post/PostBasicDto.cs" line="1" column="1"/>
+  </compounddef>
+</doxygen>

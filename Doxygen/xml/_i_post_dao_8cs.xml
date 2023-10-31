@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_i_post_dao_8cs" kind="file" language="C#">
+    <compoundname>IPostDao.cs</compoundname>
+    <innerclass refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao" prot="public">Application::DaoInterfaces::IPostDao</innerclass>
+    <innernamespace refid="namespace_application">Application</innernamespace>
+    <innernamespace refid="namespace_application_1_1_dao_interfaces">Application::DaoInterfaces</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_shared_1_1_models" kindref="compound">Shared.Models</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_application" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_application_1_1_dao_interfaces" kindref="compound">Application.DaoInterfaces</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao" kindref="compound">IPostDao</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>Task&lt;Post&gt;<sp/><ref refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao_1af6fcb74404767533d854e2b09f39d832" kindref="member">CreateAsync</ref>(<ref refid="class_shared_1_1_models_1_1_post" kindref="compound">Post</ref><sp/>post);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>Task&lt;IEnumerable&lt;Post&gt;&gt;<sp/><ref refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao_1ad8bea82a37a400a4ffd53ba4cd915f49" kindref="member">GetAsync</ref>();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>Task&lt;Post?&gt;<sp/><ref refid="interface_application_1_1_dao_interfaces_1_1_i_post_dao_1a55cc604b14d915598f1368e9fa38c11a" kindref="member">GetById</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Application/DaoInterfaces/IPostDao.cs"/>
+  </compounddef>
+</doxygen>

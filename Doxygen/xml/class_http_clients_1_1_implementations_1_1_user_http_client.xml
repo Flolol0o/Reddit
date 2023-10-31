@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_http_clients_1_1_implementations_1_1_user_http_client" kind="class" language="C#" prot="public">
+    <compoundname>HttpClients::Implementations::UserHttpClient</compoundname>
+    <basecompoundref refid="interface_http_clients_1_1_clients_interface_1_1_i_user_services" prot="public" virt="non-virtual">HttpClients.ClientsInterface.IUserServices</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_http_clients_1_1_implementations_1_1_user_http_client_1a2416221770e7a4bda8ee683cf8b4e30c" prot="private" static="no" mutable="no">
+        <type>readonly HttpClient</type>
+        <definition>readonly HttpClient HttpClients.Implementations.UserHttpClient.client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <qualifiedname>HttpClients.Implementations.UserHttpClient.client</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/UserHttpClient.cs" line="13" column="33" bodyfile="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/UserHttpClient.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_http_clients_1_1_implementations_1_1_user_http_client_1a187428842203137810f7f323f5ba4cc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HttpClients.Implementations.UserHttpClient.UserHttpClient</definition>
+        <argsstring>(HttpClient client)</argsstring>
+        <name>UserHttpClient</name>
+        <qualifiedname>HttpClients.Implementations.UserHttpClient.UserHttpClient</qualifiedname>
+        <param>
+          <type>HttpClient</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/UserHttpClient.cs" line="15" column="12" bodyfile="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/UserHttpClient.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_http_clients_1_1_implementations_1_1_user_http_client_1ac5ba98873d9fcf453c865ed4aa6752ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; <ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref>?&gt;</type>
+        <definition>async Task&lt; User?&gt; HttpClients.Implementations.UserHttpClient.Create</definition>
+        <argsstring>(UserCreationDto dto)</argsstring>
+        <name>Create</name>
+        <qualifiedname>HttpClients.Implementations.UserHttpClient.Create</qualifiedname>
+        <reimplements refid="interface_http_clients_1_1_clients_interface_1_1_i_user_services_1a80a9ba1858c490e24cc9da9edd022c12">Create</reimplements>
+        <param>
+          <type><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto" kindref="compound">UserCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/UserHttpClient.cs" line="21" column="23" bodyfile="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/UserHttpClient.cs" bodystart="21" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_http_clients_1_1_implementations_1_1_user_http_client_1a03fbd223a240c176340448aff08cd6c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; IEnumerable&lt; <ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref> &gt; &gt;</type>
+        <definition>async Task&lt; IEnumerable&lt; User &gt; &gt; HttpClients.Implementations.UserHttpClient.GetUsers</definition>
+        <argsstring>(string? usernameContains=null)</argsstring>
+        <name>GetUsers</name>
+        <qualifiedname>HttpClients.Implementations.UserHttpClient.GetUsers</qualifiedname>
+        <reimplements refid="interface_http_clients_1_1_clients_interface_1_1_i_user_services_1a58a7a9c7ce165cce1a8ca6df5f8da3be">GetUsers</reimplements>
+        <param>
+          <type>string?</type>
+          <declname>usernameContains</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/UserHttpClient.cs" line="38" column="23" bodyfile="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/UserHttpClient.cs" bodystart="38" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>HttpClients.Implementations.UserHttpClient</label>
+        <link refid="class_http_clients_1_1_implementations_1_1_user_http_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IUserServices</label>
+        <link refid="interface_http_clients_1_1_clients_interface_1_1_i_user_services"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>HttpClients.Implementations.UserHttpClient</label>
+        <link refid="class_http_clients_1_1_implementations_1_1_user_http_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IUserServices</label>
+        <link refid="interface_http_clients_1_1_clients_interface_1_1_i_user_services"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/UserHttpClient.cs" line="11" column="7" bodyfile="C:/Users/filip/RiderProjects/Reddit/HttpClients/Implementations/UserHttpClient.cs" bodystart="12" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_http_clients_1_1_implementations_1_1_user_http_client_1a2416221770e7a4bda8ee683cf8b4e30c" prot="private" virt="non-virtual"><scope>HttpClients::Implementations::UserHttpClient</scope><name>client</name></member>
+      <member refid="class_http_clients_1_1_implementations_1_1_user_http_client_1ac5ba98873d9fcf453c865ed4aa6752ce" prot="public" virt="non-virtual"><scope>HttpClients::Implementations::UserHttpClient</scope><name>Create</name></member>
+      <member refid="class_http_clients_1_1_implementations_1_1_user_http_client_1a03fbd223a240c176340448aff08cd6c1" prot="public" virt="non-virtual"><scope>HttpClients::Implementations::UserHttpClient</scope><name>GetUsers</name></member>
+      <member refid="class_http_clients_1_1_implementations_1_1_user_http_client_1a187428842203137810f7f323f5ba4cc4" prot="public" virt="non-virtual"><scope>HttpClients::Implementations::UserHttpClient</scope><name>UserHttpClient</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

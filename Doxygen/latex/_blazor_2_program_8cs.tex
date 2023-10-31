@@ -1,0 +1,94 @@
+\doxysection{C\+:/\+Users/filip/\+Rider\+Projects/\+Reddit/\+Blazor/\+Program.cs File Reference}
+\hypertarget{_blazor_2_program_8cs}{}\label{_blazor_2_program_8cs}\index{C:/Users/filip/RiderProjects/Reddit/Blazor/Program.cs@{C:/Users/filip/RiderProjects/Reddit/Blazor/Program.cs}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+builder.\+Root\+Components. \mbox{\hyperlink{_blazor_2_program_8cs_a40d549968a84d91d5a5eb9ecf29daae9}{Add$<$ App $>$}} ("{}\#app"{})
+\item 
+builder.\+Root\+Components. \mbox{\hyperlink{_blazor_2_program_8cs_ad6782a94a41c3712e4b16f5e5e37f781}{Add$<$ Head\+Outlet $>$}} ("{}head\+::after"{})
+\item 
+builder.\+Services. \mbox{\hyperlink{_blazor_2_program_8cs_a0c8fdf4a374faa5a945877c7ef9a7ae9}{Add\+Scoped}} (sp=$>$ new Http\+Client \{ Base\+Address=new Uri("{}http\+://localhost\+:5282"{}) \})
+\item 
+builder.\+Services. \mbox{\hyperlink{_blazor_2_program_8cs_ac9c43480bd986d53a3ef60b2a339dd7e}{Add\+Scoped$<$ IUser\+Services, User\+Http\+Client $>$}} ()
+\item 
+builder.\+Services. \mbox{\hyperlink{_blazor_2_program_8cs_aeab2379fc9778bbe9466a462181f5ed7}{Add\+Scoped$<$ IPost\+Services, Post\+Http\+Client $>$}} ()
+\item 
+builder.\+Services. \mbox{\hyperlink{_blazor_2_program_8cs_ae14ea207d2637a339741660d3f70d58c}{Add\+Scoped$<$ IAuth\+Service, Jwt\+Auth\+Service $>$}} ()
+\item 
+builder.\+Services. \mbox{\hyperlink{_blazor_2_program_8cs_a1f1cce3f5474799a573735972fcfa9db}{Add\+Scoped$<$ Authentication\+State\+Provider, Custom\+Auth\+Provider $>$}} ()
+\item 
+Authorization\+Policies. \mbox{\hyperlink{_blazor_2_program_8cs_a076111912e0b92dfcc028f6af646ee9a}{Add\+Policies}} (builder.\+Services)
+\item 
+await builder. \mbox{\hyperlink{_blazor_2_program_8cs_a103eab9352a5901779f62f6c98b53f7b}{Build}} ().Run\+Async()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+var \mbox{\hyperlink{_blazor_2_program_8cs_a2f78352277081c620fd4cf92a5ce15e5}{builder}} = Web\+Assembly\+Host\+Builder.\+Create\+Default(args)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_blazor_2_program_8cs_a40d549968a84d91d5a5eb9ecf29daae9}\label{_blazor_2_program_8cs_a40d549968a84d91d5a5eb9ecf29daae9} 
+\index{Program.cs@{Program.cs}!Add$<$ App $>$@{Add$<$ App $>$}}
+\index{Add$<$ App $>$@{Add$<$ App $>$}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{Add$<$ App $>$()}{Add< App >()}}
+{\footnotesize\ttfamily builder.\+Root\+Components. Add$<$ App $>$ (\begin{DoxyParamCaption}\item[{"{}\#app"{}}]{ }\end{DoxyParamCaption})}
+
+\Hypertarget{_blazor_2_program_8cs_ad6782a94a41c3712e4b16f5e5e37f781}\label{_blazor_2_program_8cs_ad6782a94a41c3712e4b16f5e5e37f781} 
+\index{Program.cs@{Program.cs}!Add$<$ HeadOutlet $>$@{Add$<$ HeadOutlet $>$}}
+\index{Add$<$ HeadOutlet $>$@{Add$<$ HeadOutlet $>$}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{Add$<$ HeadOutlet $>$()}{Add< HeadOutlet >()}}
+{\footnotesize\ttfamily builder.\+Root\+Components. Add$<$ Head\+Outlet $>$ (\begin{DoxyParamCaption}\item[{"{}head\+::after"{}}]{ }\end{DoxyParamCaption})}
+
+\Hypertarget{_blazor_2_program_8cs_a076111912e0b92dfcc028f6af646ee9a}\label{_blazor_2_program_8cs_a076111912e0b92dfcc028f6af646ee9a} 
+\index{Program.cs@{Program.cs}!AddPolicies@{AddPolicies}}
+\index{AddPolicies@{AddPolicies}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{AddPolicies()}{AddPolicies()}}
+{\footnotesize\ttfamily Authorization\+Policies. Add\+Policies (\begin{DoxyParamCaption}\item[{builder.}]{Services }\end{DoxyParamCaption})}
+
+\Hypertarget{_blazor_2_program_8cs_a0c8fdf4a374faa5a945877c7ef9a7ae9}\label{_blazor_2_program_8cs_a0c8fdf4a374faa5a945877c7ef9a7ae9} 
+\index{Program.cs@{Program.cs}!AddScoped@{AddScoped}}
+\index{AddScoped@{AddScoped}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{AddScoped()}{AddScoped()}}
+{\footnotesize\ttfamily builder.\+Services. Add\+Scoped (\begin{DoxyParamCaption}\item[{sp}]{,  }\item[{new Http\+Client \{ Base\+Address=new Uri("{}http\+://localhost\+:5282"{}) \}}]{ }\end{DoxyParamCaption})}
+
+\Hypertarget{_blazor_2_program_8cs_a1f1cce3f5474799a573735972fcfa9db}\label{_blazor_2_program_8cs_a1f1cce3f5474799a573735972fcfa9db} 
+\index{Program.cs@{Program.cs}!AddScoped$<$ AuthenticationStateProvider, CustomAuthProvider $>$@{AddScoped$<$ AuthenticationStateProvider, CustomAuthProvider $>$}}
+\index{AddScoped$<$ AuthenticationStateProvider, CustomAuthProvider $>$@{AddScoped$<$ AuthenticationStateProvider, CustomAuthProvider $>$}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{AddScoped$<$ AuthenticationStateProvider, CustomAuthProvider $>$()}{AddScoped< AuthenticationStateProvider, CustomAuthProvider >()}}
+{\footnotesize\ttfamily builder.\+Services. \mbox{\hyperlink{_blazor_2_program_8cs_a0c8fdf4a374faa5a945877c7ef9a7ae9}{Add\+Scoped}}$<$ Authentication\+State\+Provider, \mbox{\hyperlink{class_blazor_1_1_auth_1_1_custom_auth_provider}{Custom\+Auth\+Provider}} $>$ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{_blazor_2_program_8cs_ae14ea207d2637a339741660d3f70d58c}\label{_blazor_2_program_8cs_ae14ea207d2637a339741660d3f70d58c} 
+\index{Program.cs@{Program.cs}!AddScoped$<$ IAuthService, JwtAuthService $>$@{AddScoped$<$ IAuthService, JwtAuthService $>$}}
+\index{AddScoped$<$ IAuthService, JwtAuthService $>$@{AddScoped$<$ IAuthService, JwtAuthService $>$}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{AddScoped$<$ IAuthService, JwtAuthService $>$()}{AddScoped< IAuthService, JwtAuthService >()}}
+{\footnotesize\ttfamily builder.\+Services. \mbox{\hyperlink{_blazor_2_program_8cs_a0c8fdf4a374faa5a945877c7ef9a7ae9}{Add\+Scoped}}$<$ \mbox{\hyperlink{interface_blazor_1_1_services_1_1_http_1_1_i_auth_service}{IAuth\+Service}}, \mbox{\hyperlink{class_blazor_1_1_services_1_1_http_1_1_jwt_auth_service}{Jwt\+Auth\+Service}} $>$ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{_blazor_2_program_8cs_aeab2379fc9778bbe9466a462181f5ed7}\label{_blazor_2_program_8cs_aeab2379fc9778bbe9466a462181f5ed7} 
+\index{Program.cs@{Program.cs}!AddScoped$<$ IPostServices, PostHttpClient $>$@{AddScoped$<$ IPostServices, PostHttpClient $>$}}
+\index{AddScoped$<$ IPostServices, PostHttpClient $>$@{AddScoped$<$ IPostServices, PostHttpClient $>$}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{AddScoped$<$ IPostServices, PostHttpClient $>$()}{AddScoped< IPostServices, PostHttpClient >()}}
+{\footnotesize\ttfamily builder.\+Services. \mbox{\hyperlink{_blazor_2_program_8cs_a0c8fdf4a374faa5a945877c7ef9a7ae9}{Add\+Scoped}}$<$ \mbox{\hyperlink{interface_http_clients_1_1_clients_interface_1_1_i_post_services}{IPost\+Services}}, \mbox{\hyperlink{class_http_clients_1_1_implementations_1_1_post_http_client}{Post\+Http\+Client}} $>$ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{_blazor_2_program_8cs_ac9c43480bd986d53a3ef60b2a339dd7e}\label{_blazor_2_program_8cs_ac9c43480bd986d53a3ef60b2a339dd7e} 
+\index{Program.cs@{Program.cs}!AddScoped$<$ IUserServices, UserHttpClient $>$@{AddScoped$<$ IUserServices, UserHttpClient $>$}}
+\index{AddScoped$<$ IUserServices, UserHttpClient $>$@{AddScoped$<$ IUserServices, UserHttpClient $>$}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{AddScoped$<$ IUserServices, UserHttpClient $>$()}{AddScoped< IUserServices, UserHttpClient >()}}
+{\footnotesize\ttfamily builder.\+Services. \mbox{\hyperlink{_blazor_2_program_8cs_a0c8fdf4a374faa5a945877c7ef9a7ae9}{Add\+Scoped}}$<$ \mbox{\hyperlink{interface_http_clients_1_1_clients_interface_1_1_i_user_services}{IUser\+Services}}, \mbox{\hyperlink{class_http_clients_1_1_implementations_1_1_user_http_client}{User\+Http\+Client}} $>$ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{_blazor_2_program_8cs_a103eab9352a5901779f62f6c98b53f7b}\label{_blazor_2_program_8cs_a103eab9352a5901779f62f6c98b53f7b} 
+\index{Program.cs@{Program.cs}!Build@{Build}}
+\index{Build@{Build}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{Build()}{Build()}}
+{\footnotesize\ttfamily await builder. Build (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{_blazor_2_program_8cs_a2f78352277081c620fd4cf92a5ce15e5}\label{_blazor_2_program_8cs_a2f78352277081c620fd4cf92a5ce15e5} 
+\index{Program.cs@{Program.cs}!builder@{builder}}
+\index{builder@{builder}!Program.cs@{Program.cs}}
+\doxysubsubsection{\texorpdfstring{builder}{builder}}
+{\footnotesize\ttfamily var builder = Web\+Assembly\+Host\+Builder.\+Create\+Default(args)}
+

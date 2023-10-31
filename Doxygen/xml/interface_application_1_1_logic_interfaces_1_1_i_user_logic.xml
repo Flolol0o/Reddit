@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="interface_application_1_1_logic_interfaces_1_1_i_user_logic" kind="interface" language="C#" prot="public">
+    <compoundname>Application::LogicInterfaces::IUserLogic</compoundname>
+    <derivedcompoundref refid="class_application_1_1_logic_1_1_user_logic" prot="public" virt="non-virtual">Application.Logic.UserLogic</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_application_1_1_logic_interfaces_1_1_i_user_logic_1a47939ee604264ab8ff8eb8fe445b2cae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref> &gt;</type>
+        <definition>Task&lt; User &gt; Application.LogicInterfaces.IUserLogic.CreateAsync</definition>
+        <argsstring>(UserCreationDto dto)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>Application.LogicInterfaces.IUserLogic.CreateAsync</qualifiedname>
+        <reimplementedby refid="class_application_1_1_logic_1_1_user_logic_1ab9b0053cbac09361a100a444f2c98b45">CreateAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto" kindref="compound">UserCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Application/LogicInterfaces/IUserLogic.cs" line="8" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_application_1_1_logic_interfaces_1_1_i_user_logic_1af3389590e06262708c1a0e163edca8fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; IEnumerable&lt; <ref refid="class_shared_1_1_models_1_1_user" kindref="compound">User</ref> &gt; &gt;</type>
+        <definition>Task&lt; IEnumerable&lt; User &gt; &gt; Application.LogicInterfaces.IUserLogic.GetAsync</definition>
+        <argsstring>(UserSearchParametersDto dto)</argsstring>
+        <name>GetAsync</name>
+        <qualifiedname>Application.LogicInterfaces.IUserLogic.GetAsync</qualifiedname>
+        <reimplementedby refid="class_application_1_1_logic_1_1_user_logic_1a3879445a85f2cf34a4afb4673e2bf8bd">GetAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_search_parameters_dto" kindref="compound">UserSearchParametersDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Application/LogicInterfaces/IUserLogic.cs" line="9" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Application.LogicInterfaces.IUserLogic</label>
+        <link refid="interface_application_1_1_logic_interfaces_1_1_i_user_logic"/>
+      </node>
+      <node id="2">
+        <label>Application.Logic.UserLogic</label>
+        <link refid="class_application_1_1_logic_1_1_user_logic"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Application/LogicInterfaces/IUserLogic.cs" line="6" column="18" bodyfile="C:/Users/filip/RiderProjects/Reddit/Application/LogicInterfaces/IUserLogic.cs" bodystart="7" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interface_application_1_1_logic_interfaces_1_1_i_user_logic_1a47939ee604264ab8ff8eb8fe445b2cae" prot="public" virt="non-virtual"><scope>Application::LogicInterfaces::IUserLogic</scope><name>CreateAsync</name></member>
+      <member refid="interface_application_1_1_logic_interfaces_1_1_i_user_logic_1af3389590e06262708c1a0e163edca8fa" prot="public" virt="non-virtual"><scope>Application::LogicInterfaces::IUserLogic</scope><name>GetAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

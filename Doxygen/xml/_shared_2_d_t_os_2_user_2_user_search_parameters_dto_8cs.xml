@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_shared_2_d_t_os_2_user_2_user_search_parameters_dto_8cs" kind="file" language="C#">
+    <compoundname>UserSearchParametersDto.cs</compoundname>
+    <innerclass refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_search_parameters_dto" prot="public">Shared::DTOs::User::UserSearchParametersDto</innerclass>
+    <innernamespace refid="namespace_shared">Shared</innernamespace>
+    <innernamespace refid="namespace_shared_1_1_d_t_os">Shared::DTOs</innernamespace>
+    <innernamespace refid="namespace_shared_1_1_d_t_os_1_1_user">Shared::DTOs::User</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_shared_1_1_d_t_os_1_1_user" kindref="compound">Shared.DTOs.User</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_search_parameters_dto" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_search_parameters_dto" kindref="compound">UserSearchParametersDto</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">?<sp/><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_search_parameters_dto_1ac8a82c05e7321d01140c47a50f130c6b" kindref="member">UsernameContains</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/><sp/>}</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_search_parameters_dto" kindref="compound">UserSearchParametersDto</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">?<sp/>usernameContains)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_shared_1_1_d_t_os_1_1_user_1_1_user_search_parameters_dto_1ac8a82c05e7321d01140c47a50f130c6b" kindref="member">UsernameContains</ref><sp/>=<sp/>usernameContains;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Shared/DTOs/User/UserSearchParametersDto.cs"/>
+  </compounddef>
+</doxygen>

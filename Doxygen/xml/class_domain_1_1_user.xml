@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_domain_1_1_user" kind="class" language="C#" prot="public">
+    <compoundname>Domain::User</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_domain_1_1_user_1a9389027809b30b307391a01cc498020e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Domain.User.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <qualifiedname>Domain.User.Username</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Domain/Model/User.cs" line="5" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/Model/User.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_domain_1_1_user_1abef05270a794f21fa1397df9ee8785c3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Domain.User.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <qualifiedname>Domain.User.Password</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Domain/Model/User.cs" line="6" column="19" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/Model/User.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_domain_1_1_user_1a57fc8d5cc5155f46654d659091310ca6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Domain.User.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>Domain.User.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/filip/RiderProjects/Reddit/Domain/Model/User.cs" line="7" column="16" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/Model/User.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Domain/Model/User.cs" line="3" column="7" bodyfile="C:/Users/filip/RiderProjects/Reddit/Domain/Model/User.cs" bodystart="4" bodyend="8"/>
+    <listofallmembers>
+      <member refid="class_domain_1_1_user_1a57fc8d5cc5155f46654d659091310ca6" prot="public" virt="non-virtual"><scope>Domain::User</scope><name>Id</name></member>
+      <member refid="class_domain_1_1_user_1abef05270a794f21fa1397df9ee8785c3" prot="public" virt="non-virtual"><scope>Domain::User</scope><name>Password</name></member>
+      <member refid="class_domain_1_1_user_1a9389027809b30b307391a01cc498020e" prot="public" virt="non-virtual"><scope>Domain::User</scope><name>Username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

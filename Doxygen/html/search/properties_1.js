@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['id_0',['id',['../class_domain_1_1_d_t_os_1_1_post_1_1_post_basic_dto.html#acad4d11364f35e58ee80465d7b2189ce',1,'Domain.DTOs.Post.PostBasicDto.Id'],['../class_domain_1_1_post.html#acb21c99276aafa6cfccbbd69a62fa873',1,'Domain.Post.Id'],['../class_domain_1_1_user.html#a57fc8d5cc5155f46654d659091310ca6',1,'Domain.User.Id'],['../class_shared_1_1_d_t_os_1_1_post_1_1_post_basic_dto.html#aa6e88221be980e5492f836d64be1c0cc',1,'Shared.DTOs.Post.PostBasicDto.Id'],['../class_shared_1_1_d_t_os_1_1_user_1_1_user_creation_dto.html#ad7a6029736f219de2851e6b6db33cea7',1,'Shared.DTOs.User.UserCreationDto.Id'],['../class_shared_1_1_models_1_1_post.html#a167d7b3bea43a0a007e65afe162ec140',1,'Shared.Models.Post.Id'],['../class_shared_1_1_models_1_1_user.html#ab6e6592b397daf182c5b65c39de4a7dc',1,'Shared.Models.User.Id']]]
+];

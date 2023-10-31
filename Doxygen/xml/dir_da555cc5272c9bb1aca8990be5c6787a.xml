@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_da555cc5272c9bb1aca8990be5c6787a" kind="dir">
+    <compoundname>C:/Users/filip/RiderProjects/Reddit/Shared</compoundname>
+    <innerdir refid="dir_3610144651057a03ccdb20c927028faa">C:/Users/filip/RiderProjects/Reddit/Shared/Auth</innerdir>
+    <innerdir refid="dir_c121af58502ffc334a9db92ca6b7676c">C:/Users/filip/RiderProjects/Reddit/Shared/DTOs</innerdir>
+    <innerdir refid="dir_29c7f52d59ab9eda420d247411785042">C:/Users/filip/RiderProjects/Reddit/Shared/Models</innerdir>
+    <innerdir refid="dir_3b0e1503baa947183ce128fb3a956a37">C:/Users/filip/RiderProjects/Reddit/Shared/obj</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/filip/RiderProjects/Reddit/Shared/"/>
+  </compounddef>
+</doxygen>
