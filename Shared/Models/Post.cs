@@ -1,16 +1,22 @@
-﻿namespace Shared.Models;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Shared.Models;
 
 public class Post
 {
-    public User User { set; get; }
-    public string Title { set; get; }
-    public string Body { set; get; }
+    [Key]
     public int Id { set; get; }
+    public User User {set; get; }
+    public int UserId {set; get; }
+    public string Title {set; get; }
+    public string Body {set; get; }
 
-    public Post(User user, string title, string body)
+    public Post(int user, string title, string body)
     {
-        this.User = user;
+        this.UserId = user;
         this.Title = title;
         this.Body = body;
     }
+    
+    public Post(){}
 }

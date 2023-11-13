@@ -27,15 +27,13 @@ public class PostHttpClient : IPostServices
 
     public async Task<Post> GetByIdAsync(int id)
     {
-        Console.WriteLine("is it good");
         HttpResponseMessage response = await Client.GetAsync($"/Post/{id}");
         string content = await response.Content.ReadAsStringAsync();
         if (!response.IsSuccessStatusCode)
         {
             throw new Exception(content);
         }
-
-        Console.WriteLine("wtff");
+        
         Post post = JsonSerializer.Deserialize<Post>(content,
             new JsonSerializerOptions
             {
@@ -53,19 +51,18 @@ public class PostHttpClient : IPostServices
         {
             uri += $"?title={titleContains}";
         }
-
-        Console.WriteLine("Testing3");
+        
         HttpResponseMessage response = await Client.GetAsync(uri);
         string result = await response.Content.ReadAsStringAsync();
         if (!response.IsSuccessStatusCode)
         {
             throw new Exception(result);
         }
-
-        Console.WriteLine("Testing");
+        
         ICollection<Post> posts = JsonSerializer.Deserialize<ICollection<Post>>(result, new JsonSerializerOptions
         {
-            PropertyNameCaseInsensitive = true
+            PropertyNameCaseInsensitive = true,
+            IncludeFields = true
         })!;
         return posts;
     }

@@ -1,13 +1,14 @@
-﻿using FileData;
+﻿
+using EfcDataAccess;
 using Shared.Models;
 
 namespace Reddit.Services;
 
 public class AuthService : IAuthService
 {
-    private readonly FileContext context;
+    private readonly DbContext context;
 
-    public AuthService(FileContext context)
+    public AuthService(DbContext context)
     {
         this.context = context;
     }
@@ -16,7 +17,7 @@ public class AuthService : IAuthService
     public Task<User> ValidateUser(string username, string password)
     {
         User? existingUser = context.Users.FirstOrDefault(u =>
-            u.Username.Equals(username, StringComparison.OrdinalIgnoreCase));
+            u.Username.Equals(username));
 
         if (existingUser == null)
         {
